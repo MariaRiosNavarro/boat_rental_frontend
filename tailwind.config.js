@@ -2,16 +2,16 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   daisyui: {
-    themes: ["cupcake", "night"],
+    themes: ["pastel", "dim"],
   },
   theme: {
     extend: {
-      colors: {
-        bgColor_darkgreen: "#283A45",
-        primaryColor_green: "#2A9D8F",
-        secondaryColor_red: "#A16171",
-        accentColor_yellow: "#E9C46A",
-      },
+      // colors: {
+      //   bgColor: "#EEF8F6D",
+      //   primaryColor: "#86E6EE",
+      //   secondaryColor: "#B8FDED",
+      //   accentColor: "#F4D4DE",
+      // },
       screens: {
         smallmobile: "320px",
         // => @media (min-width: 320px) { ... }
@@ -28,6 +28,7 @@ export default {
         desktop: "1280px",
         // => @media (min-width: 1280px) { ... }
         bigdesktop: "1440px",
+        // => @media (min-width: 1440px) { ... }
       },
     },
   },
