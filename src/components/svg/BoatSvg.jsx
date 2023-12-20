@@ -13,121 +13,121 @@ const BoatSvg = () => {
           <path
             d="M67 12.4342H66V13.4342H67V12.4342Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M68 12.4408H67V13.4408H68V12.4408Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M66 13.4276H65V14.4276H66V13.4276Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M67 13.4342H66V14.4342H67V13.4342Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path d="M68 13.4408H67V14.4408H68V13.4408Z" fill="#030824" />
           <path
             d="M69 13.4474H68V14.4474H69V13.4474Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M66 14.4276H65V15.4276H66V14.4276Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M67 14.4342H66V15.4342H67V14.4342Z" fill="#030824" />
           <path d="M68 14.4408H67V15.4408H68V14.4408Z" fill="#030824" />
           <path
             d="M69 14.4474H68V15.4474H69V14.4474Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M63 15.4079H62V16.4079H63V15.4079Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M67 15.4342H66V16.4342H67V15.4342Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path d="M68 15.4408H67V16.4408H68V15.4408Z" fill="#1D3255" />
           <path
             d="M69 15.4474H68V16.4474H69V15.4474Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M58 16.375H57V17.375H58V16.375Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M59 16.3816H58V17.3816H59V16.3816Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M60 16.3882H59V17.3882H60V16.3882Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M61 16.3947H60V17.3947H61V16.3947Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M62 16.4013H61V17.4013H62V16.4013Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M63 16.4079H62V17.4079H63V16.4079Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M64 16.4145H63V17.4145H64V16.4145Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M65 16.4211H64V17.4211H65V16.4211Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M66 16.4276H65V17.4276H66V16.4276Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M67 16.4342H66V17.4342H67V16.4342Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M68 16.4408H67V17.4408H68V16.4408Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M56 17.3618H55V18.3618H56V17.3618Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M57 17.3684H56V18.3684H57V17.3684Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M58 17.375H57V18.375H58V17.375Z" fill="#030824" />
           <path d="M59 17.3816H58V18.3816H59V17.3816Z" fill="#030824" />
@@ -142,12 +142,12 @@ const BoatSvg = () => {
           <path
             d="M68 17.4408H67V18.4408H68V17.4408Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M55 18.3553H54V19.3553H55V18.3553Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M56 18.3618H55V19.3618H56V18.3618Z" fill="#030824" />
           <path d="M57 18.3684H56V19.3684H57V18.3684Z" fill="#1D3255" />
@@ -156,7 +156,7 @@ const BoatSvg = () => {
           <path
             d="M60 18.3882H59V19.3882H60V18.3882Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M61 18.3947H60V19.3947H61V18.3947Z" fill="#1D3255" />
           <path d="M62 18.4013H61V19.4013H62V18.4013Z" fill="#1D3255" />
@@ -164,35 +164,35 @@ const BoatSvg = () => {
           <path
             d="M64 18.4145H63V19.4145H64V18.4145Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M65 18.4211H64V19.4211H65V18.4211Z" fill="#1D3255" />
           <path
             d="M66 18.4276H65V19.4276H66V18.4276Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M67 18.4342H66V19.4342H67V18.4342Z" fill="#030824" />
           <path
             d="M68 18.4408H67V19.4408H68V18.4408Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M54 19.3487H53V20.3487H54V19.3487Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M55 19.3553H54V20.3553H55V19.3553Z" fill="#030824" />
           <path
             d="M56 19.3618H55V20.3618H56V19.3618Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M57 19.3684H56V20.3684H57V19.3684Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M58 19.375H57V20.375H58V19.375Z" fill="#1D3255" />
           <path d="M59 19.3816H58V20.3816H59V19.3816Z" fill="#1D3255" />
@@ -205,25 +205,25 @@ const BoatSvg = () => {
           <path
             d="M66 19.4276H65V20.4276H66V19.4276Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M67 19.4342H66V20.4342H67V19.4342Z" fill="#030824" />
           <path
             d="M68 19.4408H67V20.4408H68V19.4408Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M53 20.3421H52V21.3421H53V20.3421Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M54 20.3487H53V21.3487H54V20.3487Z" fill="#030824" />
           <path d="M55 20.3553H54V21.3553H55V20.3553Z" fill="#1D3255" />
           <path
             d="M56 20.3618H55V21.3618H56V20.3618Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M57 20.3684H56V21.3684H57V20.3684Z" fill="#1D3255" />
           <path d="M58 20.375H57V21.375H58V20.375Z" fill="#1D3255" />
@@ -239,29 +239,29 @@ const BoatSvg = () => {
           <path
             d="M68 20.4408H67V21.4408H68V20.4408Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M47 21.3026H46V22.3026H47V21.3026Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M48 21.3092H47V22.3092H48V21.3092Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M52 21.3355H51V22.3355H52V21.3355Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M53 21.3421H52V22.3421H53V21.3421Z" fill="#030824" />
           <path d="M54 21.3487H53V22.3487H54V21.3487Z" fill="#1D3255" />
           <path
             d="M55 21.3553H54V22.3553H55V21.3553Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M56 21.3618H55V22.3618H56V21.3618Z" fill="#1D3255" />
           <path d="M57 21.3684H56V22.3684H57V21.3684Z" fill="#1D3255" />
@@ -279,35 +279,35 @@ const BoatSvg = () => {
           <path
             d="M69 21.4474H68V22.4474H69V21.4474Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M47 22.3026H46V23.3026H47V22.3026Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M48 22.3092H47V23.3092H48V22.3092Z" fill="#030824" />
           <path
             d="M49 22.3158H48V23.3158H49V22.3158Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M50 22.3224H49V23.3224H50V22.3224Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M51 22.3289H50V23.3289H51V22.3289Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path d="M52 22.3355H51V23.3355H52V22.3355Z" fill="#030824" />
           <path d="M53 22.3421H52V23.3421H53V22.3421Z" fill="#1D3255" />
           <path
             d="M54 22.3487H53V23.3487H54V22.3487Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M55 22.3553H54V23.3553H55V22.3553Z" fill="#1D3255" />
           <path d="M56 22.3618H55V23.3618H56V22.3618Z" fill="#1D3255" />
@@ -323,19 +323,19 @@ const BoatSvg = () => {
           <path
             d="M66 22.4276H65V23.4276H66V22.4276Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M67 22.4342H66V23.4342H67V22.4342Z" fill="#1D3255" />
           <path d="M68 22.4408H67V23.4408H68V22.4408Z" fill="#1D3255" />
           <path
             d="M69 22.4474H68V23.4474H69V22.4474Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M48 23.3092H47V24.3092H48V23.3092Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path d="M49 23.3158H48V24.3158H49V23.3158Z" fill="#030824" />
           <path d="M50 23.3224H49V24.3224H50V23.3224Z" fill="#030824" />
@@ -343,7 +343,7 @@ const BoatSvg = () => {
           <path
             d="M52 23.3355H51V24.3355H52V23.3355Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M53 23.3421H52V24.3421H53V23.3421Z" fill="#1D3255" />
           <path d="M54 23.3487H53V24.3487H54V23.3487Z" fill="#1D3255" />
@@ -357,7 +357,7 @@ const BoatSvg = () => {
           <path
             d="M62 23.4013H61V24.4013H62V23.4013Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M63 23.4079H62V24.4079H63V23.4079Z" fill="#1D3255" />
           <path d="M64 23.4145H63V24.4145H64V23.4145Z" fill="#1D3255" />
@@ -368,18 +368,18 @@ const BoatSvg = () => {
           <path
             d="M69 23.4474H68V24.4474H69V23.4474Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M49 24.3158H48V25.3158H49V24.3158Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path d="M50 24.3224H49V25.3224H50V24.3224Z" fill="#030824" />
           <path
             d="M51 24.3289H50V25.3289H51V24.3289Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path d="M52 24.3355H51V25.3355H52V24.3355Z" fill="#1D3255" />
           <path d="M53 24.3421H52V25.3421H53V24.3421Z" fill="#1D3255" />
@@ -390,7 +390,7 @@ const BoatSvg = () => {
           <path
             d="M58 24.375H57V25.375H58V24.375Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M59 24.3816H58V25.3816H59V24.3816Z" fill="#1D3255" />
           <path d="M60 24.3882H59V25.3882H60V24.3882Z" fill="#1D3255" />
@@ -400,7 +400,7 @@ const BoatSvg = () => {
           <path
             d="M64 24.4145H63V25.4145H64V24.4145Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M65 24.4211H64V25.4211H65V24.4211Z" fill="#1D3255" />
           <path d="M66 24.4276H65V25.4276H66V24.4276Z" fill="#1D3255" />
@@ -409,17 +409,17 @@ const BoatSvg = () => {
           <path
             d="M69 24.4474H68V25.4474H69V24.4474Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M49 25.3158H48V26.3158H49V25.3158Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M50 25.3224H49V26.3224H50V25.3224Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M51 25.3289H50V26.3289H51V25.3289Z" fill="#030824" />
           <path d="M52 25.3355H51V26.3355H52V25.3355Z" fill="#1D3255" />
@@ -439,24 +439,24 @@ const BoatSvg = () => {
           <path
             d="M66 25.4276H65V26.4276H66V25.4276Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M67 25.4342H66V26.4342H67V25.4342Z" fill="#1D3255" />
           <path d="M68 25.4408H67V26.4408H68V25.4408Z" fill="#030824" />
           <path
             d="M69 25.4474H68V26.4474H69V25.4474Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M50 26.3224H49V27.3224H50V26.3224Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M51 26.3289H50V27.3289H51V26.3289Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path d="M52 26.3355H51V27.3355H52V26.3355Z" fill="#030824" />
           <path d="M53 26.3421H52V27.3421H53V26.3421Z" fill="#030824" />
@@ -467,85 +467,85 @@ const BoatSvg = () => {
           <path
             d="M58 26.375H57V27.375H58V26.375Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M59 26.3816H58V27.3816H59V26.3816Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M60 26.3882H59V27.3882H60V26.3882Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M61 26.3947H60V27.3947H61V26.3947Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M62 26.4013H61V27.4013H62V26.4013Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M63 26.4079H62V27.4079H63V26.4079Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M64 26.4145H63V27.4145H64V26.4145Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path d="M65 26.4211H64V27.4211H65V26.4211Z" fill="#030824" />
           <path d="M66 26.4276H65V27.4276H66V26.4276Z" fill="#1D3255" />
           <path
             d="M67 26.4342H66V27.4342H67V26.4342Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M68 26.4408H67V27.4408H68V26.4408Z" fill="#030824" />
           <path
             d="M69 26.4474H68V27.4474H69V26.4474Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M52 27.3355H51V28.3355H52V27.3355Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M53 27.3421H52V28.3421H53V27.3421Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M54 27.3487H53V28.3487H54V27.3487Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M55 27.3553H54V28.3553H55V27.3553Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M56 27.3618H55V28.3618H56V27.3618Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M57 27.3684H56V28.3684H57V27.3684Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M65 27.4211H64V28.4211H65V27.4211Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path d="M66 27.4276H65V28.4276H66V27.4276Z" fill="#030824" />
           <path d="M67 27.4342H66V28.4342H67V27.4342Z" fill="#1D3255" />
@@ -553,32 +553,32 @@ const BoatSvg = () => {
           <path
             d="M69 27.4474H68V28.4474H69V27.4474Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M70 27.4539H69V28.4539H70V27.4539Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M71 27.4605H70V28.4605H71V27.4605Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M72 27.4671H71V28.4671H72V27.4671Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M73 27.4737H72V28.4737H73V27.4737Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M66 28.4276H65V29.4276H66V28.4276Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path d="M67 28.4342H66V29.4342H67V28.4342Z" fill="#030824" />
           <path d="M68 28.4408H67V29.4408H68V28.4408Z" fill="#1D3255" />
@@ -590,53 +590,53 @@ const BoatSvg = () => {
           <path
             d="M74 28.4803H73V29.4803H74V28.4803Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M75 28.4868H74V29.4868H75V28.4868Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M76 28.4934H75V29.4934H76V28.4934Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M77 28.5H76V29.5H77V28.5Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M78 28.5066H77V29.5066H78V28.5066Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M67 29.4342H66V30.4342H67V29.4342Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path d="M68 29.4408H67V30.4408H68V29.4408Z" fill="#030824" />
           <path
             d="M69 29.4474H68V30.4474H69V29.4474Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M70 29.4539H69V30.4539H70V29.4539Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M71 29.4605H70V30.4605H71V29.4605Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M72 29.4671H71V30.4671H72V29.4671Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M73 29.4737H72V30.4737H73V29.4737Z" fill="#1D3255" />
           <path d="M74 29.4803H73V30.4803H74V29.4803Z" fill="#030824" />
@@ -646,65 +646,65 @@ const BoatSvg = () => {
           <path
             d="M78 29.5066H77V30.5066H78V29.5066Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M79 29.5132H78V30.5132H79V29.5132Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M80 29.5197H79V30.5197H80V29.5197Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M81 29.5263H80V30.5263H81V29.5263Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M67 30.4342H66V31.4342H67V30.4342Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M68 30.4408H67V31.4408H68V30.4408Z" fill="#030824" />
           <path
             d="M69 30.4474H68V31.4474H69V30.4474Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M70 30.4539H69V31.4539H70V30.4539Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path d="M71 30.4605H70V31.4605H71V30.4605Z" fill="#030824" />
           <path d="M72 30.4671H71V31.4671H72V30.4671Z" fill="#1D3255" />
           <path
             d="M73 30.4737H72V31.4737H73V30.4737Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M74 30.4803H73V31.4803H74V30.4803Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M75 30.4868H74V31.4868H75V30.4868Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M76 30.4934H75V31.4934H76V30.4934Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M77 30.5H76V31.5H77V30.5Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M78 30.5066H77V31.5066H78V30.5066Z" fill="#030824" />
           <path d="M79 30.5132H78V31.5132H79V30.5132Z" fill="#030824" />
@@ -713,33 +713,33 @@ const BoatSvg = () => {
           <path
             d="M82 30.5329H81V31.5329H82V30.5329Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M83 30.5395H82V31.5395H83V30.5395Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M84 30.5461H83V31.5461H84V30.5461Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M67 31.4342H66V32.4342H67V31.4342Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M68 31.4408H67V32.4408H68V31.4408Z" fill="#030824" />
           <path
             d="M69 31.4474H68V32.4474H69V31.4474Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M71 31.4605H70V32.4605H71V31.4605Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path d="M72 31.4671H71V32.4671H72V31.4671Z" fill="#030824" />
           <path d="M73 31.4737H72V32.4737H73V31.4737Z" fill="#1D3255" />
@@ -750,17 +750,17 @@ const BoatSvg = () => {
           <path
             d="M78 31.5066H77V32.5066H78V31.5066Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M79 31.5132H78V32.5132H79V31.5132Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M80 31.5197H79V32.5197H80V31.5197Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M81 31.5263H80V32.5263H81V31.5263Z" fill="#1D3255" />
           <path d="M82 31.5329H81V32.5329H82V31.5329Z" fill="#030824" />
@@ -769,45 +769,45 @@ const BoatSvg = () => {
           <path
             d="M85 31.5526H84V32.5526H85V31.5526Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M86 31.5592H85V32.5592H86V31.5592Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M87 31.5658H86V32.5658H87V31.5658Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M65 32.421H64V33.421H65V32.421Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M67 32.4342H66V33.4342H67V32.4342Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M68 32.4408H67V33.4408H68V32.4408Z" fill="#030824" />
           <path
             d="M69 32.4474H68V33.4474H69V32.4474Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M71 32.4605H70V33.4605H71V32.4605Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M72 32.4671H71V33.4671H72V32.4671Z" fill="#1D3255" />
           <path d="M73 32.4737H72V33.4737H73V32.4737Z" fill="#030824" />
           <path
             d="M74 32.4803H73V33.4803H74V32.4803Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M75 32.4868H74V33.4868H75V32.4868Z" fill="#1D3255" />
           <path d="M76 32.4934H75V33.4934H76V32.4934Z" fill="#1D3255" />
@@ -819,12 +819,12 @@ const BoatSvg = () => {
           <path
             d="M82 32.5329H81V33.5329H82V32.5329Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M83 32.5395H82V33.5395H83V32.5395Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M84 32.546H83V33.546H84V32.546Z" fill="#1D3255" />
           <path d="M85 32.5526H84V33.5526H85V32.5526Z" fill="#030824" />
@@ -832,43 +832,43 @@ const BoatSvg = () => {
           <path
             d="M87 32.5658H86V33.5658H87V32.5658Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M88 32.5724H87V33.5724H88V32.5724Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M89 32.579H88V33.579H89V32.579Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M65 33.421H64V34.421H65V33.421Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M66 33.4276H65V34.4276H66V33.4276Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M67 33.4342H66V34.4342H67V33.4342Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M68 33.4408H67V34.4408H68V33.4408Z" fill="#030824" />
           <path
             d="M69 33.4474H68V34.4474H69V33.4474Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M72 33.4671H71V34.4671H72V33.4671Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M73 33.4737H72V34.4737H73V33.4737Z" fill="#030824" />
           <path d="M74 33.4803H73V34.4803H74V33.4803Z" fill="#1D3255" />
@@ -884,17 +884,17 @@ const BoatSvg = () => {
           <path
             d="M84 33.546H83V34.546H84V33.546Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M85 33.5526H84V34.5526H85V33.5526Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M86 33.5592H85V34.5592H86V33.5592Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M87 33.5658H86V34.5658H87V33.5658Z" fill="#030824" />
           <path d="M88 33.5724H87V34.5724H88V33.5724Z" fill="#030824" />
@@ -902,45 +902,45 @@ const BoatSvg = () => {
           <path
             d="M90 33.5855H89V34.5855H90V33.5855Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M91 33.5921H90V34.5921H91V33.5921Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M92 33.5987H91V34.5987H92V33.5987Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M64 34.4145H63V35.4145H64V34.4145Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M65 34.421H64V35.421H65V34.421Z" fill="#1D3255" />
           <path
             d="M66 34.4276H65V35.4276H66V34.4276Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M68 34.4408H67V35.4408H68V34.4408Z" fill="#030824" />
           <path
             d="M69 34.4474H68V35.4474H69V34.4474Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M73 34.4737H72V35.4737H73V34.4737Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path d="M74 34.4803H73V35.4803H74V34.4803Z" fill="#030824" />
           <path
             d="M75 34.4868H74V35.4868H75V34.4868Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M76 34.4934H75V35.4934H76V34.4934Z" fill="#1D3255" />
           <path d="M77 34.5H76V35.5H77V34.5Z" fill="#1D3255" />
@@ -956,12 +956,12 @@ const BoatSvg = () => {
           <path
             d="M87 34.5658H86V35.5658H87V34.5658Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M88 34.5724H87V35.5724H88V34.5724Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M89 34.579H88V35.579H89V34.579Z" fill="#1D3255" />
           <path d="M90 34.5855H89V35.5855H90V34.5855Z" fill="#030824" />
@@ -969,44 +969,44 @@ const BoatSvg = () => {
           <path
             d="M92 34.5987H91V35.5987H92V34.5987Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M93 34.6053H92V35.6053H93V34.6053Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M94 34.6118H93V35.6118H94V34.6118Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M64 35.4145H63V36.4145H64V35.4145Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path d="M65 35.421H64V36.421H65V35.421Z" fill="#030824" />
           <path
             d="M67 35.4342H66V36.4342H67V35.4342Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M68 35.4408H67V36.4408H68V35.4408Z" fill="#030824" />
           <path
             d="M69 35.4474H68V36.4474H69V35.4474Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M73 35.4737H72V36.4737H73V35.4737Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M74 35.4803H73V36.4803H74V35.4803Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M75 35.4868H74V36.4868H75V35.4868Z" fill="#1D3255" />
           <path d="M76 35.4934H75V36.4934H76V35.4934Z" fill="#1D3255" />
@@ -1025,67 +1025,67 @@ const BoatSvg = () => {
           <path
             d="M89 35.579H88V36.579H89V35.579Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M90 35.5855H89V36.5855H90V35.5855Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M91 35.5921H90V36.5921H91V35.5921Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M92 35.5987H91V36.5987H92V35.5987Z" fill="#030824" />
           <path d="M93 35.6053H92V36.6053H93V35.6053Z" fill="#030824" />
           <path
             d="M94 35.6118H93V36.6118H94V35.6118Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M95 35.6184H94V36.6184H95V35.6184Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M96 35.625H95V36.625H96V35.625Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M63 36.4079H62V37.4079H63V36.4079Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M64 36.4145H63V37.4145H64V36.4145Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path d="M65 36.421H64V37.421H65V36.421Z" fill="#030824" />
           <path
             d="M67 36.4342H66V37.4342H67V36.4342Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M68 36.4408H67V37.4408H68V36.4408Z" fill="#030824" />
           <path
             d="M69 36.4474H68V37.4474H69V36.4474Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M74 36.4803H73V37.4803H74V36.4803Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M75 36.4868H74V37.4868H75V36.4868Z" fill="#030824" />
           <path
             d="M76 36.4934H75V37.4934H76V36.4934Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M77 36.5H76V37.5H77V36.5Z" fill="#1D3255" />
           <path d="M78 36.5066H77V37.5066H78V36.5066Z" fill="#1D3255" />
@@ -1105,52 +1105,52 @@ const BoatSvg = () => {
           <path
             d="M92 36.5987H91V37.5987H92V36.5987Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M93 36.6053H92V37.6053H93V36.6053Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M94 36.6118H93V37.6118H94V36.6118Z" fill="#030824" />
           <path d="M95 36.6184H94V37.6184H95V36.6184Z" fill="#030824" />
           <path
             d="M96 36.625H95V37.625H96V36.625Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M97 36.6316H96V37.6316H97V36.6316Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M98 36.6382H97V37.6382H98V36.6382Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M63 37.4079H62V38.4079H63V37.4079Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M64 37.4145H63V38.4145H64V37.4145Z" fill="#030824" />
           <path d="M65 37.421H64V38.421H65V37.421Z" fill="#030824" />
           <path
             d="M67 37.4342H66V38.4342H67V37.4342Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M68 37.4408H67V38.4408H68V37.4408Z" fill="#030824" />
           <path
             d="M69 37.4474H68V38.4474H69V37.4474Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M75 37.4868H74V38.4868H75V37.4868Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path d="M76 37.4934H75V38.4934H76V37.4934Z" fill="#030824" />
           <path d="M77 37.5H76V38.5H77V37.5Z" fill="#1D3255" />
@@ -1173,54 +1173,54 @@ const BoatSvg = () => {
           <path
             d="M94 37.6118H93V38.6118H94V37.6118Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M95 37.6184H94V38.6184H95V37.6184Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M96 37.625H95V38.625H96V37.625Z" fill="#030824" />
           <path d="M97 37.6316H96V38.6316H97V37.6316Z" fill="#030824" />
           <path
             d="M98 37.6382H97V38.6382H98V37.6382Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M99 37.6447H98V38.6447H99V37.6447Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M63 38.4079H62V39.4079H63V38.4079Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path d="M64 38.4145H63V39.4145H64V38.4145Z" fill="#030824" />
           <path d="M65 38.421H64V39.421H65V38.421Z" fill="#1D3255" />
           <path
             d="M67 38.4342H66V39.4342H67V38.4342Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M68 38.4408H67V39.4408H68V38.4408Z" fill="#030824" />
           <path
             d="M69 38.4474H68V39.4474H69V38.4474Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M75 38.4868H74V39.4868H75V38.4868Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M76 38.4934H75V39.4934H76V38.4934Z" fill="#030824" />
           <path d="M77 38.5H76V39.5H77V38.5Z" fill="#1D3255" />
           <path
             d="M78 38.5066H77V39.5066H78V38.5066Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M79 38.5132H78V39.5132H79V38.5132Z" fill="#1D3255" />
           <path d="M80 38.5197H79V39.5197H80V38.5197Z" fill="#1D3255" />
@@ -1242,29 +1242,29 @@ const BoatSvg = () => {
           <path
             d="M96 38.625H95V39.625H96V38.625Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M97 38.6316H96V39.6316H97V38.6316Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M98 38.6382H97V39.6382H98V38.6382Z" fill="#030824" />
           <path d="M99 38.6447H98V39.6447H99V38.6447Z" fill="#030824" />
           <path
             d="M100 38.6513H99V39.6513H100V38.6513Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M101 38.6579H100V39.6579H101V38.6579Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M62 39.4013H61V40.4013H62V39.4013Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M63 39.4079H62V40.4079H63V39.4079Z" fill="#030824" />
           <path d="M64 39.4145H63V40.4145H64V39.4145Z" fill="#030824" />
@@ -1273,18 +1273,18 @@ const BoatSvg = () => {
           <path
             d="M69 39.4474H68V40.4474H69V39.4474Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M76 39.4934H75V40.4934H76V39.4934Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path d="M77 39.5H76V40.5H77V39.5Z" fill="#030824" />
           <path
             d="M78 39.5066H77V40.5066H78V39.5066Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M79 39.5132H78V40.5132H79V39.5132Z" fill="#1D3255" />
           <path d="M80 39.5197H79V40.5197H80V39.5197Z" fill="#1D3255" />
@@ -1308,7 +1308,7 @@ const BoatSvg = () => {
           <path
             d="M98 39.6382H97V40.6382H98V39.6382Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M99 39.6447H98V40.6447H99V39.6447Z" fill="#1D3255" />
           <path d="M100 39.6513H99V40.6513H100V39.6513Z" fill="#030824" />
@@ -1316,40 +1316,40 @@ const BoatSvg = () => {
           <path
             d="M102 39.6645H101V40.6645H102V39.6645Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M103 39.671H102V40.671H103V39.671Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M62 40.4013H61V41.4013H62V40.4013Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path d="M63 40.4079H62V41.4079H63V40.4079Z" fill="#030824" />
           <path
             d="M64 40.4145H63V41.4145H64V40.4145Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M65 40.421H64V41.421H65V40.421Z" fill="#030824" />
           <path
             d="M67 40.4342H66V41.4342H67V40.4342Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M68 40.4408H67V41.4408H68V40.4408Z" fill="#030824" />
           <path
             d="M69 40.4474H68V41.4474H69V40.4474Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M77 40.5H76V41.5H77V40.5Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path d="M78 40.5066H77V41.5066H78V40.5066Z" fill="#1D3255" />
           <path d="M79 40.5132H78V41.5132H79V40.5132Z" fill="#1D3255" />
@@ -1376,24 +1376,24 @@ const BoatSvg = () => {
           <path
             d="M100 40.6513H99V41.6513H100V40.6513Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M101 40.6579H100V41.6579H101V40.6579Z" fill="#1D3255" />
           <path d="M102 40.6645H101V41.6645H102V40.6645Z" fill="#030824" />
           <path
             d="M103 40.671H102V41.671H103V40.671Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M104 40.6776H103V41.6776H104V40.6776Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M61 41.3947H60V42.3947H61V41.3947Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M62 41.4013H61V42.4013H62V41.4013Z" fill="#1D3255" />
           <path d="M63 41.4079H62V42.4079H63V41.4079Z" fill="#1D3255" />
@@ -1403,18 +1403,18 @@ const BoatSvg = () => {
           <path
             d="M69 41.4474H68V42.4474H69V41.4474Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M77 41.5H76V42.5H77V41.5Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M78 41.5066H77V42.5066H78V41.5066Z" fill="#030824" />
           <path
             d="M79 41.5132H78V42.5132H79V41.5132Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M80 41.5197H79V42.5197H80V41.5197Z" fill="#1D3255" />
           <path d="M81 41.5263H80V42.5263H81V41.5263Z" fill="#1D3255" />
@@ -1440,7 +1440,7 @@ const BoatSvg = () => {
           <path
             d="M101 41.6579H100V42.6579H101V41.6579Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M102 41.6645H101V42.6645H102V41.6645Z" fill="#1D3255" />
           <path d="M103 41.671H102V42.671H103V41.671Z" fill="#030824" />
@@ -1448,36 +1448,36 @@ const BoatSvg = () => {
           <path
             d="M105 41.6842H104V42.6842H105V41.6842Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M61 42.3947H60V43.3947H61V42.3947Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path d="M62 42.4013H61V43.4013H62V42.4013Z" fill="#030824" />
           <path
             d="M63 42.4079H62V43.4079H63V42.4079Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M64 42.4145H63V43.4145H64V42.4145Z" fill="#1D3255" />
           <path d="M65 42.421H64V43.421H65V42.421Z" fill="#030824" />
           <path
             d="M67 42.4342H66V43.4342H67V42.4342Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M68 42.4408H67V43.4408H68V42.4408Z" fill="#030824" />
           <path
             d="M69 42.4474H68V43.4474H69V42.4474Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M78 42.5066H77V43.5066H78V42.5066Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path d="M79 42.5132H78V43.5132H79V42.5132Z" fill="#030824" />
           <path d="M80 42.5197H79V43.5197H80V42.5197Z" fill="#1D3255" />
@@ -1488,7 +1488,7 @@ const BoatSvg = () => {
           <path
             d="M85 42.5526H84V43.5526H85V42.5526Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M86 42.5592H85V43.5592H86V42.5592Z" fill="#1D3255" />
           <path d="M87 42.5658H86V43.5658H87V42.5658Z" fill="#1D3255" />
@@ -1509,64 +1509,64 @@ const BoatSvg = () => {
           <path
             d="M102 42.6645H101V43.6645H102V42.6645Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M103 42.671H102V43.671H103V42.671Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M104 42.6776H103V43.6776H104V42.6776Z" fill="#1D3255" />
           <path d="M105 42.6842H104V43.6842H105V42.6842Z" fill="#030824" />
           <path
             d="M106 42.6908H105V43.6908H106V42.6908Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M107 42.6974H106V43.6974H107V42.6974Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M60 43.3882H59V44.3882H60V43.3882Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M61 43.3947H60V44.3947H61V43.3947Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M62 43.4013H61V44.4013H62V43.4013Z" fill="#030824" />
           <path
             d="M63 43.4079H62V44.4079H63V43.4079Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M64 43.4145H63V44.4145H64V43.4145Z" fill="#030824" />
           <path d="M65 43.421H64V44.421H65V43.421Z" fill="#030824" />
           <path
             d="M66 43.4276H65V44.4276H66V43.4276Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M68 43.4408H67V44.4408H68V43.4408Z" fill="#030824" />
           <path
             d="M69 43.4474H68V44.4474H69V43.4474Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M78 43.5066H77V44.5066H78V43.5066Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M79 43.5132H78V44.5132H79V43.5132Z" fill="#030824" />
           <path
             d="M80 43.5197H79V44.5197H80V43.5197Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M81 43.5263H80V44.5263H81V43.5263Z" fill="#1D3255" />
           <path d="M82 43.5329H81V44.5329H82V43.5329Z" fill="#1D3255" />
@@ -1598,47 +1598,47 @@ const BoatSvg = () => {
           <path
             d="M108 43.704H107V44.704H108V43.704Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M60 44.3882H59V45.3882H60V44.3882Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path d="M61 44.3947H60V45.3947H61V44.3947Z" fill="#030824" />
           <path
             d="M62 44.4013H61V45.4013H62V44.4013Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M63 44.4079H62V45.4079H63V44.4079Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M64 44.4145H63V45.4145H64V44.4145Z" fill="#1D3255" />
           <path d="M65 44.421H64V45.421H65V44.421Z" fill="#030824" />
           <path
             d="M67 44.4342H66V45.4342H67V44.4342Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M68 44.4408H67V45.4408H68V44.4408Z" fill="#030824" />
           <path
             d="M69 44.4474H68V45.4474H69V44.4474Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M79 44.5132H78V45.5132H79V44.5132Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path d="M80 44.5197H79V45.5197H80V44.5197Z" fill="#030824" />
           <path
             d="M81 44.5263H80V45.5263H81V44.5263Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M82 44.5329H81V45.5329H82V44.5329Z" fill="#1D3255" />
           <path d="M83 44.5395H82V45.5395H83V44.5395Z" fill="#1D3255" />
@@ -1666,7 +1666,7 @@ const BoatSvg = () => {
           <path
             d="M105 44.6842H104V45.6842H105V44.6842Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M106 44.6908H105V45.6908H106V44.6908Z" fill="#1D3255" />
           <path d="M107 44.6974H106V45.6974H107V44.6974Z" fill="#1D3255" />
@@ -1674,23 +1674,23 @@ const BoatSvg = () => {
           <path
             d="M109 44.7105H108V45.7105H109V44.7105Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M59 45.3816H58V46.3816H59V45.3816Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M60 45.3882H59V46.3882H60V45.3882Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path d="M61 45.3947H60V46.3947H61V45.3947Z" fill="#030824" />
           <path
             d="M62 45.4013H61V46.4013H62V45.4013Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M63 45.4079H62V46.4079H63V45.4079Z" fill="#1D3255" />
           <path d="M64 45.4145H63V46.4145H64V45.4145Z" fill="#1D3255" />
@@ -1699,18 +1699,18 @@ const BoatSvg = () => {
           <path
             d="M69 45.4474H68V46.4474H69V45.4474Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M79 45.5132H78V46.5132H79V45.5132Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M80 45.5197H79V46.5197H80V45.5197Z" fill="#030824" />
           <path
             d="M81 45.5263H80V46.5263H81V45.5263Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M82 45.5329H81V46.5329H82V45.5329Z" fill="#1D3255" />
           <path d="M83 45.5395H82V46.5395H83V45.5395Z" fill="#1D3255" />
@@ -1743,53 +1743,53 @@ const BoatSvg = () => {
           <path
             d="M110 45.7171H109V46.7171H110V45.7171Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M59 46.3816H58V47.3816H59V46.3816Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path d="M60 46.3882H59V47.3882H60V46.3882Z" fill="#030824" />
           <path
             d="M61 46.3947H60V47.3947H61V46.3947Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M62 46.4013H61V47.4013H62V46.4013Z" fill="#1D3255" />
           <path
             d="M63 46.4079H62V47.4079H63V46.4079Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M64 46.4145H63V47.4145H64V46.4145Z" fill="#1D3255" />
           <path d="M65 46.421H64V47.421H65V46.421Z" fill="#030824" />
           <path
             d="M67 46.4342H66V47.4342H67V46.4342Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M68 46.4408H67V47.4408H68V46.4408Z" fill="#030824" />
           <path
             d="M69 46.4474H68V47.4474H69V46.4474Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M79 46.5132H78V47.5132H79V46.5132Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M80 46.5197H79V47.5197H80V46.5197Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M81 46.5263H80V47.5263H81V46.5263Z" fill="#1D3255" />
           <path
             d="M82 46.5329H81V47.5329H82V46.5329Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M83 46.5395H82V47.5395H83V46.5395Z" fill="#1D3255" />
           <path d="M84 46.546H83V47.546H84V46.546Z" fill="#1D3255" />
@@ -1822,53 +1822,53 @@ const BoatSvg = () => {
           <path
             d="M111 46.7237H110V47.7237H111V46.7237Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M112 46.7303H111V47.7303H112V46.7303Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M59 47.3816H58V48.3816H59V47.3816Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path d="M60 47.3882H59V48.3882H60V47.3882Z" fill="#030824" />
           <path
             d="M61 47.3947H60V48.3947H61V47.3947Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M62 47.4013H61V48.4013H62V47.4013Z" fill="#1D3255" />
           <path
             d="M63 47.4079H62V48.4079H63V47.4079Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M64 47.4145H63V48.4145H64V47.4145Z" fill="#1D3255" />
           <path d="M65 47.421H64V48.421H65V47.421Z" fill="#030824" />
           <path
             d="M67 47.4342H66V48.4342H67V47.4342Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M68 47.4408H67V48.4408H68V47.4408Z" fill="#030824" />
           <path
             d="M69 47.4474H68V48.4474H69V47.4474Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M80 47.5197H79V48.5197H80V47.5197Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path d="M81 47.5263H80V48.5263H81V47.5263Z" fill="#030824" />
           <path
             d="M82 47.5329H81V48.5329H82V47.5329Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M83 47.5395H82V48.5395H83V47.5395Z" fill="#1D3255" />
           <path d="M84 47.546H83V48.546H84V47.546Z" fill="#1D3255" />
@@ -1899,61 +1899,61 @@ const BoatSvg = () => {
           <path
             d="M109 47.7105H108V48.7105H109V47.7105Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M110 47.7171H109V48.7171H110V47.7171Z" fill="#1D3255" />
           <path d="M111 47.7237H110V48.7237H111V47.7237Z" fill="#030824" />
           <path
             d="M112 47.7303H111V48.7303H112V47.7303Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M113 47.7368H112V48.7368H113V47.7368Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M58 48.375H57V49.375H58V48.375Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M59 48.3816H58V49.3816H59V48.3816Z" fill="#030824" />
           <path
             d="M60 48.3882H59V49.3882H60V48.3882Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M61 48.3947H60V49.3947H61V48.3947Z" fill="#1D3255" />
           <path d="M62 48.4013H61V49.4013H62V48.4013Z" fill="#1D3255" />
           <path
             d="M63 48.4079H62V49.4079H63V48.4079Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M64 48.4145H63V49.4145H64V48.4145Z" fill="#1D3255" />
           <path d="M65 48.421H64V49.421H65V48.421Z" fill="#030824" />
           <path
             d="M67 48.4342H66V49.4342H67V48.4342Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M68 48.4408H67V49.4408H68V48.4408Z" fill="#030824" />
           <path
             d="M69 48.4474H68V49.4474H69V48.4474Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M80 48.5197H79V49.5197H80V48.5197Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M81 48.5263H80V49.5263H81V48.5263Z" fill="#030824" />
           <path
             d="M82 48.5329H81V49.5329H82V48.5329Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M83 48.5395H82V49.5395H83V48.5395Z" fill="#1D3255" />
           <path d="M84 48.546H83V49.546H84V48.546Z" fill="#1D3255" />
@@ -1985,7 +1985,7 @@ const BoatSvg = () => {
           <path
             d="M110 48.7171H109V49.7171H110V48.7171Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M111 48.7237H110V49.7237H111V48.7237Z" fill="#1D3255" />
           <path d="M112 48.7303H111V49.7303H112V48.7303Z" fill="#030824" />
@@ -1993,18 +1993,18 @@ const BoatSvg = () => {
           <path
             d="M114 48.7434H113V49.7434H114V48.7434Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M58 49.375H57V50.375H58V49.375Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path d="M59 49.3816H58V50.3816H59V49.3816Z" fill="#030824" />
           <path
             d="M60 49.3882H59V50.3882H60V49.3882Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M61 49.3947H60V50.3947H61V49.3947Z" fill="#1D3255" />
           <path d="M62 49.4013H61V50.4013H62V49.4013Z" fill="#1D3255" />
@@ -2014,37 +2014,37 @@ const BoatSvg = () => {
           <path
             d="M67 49.4342H66V50.4342H67V49.4342Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M68 49.4408H67V50.4408H68V49.4408Z" fill="#030824" />
           <path
             d="M69 49.4474H68V50.4474H69V49.4474Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M81 49.5263H80V50.5263H81V49.5263Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path d="M82 49.5329H81V50.5329H82V49.5329Z" fill="#030824" />
           <path
             d="M83 49.5395H82V50.5395H83V49.5395Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M84 49.546H83V50.546H84V49.546Z" fill="#1D3255" />
           <path
             d="M85 49.5526H84V50.5526H85V49.5526Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M86 49.5592H85V50.5592H86V49.5592Z" fill="#1D3255" />
           <path d="M87 49.5658H86V50.5658H87V49.5658Z" fill="#1D3255" />
           <path
             d="M88 49.5724H87V50.5724H88V49.5724Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M89 49.579H88V50.579H89V49.579Z" fill="#1D3255" />
           <path d="M90 49.5855H89V50.5855H90V49.5855Z" fill="#1D3255" />
@@ -2075,18 +2075,18 @@ const BoatSvg = () => {
           <path
             d="M115 49.75H114V50.75H115V49.75Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M57 50.3684H56V51.3684H57V50.3684Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M58 50.375H57V51.375H58V50.375Z" fill="#030824" />
           <path
             d="M59 50.3816H58V51.3816H59V50.3816Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M60 50.3882H59V51.3882H60V50.3882Z" fill="#1D3255" />
           <path d="M61 50.3947H60V51.3947H61V50.3947Z" fill="#1D3255" />
@@ -2094,31 +2094,31 @@ const BoatSvg = () => {
           <path
             d="M63 50.4079H62V51.4079H63V50.4079Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M64 50.4145H63V51.4145H64V50.4145Z" fill="#1D3255" />
           <path d="M65 50.421H64V51.421H65V50.421Z" fill="#1D3255" />
           <path
             d="M67 50.4342H66V51.4342H67V50.4342Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M68 50.4408H67V51.4408H68V50.4408Z" fill="#030824" />
           <path
             d="M69 50.4474H68V51.4474H69V50.4474Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M81 50.5263H80V51.5263H81V50.5263Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M82 50.5329H81V51.5329H82V50.5329Z" fill="#030824" />
           <path
             d="M83 50.5395H82V51.5395H83V50.5395Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M84 50.546H83V51.546H84V50.546Z" fill="#1D3255" />
           <path d="M85 50.5526H84V51.5526H85V50.5526Z" fill="#1D3255" />
@@ -2151,7 +2151,7 @@ const BoatSvg = () => {
           <path
             d="M112 50.7303H111V51.7303H112V50.7303Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M113 50.7368H112V51.7368H113V50.7368Z" fill="#1D3255" />
           <path d="M114 50.7434H113V51.7434H114V50.7434Z" fill="#030824" />
@@ -2159,18 +2159,18 @@ const BoatSvg = () => {
           <path
             d="M116 50.7566H115V51.7566H116V50.7566Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M57 51.3684H56V52.3684H57V51.3684Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path d="M58 51.375H57V52.375H58V51.375Z" fill="#030824" />
           <path
             d="M59 51.3816H58V52.3816H59V51.3816Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M60 51.3882H59V52.3882H60V51.3882Z" fill="#1D3255" />
           <path d="M61 51.3947H60V52.3947H61V51.3947Z" fill="#1D3255" />
@@ -2181,18 +2181,18 @@ const BoatSvg = () => {
           <path
             d="M67 51.4342H66V52.4342H67V51.4342Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M68 51.4408H67V52.4408H68V51.4408Z" fill="#030824" />
           <path
             d="M69 51.4474H68V52.4474H69V51.4474Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M81 51.5263H80V52.5263H81V51.5263Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M82 51.5329H81V52.5329H82V51.5329Z" fill="#1D3255" />
           <path d="M83 51.5395H82V52.5395H83V51.5395Z" fill="#1D3255" />
@@ -2210,7 +2210,7 @@ const BoatSvg = () => {
           <path
             d="M95 51.6184H94V52.6184H95V51.6184Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M96 51.625H95V52.625H96V51.625Z" fill="#1D3255" />
           <path d="M97 51.6316H96V52.6316H97V51.6316Z" fill="#1D3255" />
@@ -2235,23 +2235,23 @@ const BoatSvg = () => {
           <path
             d="M116 51.7566H115V52.7566H116V51.7566Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M117 51.7632H116V52.7632H117V51.7632Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M56 52.3618H55V53.3618H56V52.3618Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M57 52.3684H56V53.3684H57V52.3684Z" fill="#030824" />
           <path
             d="M58 52.375H57V53.375H58V52.375Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M59 52.3816H58V53.3816H59V52.3816Z" fill="#1D3255" />
           <path d="M60 52.3882H59V53.3882H60V52.3882Z" fill="#1D3255" />
@@ -2260,31 +2260,31 @@ const BoatSvg = () => {
           <path
             d="M63 52.4079H62V53.4079H63V52.4079Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M64 52.4145H63V53.4145H64V52.4145Z" fill="#1D3255" />
           <path d="M65 52.421H64V53.421H65V52.421Z" fill="#030824" />
           <path
             d="M67 52.4342H66V53.4342H67V52.4342Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M68 52.4408H67V53.4408H68V52.4408Z" fill="#030824" />
           <path
             d="M69 52.4474H68V53.4474H69V52.4474Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M82 52.5329H81V53.5329H82V52.5329Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path d="M83 52.5395H82V53.5395H83V52.5395Z" fill="#030824" />
           <path
             d="M84 52.546H83V53.546H84V52.546Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M85 52.5526H84V53.5526H85V52.5526Z" fill="#1D3255" />
           <path d="M86 52.5592H85V53.5592H86V52.5592Z" fill="#1D3255" />
@@ -2319,24 +2319,24 @@ const BoatSvg = () => {
           <path
             d="M115 52.75H114V53.75H115V52.75Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M116 52.7566H115V53.7566H116V52.7566Z" fill="#030824" />
           <path
             d="M117 52.7632H116V53.7632H117V52.7632Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M56 53.3618H55V54.3618H56V53.3618Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path d="M57 53.3684H56V54.3684H57V53.3684Z" fill="#030824" />
           <path
             d="M58 53.375H57V54.375H58V53.375Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M59 53.3816H58V54.3816H59V53.3816Z" fill="#1D3255" />
           <path d="M60 53.3882H59V54.3882H60V53.3882Z" fill="#1D3255" />
@@ -2348,31 +2348,31 @@ const BoatSvg = () => {
           <path
             d="M67 53.4342H66V54.4342H67V53.4342Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M68 53.4408H67V54.4408H68V53.4408Z" fill="#030824" />
           <path
             d="M69 53.4474H68V54.4474H69V53.4474Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M82 53.5329H81V54.5329H82V53.5329Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M83 53.5395H82V54.5395H83V53.5395Z" fill="#030824" />
           <path
             d="M84 53.546H83V54.546H84V53.546Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M85 53.5526H84V54.5526H85V53.5526Z" fill="#1D3255" />
           <path d="M86 53.5592H85V54.5592H86V53.5592Z" fill="#1D3255" />
           <path
             d="M87 53.5658H86V54.5658H87V53.5658Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M88 53.5724H87V54.5724H88V53.5724Z" fill="#1D3255" />
           <path d="M89 53.579H88V54.579H89V53.579Z" fill="#1D3255" />
@@ -2405,24 +2405,24 @@ const BoatSvg = () => {
           <path
             d="M116 53.7566H115V54.7566H116V53.7566Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M117 53.7632H116V54.7632H117V53.7632Z" fill="#030824" />
           <path
             d="M118 53.7697H117V54.7697H118V53.7697Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M55 54.3553H54V55.3553H55V54.3553Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M56 54.3618H55V55.3618H56V54.3618Z" fill="#030824" />
           <path
             d="M57 54.3684H56V55.3684H57V54.3684Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M58 54.375H57V55.375H58V54.375Z" fill="#1D3255" />
           <path d="M59 54.3816H58V55.3816H59V54.3816Z" fill="#1D3255" />
@@ -2432,36 +2432,36 @@ const BoatSvg = () => {
           <path
             d="M63 54.4079H62V55.4079H63V54.4079Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M64 54.4145H63V55.4145H64V54.4145Z" fill="#1D3255" />
           <path d="M65 54.421H64V55.421H65V54.421Z" fill="#030824" />
           <path
             d="M67 54.4342H66V55.4342H67V54.4342Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M68 54.4408H67V55.4408H68V54.4408Z" fill="#030824" />
           <path
             d="M69 54.4474H68V55.4474H69V54.4474Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M82 54.5329H81V55.5329H82V54.5329Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M83 54.5395H82V55.5395H83V54.5395Z" fill="#030824" />
           <path
             d="M84 54.546H83V55.546H84V54.546Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M85 54.5526H84V55.5526H85V54.5526Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M86 54.5592H85V55.5592H86V54.5592Z" fill="#1D3255" />
           <path d="M87 54.5658H86V55.5658H87V54.5658Z" fill="#1D3255" />
@@ -2497,24 +2497,24 @@ const BoatSvg = () => {
           <path
             d="M117 54.7632H116V55.7632H117V54.7632Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M118 54.7697H117V55.7697H118V54.7697Z" fill="#030824" />
           <path
             d="M119 54.7763H118V55.7763H119V54.7763Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M55 55.3553H54V56.3553H55V55.3553Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path d="M56 55.3618H55V56.3618H56V55.3618Z" fill="#030824" />
           <path
             d="M57 55.3684H56V56.3684H57V55.3684Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M58 55.375H57V56.375H58V55.375Z" fill="#1D3255" />
           <path d="M59 55.3816H58V56.3816H59V55.3816Z" fill="#1D3255" />
@@ -2527,18 +2527,18 @@ const BoatSvg = () => {
           <path
             d="M67 55.4342H66V56.4342H67V55.4342Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M68 55.4408H67V56.4408H68V55.4408Z" fill="#030824" />
           <path
             d="M69 55.4474H68V56.4474H69V55.4474Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M83 55.5395H82V56.5395H83V55.5395Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path d="M84 55.546H83V56.546H84V55.546Z" fill="#030824" />
           <path d="M85 55.5526H84V56.5526H85V55.5526Z" fill="#1D3255" />
@@ -2577,24 +2577,24 @@ const BoatSvg = () => {
           <path
             d="M118 55.7697H117V56.7697H118V55.7697Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M119 55.7763H118V56.7763H119V55.7763Z" fill="#030824" />
           <path
             d="M120 55.7829H119V56.7829H120V55.7829Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M54 56.3487H53V57.3487H54V56.3487Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M55 56.3553H54V57.3553H55V56.3553Z" fill="#030824" />
           <path
             d="M56 56.3618H55V57.3618H56V56.3618Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M57 56.3684H56V57.3684H57V56.3684Z" fill="#1D3255" />
           <path d="M58 56.375H57V57.375H58V56.375Z" fill="#1D3255" />
@@ -2605,27 +2605,27 @@ const BoatSvg = () => {
           <path
             d="M63 56.4079H62V57.4079H63V56.4079Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M64 56.4145H63V57.4145H64V56.4145Z" fill="#1D3255" />
           <path d="M65 56.421H64V57.421H65V56.421Z" fill="#030824" />
           <path
             d="M67 56.4342H66V57.4342H67V56.4342Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M68 56.4408H67V57.4408H68V56.4408Z" fill="#030824" />
           <path d="M69 56.4474H68V57.4474H69V56.4474Z" fill="#030824" />
           <path
             d="M83 56.5395H82V57.5395H83V56.5395Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path d="M84 56.546H83V57.546H84V56.546Z" fill="#030824" />
           <path
             d="M85 56.5526H84V57.5526H85V56.5526Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M86 56.5592H85V57.5592H86V56.5592Z" fill="#1D3255" />
           <path d="M87 56.5658H86V57.5658H87V56.5658Z" fill="#1D3255" />
@@ -2662,25 +2662,25 @@ const BoatSvg = () => {
           <path
             d="M118 56.7697H117V57.7697H118V56.7697Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M119 56.7763H118V57.7763H119V56.7763Z" fill="#030824" />
           <path d="M120 56.7829H119V57.7829H120V56.7829Z" fill="#1D3255" />
           <path
             d="M121 56.7895H120V57.7895H121V56.7895Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M54 57.3487H53V58.3487H54V57.3487Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path d="M55 57.3553H54V58.3553H55V57.3553Z" fill="#030824" />
           <path
             d="M56 57.3618H55V58.3618H56V57.3618Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M57 57.3684H56V58.3684H57V57.3684Z" fill="#1D3255" />
           <path d="M58 57.375H57V58.375H58V57.375Z" fill="#1D3255" />
@@ -2694,20 +2694,20 @@ const BoatSvg = () => {
           <path
             d="M67 57.4342H66V58.4342H67V57.4342Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M68 57.4408H67V58.4408H68V57.4408Z" fill="#030824" />
           <path d="M69 57.4474H68V58.4474H69V57.4474Z" fill="#030824" />
           <path
             d="M83 57.5395H82V58.5395H83V57.5395Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path d="M84 57.546H83V58.546H84V57.546Z" fill="#030824" />
           <path
             d="M85 57.5526H84V58.5526H85V57.5526Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M86 57.5592H85V58.5592H86V57.5592Z" fill="#1D3255" />
           <path d="M87 57.5658H86V58.5658H87V57.5658Z" fill="#1D3255" />
@@ -2745,24 +2745,24 @@ const BoatSvg = () => {
           <path
             d="M119 57.7763H118V58.7763H119V57.7763Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M120 57.7829H119V58.7829H120V57.7829Z" fill="#030824" />
           <path
             d="M121 57.7895H120V58.7895H121V57.7895Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M53 58.3421H52V59.3421H53V58.3421Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M54 58.3487H53V59.3487H54V58.3487Z" fill="#030824" />
           <path
             d="M55 58.3553H54V59.3553H55V58.3553Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M56 58.3618H55V59.3618H56V58.3618Z" fill="#1D3255" />
           <path d="M57 58.3684H56V59.3684H57V58.3684Z" fill="#1D3255" />
@@ -2774,32 +2774,32 @@ const BoatSvg = () => {
           <path
             d="M63 58.4079H62V59.4079H63V58.4079Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M64 58.4145H63V59.4145H64V58.4145Z" fill="#1D3255" />
           <path d="M65 58.421H64V59.421H65V58.421Z" fill="#030824" />
           <path
             d="M67 58.4342H66V59.4342H67V58.4342Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M68 58.4408H67V59.4408H68V58.4408Z" fill="#030824" />
           <path d="M69 58.4474H68V59.4474H69V58.4474Z" fill="#030824" />
           <path
             d="M70 58.454H69V59.454H70V58.454Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M83 58.5395H82V59.5395H83V58.5395Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M84 58.546H83V59.546H84V58.546Z" fill="#030824" />
           <path
             d="M85 58.5526H84V59.5526H85V58.5526Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M86 58.5592H85V59.5592H86V58.5592Z" fill="#1D3255" />
           <path d="M87 58.5658H86V59.5658H87V58.5658Z" fill="#1D3255" />
@@ -2838,29 +2838,29 @@ const BoatSvg = () => {
           <path
             d="M120 58.7829H119V59.7829H120V58.7829Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M121 58.7895H120V59.7895H121V58.7895Z" fill="#030824" />
           <path
             d="M122 58.796H121V59.796H122V58.796Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M52 59.3355H51V60.3355H52V59.3355Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M53 59.3421H52V60.3421H53V59.3421Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path d="M54 59.3487H53V60.3487H54V59.3487Z" fill="#030824" />
           <path
             d="M55 59.3553H54V60.3553H55V59.3553Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M56 59.3618H55V60.3618H56V59.3618Z" fill="#1D3255" />
           <path d="M57 59.3684H56V60.3684H57V59.3684Z" fill="#1D3255" />
@@ -2875,14 +2875,14 @@ const BoatSvg = () => {
           <path
             d="M67 59.4342H66V60.4342H67V59.4342Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M68 59.4408H67V60.4408H68V59.4408Z" fill="#1D3255" />
           <path d="M69 59.4474H68V60.4474H69V59.4474Z" fill="#030824" />
           <path
             d="M83 59.5395H82V60.5395H83V59.5395Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M84 59.546H83V60.546H84V59.546Z" fill="#030824" />
           <path d="M85 59.5526H84V60.5526H85V59.5526Z" fill="#1D3255" />
@@ -2923,25 +2923,25 @@ const BoatSvg = () => {
           <path
             d="M120 59.7829H119V60.7829H120V59.7829Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M121 59.7895H120V60.7895H121V59.7895Z" fill="#1D3255" />
           <path d="M122 59.796H121V60.796H122V59.796Z" fill="#030824" />
           <path
             d="M123 59.8026H122V60.8026H123V59.8026Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M52 60.3355H51V61.3355H52V60.3355Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path d="M53 60.3421H52V61.3421H53V60.3421Z" fill="#030824" />
           <path
             d="M54 60.3487H53V61.3487H54V60.3487Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M55 60.3553H54V61.3553H55V60.3553Z" fill="#1D3255" />
           <path d="M56 60.3618H55V61.3618H56V60.3618Z" fill="#1D3255" />
@@ -2954,26 +2954,26 @@ const BoatSvg = () => {
           <path
             d="M63 60.4079H62V61.4079H63V60.4079Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M64 60.4145H63V61.4145H64V60.4145Z" fill="#1D3255" />
           <path d="M65 60.421H64V61.421H65V60.421Z" fill="#1D3255" />
           <path
             d="M67 60.4342H66V61.4342H67V60.4342Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M68 60.4408H67V61.4408H68V60.4408Z" fill="#030824" />
           <path d="M69 60.4474H68V61.4474H69V60.4474Z" fill="#030824" />
           <path
             d="M83 60.5395H82V61.5395H83V60.5395Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M84 60.546H83V61.546H84V60.546Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M85 60.5526H84V61.5526H85V60.5526Z" fill="#030824" />
           <path d="M86 60.5592H85V61.5592H86V60.5592Z" fill="#1D3255" />
@@ -2985,7 +2985,7 @@ const BoatSvg = () => {
           <path
             d="M92 60.5987H91V61.5987H92V60.5987Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M93 60.6053H92V61.6053H93V60.6053Z" fill="#1D3255" />
           <path d="M94 60.6118H93V61.6118H94V60.6118Z" fill="#1D3255" />
@@ -3016,36 +3016,36 @@ const BoatSvg = () => {
           <path
             d="M119 60.7763H118V61.7763H119V60.7763Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M120 60.7829H119V61.7829H120V60.7829Z" fill="#030824" />
           <path
             d="M121 60.7895H120V61.7895H121V60.7895Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M122 60.796H121V61.796H122V60.796Z" fill="#030824" />
           <path
             d="M123 60.8026H122V61.8026H123V60.8026Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M124 60.8092H123V61.8092H124V60.8092Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M51 61.329H50V62.329H51V61.329Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M52 61.3355H51V62.3355H52V61.3355Z" fill="#1D3255" />
           <path d="M53 61.3421H52V62.3421H53V61.3421Z" fill="#1D3255" />
           <path
             d="M54 61.3487H53V62.3487H54V61.3487Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M55 61.3553H54V62.3553H55V61.3553Z" fill="#1D3255" />
           <path d="M56 61.3618H55V62.3618H56V61.3618Z" fill="#1D3255" />
@@ -3061,20 +3061,20 @@ const BoatSvg = () => {
           <path
             d="M67 61.4342H66V62.4342H67V61.4342Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M68 61.4408H67V62.4408H68V61.4408Z" fill="#1D3255" />
           <path d="M69 61.4474H68V62.4474H69V61.4474Z" fill="#030824" />
           <path
             d="M84 61.546H83V62.546H84V61.546Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path d="M85 61.5526H84V62.5526H85V61.5526Z" fill="#030824" />
           <path
             d="M86 61.5592H85V62.5592H86V61.5592Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M87 61.5658H86V62.5658H87V61.5658Z" fill="#1D3255" />
           <path d="M88 61.5724H87V62.5724H88V61.5724Z" fill="#1D3255" />
@@ -3112,30 +3112,30 @@ const BoatSvg = () => {
           <path
             d="M120 61.7829H119V62.7829H120V61.7829Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M121 61.7895H120V62.7895H121V61.7895Z" fill="#1D3255" />
           <path
             d="M122 61.796H121V62.796H122V61.796Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M123 61.8026H122V62.8026H123V61.8026Z" fill="#030824" />
           <path
             d="M124 61.8092H123V62.8092H124V61.8092Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M51 62.329H50V63.329H51V62.329Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path d="M52 62.3355H51V63.3355H52V62.3355Z" fill="#030824" />
           <path
             d="M53 62.3421H52V63.3421H53V62.3421Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M54 62.3487H53V63.3487H54V62.3487Z" fill="#1D3255" />
           <path d="M55 62.3553H54V63.3553H55V62.3553Z" fill="#1D3255" />
@@ -3149,27 +3149,27 @@ const BoatSvg = () => {
           <path
             d="M63 62.4079H62V63.4079H63V62.4079Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M64 62.4145H63V63.4145H64V62.4145Z" fill="#1D3255" />
           <path d="M65 62.421H64V63.421H65V62.421Z" fill="#030824" />
           <path
             d="M67 62.4342H66V63.4342H67V62.4342Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M68 62.4408H67V63.4408H68V62.4408Z" fill="#1D3255" />
           <path d="M69 62.4474H68V63.4474H69V62.4474Z" fill="#030824" />
           <path
             d="M84 62.546H83V63.546H84V62.546Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path d="M85 62.5526H84V63.5526H85V62.5526Z" fill="#030824" />
           <path
             d="M86 62.5592H85V63.5592H86V62.5592Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M87 62.5658H86V63.5658H87V62.5658Z" fill="#1D3255" />
           <path d="M88 62.5724H87V63.5724H88V62.5724Z" fill="#1D3255" />
@@ -3212,18 +3212,18 @@ const BoatSvg = () => {
           <path
             d="M125 62.8158H124V63.8158H125V62.8158Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M50 63.3224H49V64.3224H50V63.3224Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M51 63.329H50V64.329H51V63.329Z" fill="#030824" />
           <path
             d="M52 63.3355H51V64.3355H52V63.3355Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M53 63.3421H52V64.3421H53V63.3421Z" fill="#1D3255" />
           <path d="M54 63.3487H53V64.3487H54V63.3487Z" fill="#1D3255" />
@@ -3241,20 +3241,20 @@ const BoatSvg = () => {
           <path
             d="M67 63.4342H66V64.4342H67V63.4342Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M68 63.4408H67V64.4408H68V63.4408Z" fill="#1D3255" />
           <path d="M69 63.4474H68V64.4474H69V63.4474Z" fill="#030824" />
           <path
             d="M84 63.546H83V64.546H84V63.546Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path d="M85 63.5526H84V64.5526H85V63.5526Z" fill="#030824" />
           <path
             d="M86 63.5592H85V64.5592H86V63.5592Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M87 63.5658H86V64.5658H87V63.5658Z" fill="#1D3255" />
           <path d="M88 63.5724H87V64.5724H88V63.5724Z" fill="#1D3255" />
@@ -3295,24 +3295,24 @@ const BoatSvg = () => {
           <path
             d="M123 63.8026H122V64.8026H123V63.8026Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M124 63.8092H123V64.8092H124V63.8092Z" fill="#030824" />
           <path
             d="M125 63.8158H124V64.8158H125V63.8158Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M50 64.3224H49V65.3224H50V64.3224Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path d="M51 64.329H50V65.329H51V64.329Z" fill="#030824" />
           <path
             d="M52 64.3355H51V65.3355H52V64.3355Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M53 64.3421H52V65.3421H53V64.3421Z" fill="#1D3255" />
           <path d="M54 64.3487H53V65.3487H54V64.3487Z" fill="#1D3255" />
@@ -3327,27 +3327,27 @@ const BoatSvg = () => {
           <path
             d="M63 64.4079H62V65.4079H63V64.4079Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M64 64.4145H63V65.4145H64V64.4145Z" fill="#1D3255" />
           <path d="M65 64.421H64V65.421H65V64.421Z" fill="#1D3255" />
           <path
             d="M67 64.4342H66V65.4342H67V64.4342Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M68 64.4408H67V65.4408H68V64.4408Z" fill="#1D3255" />
           <path d="M69 64.4474H68V65.4474H69V64.4474Z" fill="#030824" />
           <path
             d="M84 64.546H83V65.546H84V64.546Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path d="M85 64.5526H84V65.5526H85V64.5526Z" fill="#030824" />
           <path
             d="M86 64.5592H85V65.5592H86V64.5592Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M87 64.5658H86V65.5658H87V64.5658Z" fill="#1D3255" />
           <path d="M88 64.5724H87V65.5724H88V64.5724Z" fill="#1D3255" />
@@ -3389,24 +3389,24 @@ const BoatSvg = () => {
           <path
             d="M124 64.8092H123V65.8092H124V64.8092Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M125 64.8158H124V65.8158H125V64.8158Z" fill="#030824" />
           <path
             d="M126 64.8224H125V65.8224H126V64.8224Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M49 65.3158H48V66.3158H49V65.3158Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M50 65.3224H49V66.3224H50V65.3224Z" fill="#030824" />
           <path
             d="M51 65.329H50V66.329H51V65.329Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M52 65.3355H51V66.3355H52V65.3355Z" fill="#1D3255" />
           <path d="M53 65.3421H52V66.3421H53V65.3421Z" fill="#1D3255" />
@@ -3425,25 +3425,25 @@ const BoatSvg = () => {
           <path
             d="M67 65.4342H66V66.4342H67V65.4342Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M68 65.4408H67V66.4408H68V65.4408Z" fill="#1D3255" />
           <path d="M69 65.4474H68V66.4474H69V65.4474Z" fill="#030824" />
           <path
             d="M70 65.454H69V66.454H70V65.454Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M84 65.546H83V66.546H84V65.546Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path d="M85 65.5526H84V66.5526H85V65.5526Z" fill="#030824" />
           <path
             d="M86 65.5592H85V66.5592H86V65.5592Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M87 65.5658H86V66.5658H87V65.5658Z" fill="#1D3255" />
           <path d="M88 65.5724H87V66.5724H88V65.5724Z" fill="#1D3255" />
@@ -3457,7 +3457,7 @@ const BoatSvg = () => {
           <path
             d="M96 65.625H95V66.625H96V65.625Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M97 65.6316H96V66.6316H97V65.6316Z" fill="#1D3255" />
           <path d="M98 65.6382H97V66.6382H98V65.6382Z" fill="#1D3255" />
@@ -3489,18 +3489,18 @@ const BoatSvg = () => {
           <path
             d="M124 65.8092H123V66.8092H124V65.8092Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M125 65.8158H124V66.8158H125V65.8158Z" fill="#030824" />
           <path
             d="M126 65.8224H125V66.8224H126V65.8224Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M49 66.3158H48V67.3158H49V66.3158Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path d="M50 66.3224H49V67.3224H50V66.3224Z" fill="#030824" />
           <path d="M51 66.329H50V67.329H51V66.329Z" fill="#1D3255" />
@@ -3518,36 +3518,36 @@ const BoatSvg = () => {
           <path
             d="M63 66.4079H62V67.4079H63V66.4079Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M64 66.4145H63V67.4145H64V66.4145Z" fill="#1D3255" />
           <path d="M65 66.421H64V67.421H65V66.421Z" fill="#030824" />
           <path
             d="M67 66.4342H66V67.4342H67V66.4342Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M68 66.4408H67V67.4408H68V66.4408Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M69 66.4474H68V67.4474H69V66.4474Z" fill="#030824" />
           <path
             d="M70 66.454H69V67.454H70V66.454Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M84 66.546H83V67.546H84V66.546Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path d="M85 66.5526H84V67.5526H85V66.5526Z" fill="#030824" />
           <path
             d="M86 66.5592H85V67.5592H86V66.5592Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M87 66.5658H86V67.5658H87V66.5658Z" fill="#1D3255" />
           <path d="M88 66.5724H87V67.5724H88V66.5724Z" fill="#1D3255" />
@@ -3590,24 +3590,24 @@ const BoatSvg = () => {
           <path
             d="M125 66.8158H124V67.8158H125V66.8158Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M126 66.8224H125V67.8224H126V66.8224Z" fill="#030824" />
           <path
             d="M127 66.829H126V67.829H127V66.829Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M48 67.3092H47V68.3092H48V67.3092Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path d="M49 67.3158H48V68.3158H49V67.3158Z" fill="#030824" />
           <path
             d="M50 67.3224H49V68.3224H50V67.3224Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M51 67.329H50V68.329H51V67.329Z" fill="#1D3255" />
           <path d="M52 67.3355H51V68.3355H52V67.3355Z" fill="#1D3255" />
@@ -3627,29 +3627,29 @@ const BoatSvg = () => {
           <path
             d="M67 67.4342H66V68.4342H67V67.4342Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M68 67.4408H67V68.4408H68V67.4408Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M69 67.4474H68V68.4474H69V67.4474Z" fill="#030824" />
           <path
             d="M70 67.454H69V68.454H70V67.454Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M84 67.546H83V68.546H84V67.546Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path d="M85 67.5526H84V68.5526H85V67.5526Z" fill="#030824" />
           <path
             d="M86 67.5592H85V68.5592H86V67.5592Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M87 67.5658H86V68.5658H87V67.5658Z" fill="#1D3255" />
           <path d="M88 67.5724H87V68.5724H88V67.5724Z" fill="#1D3255" />
@@ -3692,18 +3692,18 @@ const BoatSvg = () => {
           <path
             d="M125 67.8158H124V68.8158H125V67.8158Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M126 67.8224H125V68.8224H126V67.8224Z" fill="#030824" />
           <path
             d="M127 67.829H126V68.829H127V67.829Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M47 68.3026H46V69.3026H47V68.3026Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M48 68.3092H47V69.3092H48V68.3092Z" fill="#1D3255" />
           <path d="M49 68.3158H48V69.3158H49V68.3158Z" fill="#1D3255" />
@@ -3723,36 +3723,36 @@ const BoatSvg = () => {
           <path
             d="M63 68.4079H62V69.4079H63V68.4079Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M64 68.4145H63V69.4145H64V68.4145Z" fill="#1D3255" />
           <path d="M65 68.421H64V69.421H65V68.421Z" fill="#030824" />
           <path
             d="M67 68.4342H66V69.4342H67V68.4342Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M68 68.4408H67V69.4408H68V68.4408Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M69 68.4474H68V69.4474H69V68.4474Z" fill="#030824" />
           <path
             d="M70 68.454H69V69.454H70V68.454Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M84 68.546H83V69.546H84V68.546Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path d="M85 68.5526H84V69.5526H85V68.5526Z" fill="#030824" />
           <path
             d="M86 68.5592H85V69.5592H86V68.5592Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M87 68.5658H86V69.5658H87V68.5658Z" fill="#1D3255" />
           <path d="M88 68.5724H87V69.5724H88V68.5724Z" fill="#1D3255" />
@@ -3796,24 +3796,24 @@ const BoatSvg = () => {
           <path
             d="M126 68.8224H125V69.8224H126V68.8224Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M127 68.829H126V69.829H127V68.829Z" fill="#030824" />
           <path
             d="M128 68.8355H127V69.8355H128V68.8355Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M47 69.3026H46V70.3026H47V69.3026Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path d="M48 69.3092H47V70.3092H48V69.3092Z" fill="#030824" />
           <path
             d="M49 69.3158H48V70.3158H49V69.3158Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M50 69.3224H49V70.3224H50V69.3224Z" fill="#1D3255" />
           <path d="M51 69.329H50V70.329H51V69.329Z" fill="#1D3255" />
@@ -3834,29 +3834,29 @@ const BoatSvg = () => {
           <path
             d="M67 69.4342H66V70.4342H67V69.4342Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M68 69.4408H67V70.4408H68V69.4408Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M69 69.4474H68V70.4474H69V69.4474Z" fill="#030824" />
           <path
             d="M70 69.454H69V70.454H70V69.454Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M84 69.546H83V70.546H84V69.546Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path d="M85 69.5526H84V70.5526H85V69.5526Z" fill="#030824" />
           <path
             d="M86 69.5592H85V70.5592H86V69.5592Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M87 69.5658H86V70.5658H87V69.5658Z" fill="#1D3255" />
           <path d="M88 69.5724H87V70.5724H88V69.5724Z" fill="#1D3255" />
@@ -3900,24 +3900,24 @@ const BoatSvg = () => {
           <path
             d="M126 69.8224H125V70.8224H126V69.8224Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M127 69.829H126V70.829H127V69.829Z" fill="#030824" />
           <path
             d="M128 69.8355H127V70.8355H128V69.8355Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M46 70.296H45V71.296H46V70.296Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M47 70.3026H46V71.3026H47V70.3026Z" fill="#030824" />
           <path
             d="M48 70.3092H47V71.3092H48V70.3092Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M49 70.3158H48V71.3158H49V70.3158Z" fill="#1D3255" />
           <path d="M50 70.3224H49V71.3224H50V70.3224Z" fill="#1D3255" />
@@ -3936,30 +3936,30 @@ const BoatSvg = () => {
           <path
             d="M63 70.4079H62V71.4079H63V70.4079Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M64 70.4145H63V71.4145H64V70.4145Z" fill="#1D3255" />
           <path d="M65 70.421H64V71.421H65V70.421Z" fill="#030824" />
           <path
             d="M67 70.4342H66V71.4342H67V70.4342Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M68 70.4408H67V71.4408H68V70.4408Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M69 70.4474H68V71.4474H69V70.4474Z" fill="#030824" />
           <path
             d="M70 70.454H69V71.454H70V70.454Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M83 70.5395H82V71.5395H83V70.5395Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M84 70.546H83V71.546H84V70.546Z" fill="#1D3255" />
           <path d="M85 70.5526H84V71.5526H85V70.5526Z" fill="#1D3255" />
@@ -3974,7 +3974,7 @@ const BoatSvg = () => {
           <path
             d="M94 70.6118H93V71.6118H94V70.6118Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M95 70.6184H94V71.6184H95V70.6184Z" fill="#1D3255" />
           <path d="M96 70.625H95V71.625H96V70.625Z" fill="#1D3255" />
@@ -3998,7 +3998,7 @@ const BoatSvg = () => {
           <path
             d="M114 70.7434H113V71.7434H114V70.7434Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M115 70.75H114V71.75H115V70.75Z" fill="#1D3255" />
           <path d="M116 70.7566H115V71.7566H116V70.7566Z" fill="#1D3255" />
@@ -4015,18 +4015,18 @@ const BoatSvg = () => {
           <path
             d="M127 70.829H126V71.829H127V70.829Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M128 70.8355H127V71.8355H128V70.8355Z" fill="#030824" />
           <path
             d="M129 70.8421H128V71.8421H129V70.8421Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M46 71.296H45V72.296H46V71.296Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path d="M47 71.3026H46V72.3026H47V71.3026Z" fill="#030824" />
           <path d="M48 71.3092H47V72.3092H48V71.3092Z" fill="#1D3255" />
@@ -4050,30 +4050,30 @@ const BoatSvg = () => {
           <path
             d="M67 71.4342H66V72.4342H67V71.4342Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M68 71.4408H67V72.4408H68V71.4408Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M69 71.4474H68V72.4474H69V71.4474Z" fill="#030824" />
           <path
             d="M70 71.454H69V72.454H70V71.454Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M83 71.5395H82V72.5395H83V71.5395Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M84 71.546H83V72.546H84V71.546Z" fill="#030824" />
           <path d="M85 71.5526H84V72.5526H85V71.5526Z" fill="#1D3255" />
           <path
             d="M86 71.5592H85V72.5592H86V71.5592Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M87 71.5658H86V72.5658H87V71.5658Z" fill="#1D3255" />
           <path d="M88 71.5724H87V72.5724H88V71.5724Z" fill="#1D3255" />
@@ -4118,24 +4118,24 @@ const BoatSvg = () => {
           <path
             d="M127 71.829H126V72.829H127V71.829Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M128 71.8355H127V72.8355H128V71.8355Z" fill="#030824" />
           <path
             d="M129 71.8421H128V72.8421H129V71.8421Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M45 72.2895H44V73.2895H45V72.2895Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path d="M46 72.296H45V73.296H46V72.296Z" fill="#030824" />
           <path
             d="M47 72.3026H46V73.3026H47V72.3026Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M48 72.3092H47V73.3092H48V72.3092Z" fill="#1D3255" />
           <path d="M49 72.3158H48V73.3158H49V72.3158Z" fill="#1D3255" />
@@ -4155,36 +4155,36 @@ const BoatSvg = () => {
           <path
             d="M63 72.4079H62V73.4079H63V72.4079Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M64 72.4145H63V73.4145H64V72.4145Z" fill="#1D3255" />
           <path d="M65 72.421H64V73.421H65V72.421Z" fill="#030824" />
           <path
             d="M67 72.4342H66V73.4342H67V72.4342Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M68 72.4408H67V73.4408H68V72.4408Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M69 72.4474H68V73.4474H69V72.4474Z" fill="#030824" />
           <path
             d="M70 72.454H69V73.454H70V72.454Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M83 72.5395H82V73.5395H83V72.5395Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M84 72.546H83V73.546H84V72.546Z" fill="#030824" />
           <path
             d="M85 72.5526H84V73.5526H85V72.5526Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M86 72.5592H85V73.5592H86V72.5592Z" fill="#1D3255" />
           <path d="M87 72.5658H86V73.5658H87V72.5658Z" fill="#1D3255" />
@@ -4231,18 +4231,18 @@ const BoatSvg = () => {
           <path
             d="M128 72.8355H127V73.8355H128V72.8355Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M129 72.8421H128V73.8421H129V72.8421Z" fill="#030824" />
           <path
             d="M130 72.8487H129V73.8487H130V72.8487Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M44 73.2829H43V74.2829H44V73.2829Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M45 73.2895H44V74.2895H45V73.2895Z" fill="#030824" />
           <path d="M46 73.296H45V74.296H46V73.296Z" fill="#1D3255" />
@@ -4268,29 +4268,29 @@ const BoatSvg = () => {
           <path
             d="M67 73.4342H66V74.4342H67V73.4342Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M68 73.4408H67V74.4408H68V73.4408Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M69 73.4474H68V74.4474H69V73.4474Z" fill="#030824" />
           <path
             d="M70 73.454H69V74.454H70V73.454Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M83 73.5395H82V74.5395H83V73.5395Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path d="M84 73.546H83V74.546H84V73.546Z" fill="#030824" />
           <path
             d="M85 73.5526H84V74.5526H85V73.5526Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M86 73.5592H85V74.5592H86V73.5592Z" fill="#1D3255" />
           <path d="M87 73.5658H86V74.5658H87V73.5658Z" fill="#1D3255" />
@@ -4337,24 +4337,24 @@ const BoatSvg = () => {
           <path
             d="M128 73.8355H127V74.8355H128V73.8355Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M129 73.8421H128V74.8421H129V73.8421Z" fill="#030824" />
           <path
             d="M130 73.8487H129V74.8487H130V73.8487Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M44 74.2829H43V75.2829H44V74.2829Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path d="M45 74.2895H44V75.2895H45V74.2895Z" fill="#030824" />
           <path
             d="M46 74.296H45V75.296H46V74.296Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M47 74.3026H46V75.3026H47V74.3026Z" fill="#1D3255" />
           <path d="M48 74.3092H47V75.3092H48V74.3092Z" fill="#1D3255" />
@@ -4375,36 +4375,36 @@ const BoatSvg = () => {
           <path
             d="M63 74.4079H62V75.4079H63V74.4079Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M64 74.4145H63V75.4145H64V74.4145Z" fill="#1D3255" />
           <path d="M65 74.421H64V75.421H65V74.421Z" fill="#030824" />
           <path
             d="M67 74.4342H66V75.4342H67V74.4342Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M68 74.4408H67V75.4408H68V74.4408Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M69 74.4474H68V75.4474H69V74.4474Z" fill="#030824" />
           <path
             d="M70 74.454H69V75.454H70V74.454Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M83 74.5395H82V75.5395H83V74.5395Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path d="M84 74.546H83V75.546H84V74.546Z" fill="#030824" />
           <path
             d="M85 74.5526H84V75.5526H85V74.5526Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M86 74.5592H85V75.5592H86V74.5592Z" fill="#1D3255" />
           <path d="M87 74.5658H86V75.5658H87V74.5658Z" fill="#1D3255" />
@@ -4447,7 +4447,7 @@ const BoatSvg = () => {
           <path
             d="M124 74.8092H123V75.8092H124V74.8092Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M125 74.8158H124V75.8158H125V74.8158Z" fill="#1D3255" />
           <path d="M126 74.8224H125V75.8224H126V74.8224Z" fill="#1D3255" />
@@ -4457,18 +4457,18 @@ const BoatSvg = () => {
           <path
             d="M130 74.8487H129V75.8487H130V74.8487Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M43 75.2763H42V76.2763H43V75.2763Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path d="M44 75.2829H43V76.2829H44V75.2829Z" fill="#030824" />
           <path
             d="M45 75.2895H44V76.2895H45V75.2895Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M46 75.296H45V76.296H46V75.296Z" fill="#1D3255" />
           <path d="M47 75.3026H46V76.3026H47V75.3026Z" fill="#1D3255" />
@@ -4493,23 +4493,23 @@ const BoatSvg = () => {
           <path
             d="M67 75.4342H66V76.4342H67V75.4342Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M68 75.4408H67V76.4408H68V75.4408Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M69 75.4474H68V76.4474H69V75.4474Z" fill="#030824" />
           <path
             d="M70 75.454H69V76.454H70V75.454Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M82 75.5329H81V76.5329H82V75.5329Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M83 75.5395H82V76.5395H83V75.5395Z" fill="#1D3255" />
           <path d="M84 75.546H83V76.546H84V75.546Z" fill="#1D3255" />
@@ -4560,18 +4560,18 @@ const BoatSvg = () => {
           <path
             d="M129 75.8421H128V76.8421H129V75.8421Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M130 75.8487H129V76.8487H130V75.8487Z" fill="#030824" />
           <path
             d="M131 75.8553H130V76.8553H131V75.8553Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M42 76.2697H41V77.2697H42V76.2697Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M43 76.2763H42V77.2763H43V76.2763Z" fill="#030824" />
           <path d="M44 76.2829H43V77.2829H44V76.2829Z" fill="#030824" />
@@ -4596,36 +4596,36 @@ const BoatSvg = () => {
           <path
             d="M63 76.4079H62V77.4079H63V76.4079Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M64 76.4145H63V77.4145H64V76.4145Z" fill="#1D3255" />
           <path d="M65 76.421H64V77.421H65V76.421Z" fill="#030824" />
           <path
             d="M67 76.4342H66V77.4342H67V76.4342Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M68 76.4408H67V77.4408H68V76.4408Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M69 76.4474H68V77.4474H69V76.4474Z" fill="#030824" />
           <path
             d="M70 76.454H69V77.454H70V76.454Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M82 76.5329H81V77.5329H82V76.5329Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M83 76.5395H82V77.5395H83V76.5395Z" fill="#030824" />
           <path
             d="M84 76.546H83V77.546H84V76.546Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M85 76.5526H84V77.5526H85V76.5526Z" fill="#1D3255" />
           <path d="M86 76.5592H85V77.5592H86V76.5592Z" fill="#1D3255" />
@@ -4666,7 +4666,7 @@ const BoatSvg = () => {
           <path
             d="M121 76.7895H120V77.7895H121V76.7895Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M122 76.796H121V77.796H122V76.796Z" fill="#1D3255" />
           <path d="M123 76.8026H122V77.8026H123V76.8026Z" fill="#1D3255" />
@@ -4678,18 +4678,18 @@ const BoatSvg = () => {
           <path
             d="M129 76.8421H128V77.8421H129V76.8421Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M130 76.8487H129V77.8487H130V76.8487Z" fill="#030824" />
           <path
             d="M131 76.8553H130V77.8553H131V76.8553Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M42 77.2697H41V78.2697H42V77.2697Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path d="M43 77.2763H42V78.2763H43V77.2763Z" fill="#030824" />
           <path d="M44 77.2829H43V78.2829H44V77.2829Z" fill="#1D3255" />
@@ -4717,29 +4717,29 @@ const BoatSvg = () => {
           <path
             d="M67 77.4342H66V78.4342H67V77.4342Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M68 77.4408H67V78.4408H68V77.4408Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M69 77.4474H68V78.4474H69V77.4474Z" fill="#030824" />
           <path
             d="M70 77.454H69V78.454H70V77.454Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M82 77.5329H81V78.5329H82V77.5329Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path d="M83 77.5395H82V78.5395H83V77.5395Z" fill="#030824" />
           <path
             d="M84 77.546H83V78.546H84V77.546Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M85 77.5526H84V78.5526H85V77.5526Z" fill="#1D3255" />
           <path d="M86 77.5592H85V78.5592H86V77.5592Z" fill="#1D3255" />
@@ -4774,7 +4774,7 @@ const BoatSvg = () => {
           <path
             d="M115 77.75H114V78.75H115V77.75Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M116 77.7566H115V78.7566H116V77.7566Z" fill="#1D3255" />
           <path d="M117 77.7632H116V78.7632H117V77.7632Z" fill="#1D3255" />
@@ -4795,19 +4795,19 @@ const BoatSvg = () => {
           <path
             d="M132 77.8618H131V78.8618H132V77.8618Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M41 78.2632H40V79.2632H41V78.2632Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path d="M42 78.2697H41V79.2697H42V78.2697Z" fill="#030824" />
           <path d="M43 78.2763H42V79.2763H43V78.2763Z" fill="#1D3255" />
           <path
             d="M44 78.2829H43V79.2829H44V78.2829Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M45 78.2895H44V79.2895H45V78.2895Z" fill="#1D3255" />
           <path d="M46 78.296H45V79.296H46V78.296Z" fill="#1D3255" />
@@ -4830,36 +4830,36 @@ const BoatSvg = () => {
           <path
             d="M63 78.4079H62V79.4079H63V78.4079Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M64 78.4145H63V79.4145H64V78.4145Z" fill="#1D3255" />
           <path d="M65 78.421H64V79.421H65V78.421Z" fill="#030824" />
           <path
             d="M67 78.4342H66V79.4342H67V78.4342Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M68 78.4408H67V79.4408H68V78.4408Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M69 78.4474H68V79.4474H69V78.4474Z" fill="#030824" />
           <path
             d="M70 78.454H69V79.454H70V78.454Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M81 78.5263H80V79.5263H81V78.5263Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M82 78.5329H81V79.5329H82V78.5329Z" fill="#030824" />
           <path
             d="M83 78.5395H82V79.5395H83V78.5395Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M84 78.546H83V79.546H84V78.546Z" fill="#1D3255" />
           <path d="M85 78.5526H84V79.5526H85V78.5526Z" fill="#1D3255" />
@@ -4874,7 +4874,7 @@ const BoatSvg = () => {
           <path
             d="M94 78.6118H93V79.6118H94V78.6118Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M95 78.6184H94V79.6184H95V78.6184Z" fill="#1D3255" />
           <path d="M96 78.625H95V79.625H96V78.625Z" fill="#1D3255" />
@@ -4896,7 +4896,7 @@ const BoatSvg = () => {
           <path
             d="M112 78.7303H111V79.7303H112V78.7303Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M113 78.7368H112V79.7368H113V78.7368Z" fill="#1D3255" />
           <path d="M114 78.7434H113V79.7434H114V78.7434Z" fill="#1D3255" />
@@ -4918,18 +4918,18 @@ const BoatSvg = () => {
           <path
             d="M130 78.8487H129V79.8487H130V78.8487Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M131 78.8553H130V79.8553H131V78.8553Z" fill="#030824" />
           <path
             d="M132 78.8618H131V79.8618H132V78.8618Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M40 79.2566H39V80.2566H40V79.2566Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M41 79.2632H40V80.2632H41V79.2632Z" fill="#030824" />
           <path d="M42 79.2697H41V80.2697H42V79.2697Z" fill="#1D3255" />
@@ -4959,29 +4959,29 @@ const BoatSvg = () => {
           <path
             d="M67 79.4342H66V80.4342H67V79.4342Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M68 79.4408H67V80.4408H68V79.4408Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M69 79.4474H68V80.4474H69V79.4474Z" fill="#030824" />
           <path
             d="M70 79.454H69V80.454H70V79.454Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M81 79.5263H80V80.5263H81V79.5263Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M82 79.5329H81V80.5329H82V79.5329Z" fill="#030824" />
           <path
             d="M83 79.5395H82V80.5395H83V79.5395Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M84 79.546H83V80.546H84V79.546Z" fill="#1D3255" />
           <path d="M85 79.5526H84V80.5526H85V79.5526Z" fill="#1D3255" />
@@ -4990,7 +4990,7 @@ const BoatSvg = () => {
           <path
             d="M88 79.5724H87V80.5724H88V79.5724Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M89 79.579H88V80.579H89V79.579Z" fill="#1D3255" />
           <path d="M90 79.5855H89V80.5855H90V79.5855Z" fill="#1D3255" />
@@ -5036,23 +5036,23 @@ const BoatSvg = () => {
           <path
             d="M130 79.8487H129V80.8487H130V79.8487Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M131 79.8553H130V80.8553H131V79.8553Z" fill="#030824" />
           <path
             d="M132 79.8618H131V80.8618H132V79.8618Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M39 80.25H38V81.25H39V80.25Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M40 80.2566H39V81.2566H40V80.2566Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path d="M41 80.2632H40V81.2632H41V80.2632Z" fill="#030824" />
           <path d="M42 80.2697H41V81.2697H42V80.2697Z" fill="#1D3255" />
@@ -5071,7 +5071,7 @@ const BoatSvg = () => {
           <path
             d="M55 80.3553H54V81.3553H55V80.3553Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M56 80.3618H55V81.3618H56V80.3618Z" fill="#1D3255" />
           <path d="M57 80.3684H56V81.3684H57V80.3684Z" fill="#1D3255" />
@@ -5083,36 +5083,36 @@ const BoatSvg = () => {
           <path
             d="M63 80.4079H62V81.4079H63V80.4079Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M64 80.4145H63V81.4145H64V80.4145Z" fill="#1D3255" />
           <path d="M65 80.421H64V81.421H65V80.421Z" fill="#1D3255" />
           <path
             d="M67 80.4342H66V81.4342H67V80.4342Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M68 80.4408H67V81.4408H68V80.4408Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M69 80.4474H68V81.4474H69V80.4474Z" fill="#030824" />
           <path
             d="M70 80.454H69V81.454H70V80.454Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M81 80.5263H80V81.5263H81V80.5263Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path d="M82 80.5329H81V81.5329H82V80.5329Z" fill="#030824" />
           <path
             d="M83 80.5395H82V81.5395H83V80.5395Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M84 80.546H83V81.546H84V80.546Z" fill="#1D3255" />
           <path d="M85 80.5526H84V81.5526H85V80.5526Z" fill="#1D3255" />
@@ -5138,7 +5138,7 @@ const BoatSvg = () => {
           <path
             d="M105 80.6842H104V81.6842H105V80.6842Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M106 80.6908H105V81.6908H106V80.6908Z" fill="#1D3255" />
           <path d="M107 80.6974H106V81.6974H107V80.6974Z" fill="#1D3255" />
@@ -5169,12 +5169,12 @@ const BoatSvg = () => {
           <path
             d="M132 80.8618H131V81.8618H132V80.8618Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M39 81.25H38V82.25H39V81.25Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path d="M40 81.2566H39V82.2566H40V81.2566Z" fill="#030824" />
           <path d="M41 81.2632H40V82.2632H41V81.2632Z" fill="#1D3255" />
@@ -5205,29 +5205,29 @@ const BoatSvg = () => {
           <path
             d="M67 81.4342H66V82.4342H67V81.4342Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M68 81.4408H67V82.4408H68V81.4408Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M69 81.4474H68V82.4474H69V81.4474Z" fill="#030824" />
           <path
             d="M70 81.454H69V82.454H70V81.454Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M80 81.5197H79V82.5197H80V81.5197Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M81 81.5263H80V82.5263H81V81.5263Z" fill="#030824" />
           <path
             d="M82 81.5329H81V82.5329H82V81.5329Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M83 81.5395H82V82.5395H83V81.5395Z" fill="#1D3255" />
           <path d="M84 81.546H83V82.546H84V81.546Z" fill="#1D3255" />
@@ -5257,7 +5257,7 @@ const BoatSvg = () => {
           <path
             d="M108 81.704H107V82.704H108V81.704Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M109 81.7105H108V82.7105H109V81.7105Z" fill="#1D3255" />
           <path d="M110 81.7171H109V82.7171H110V81.7171Z" fill="#1D3255" />
@@ -5286,12 +5286,12 @@ const BoatSvg = () => {
           <path
             d="M133 81.8684H132V82.8684H133V81.8684Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M38 82.2434H37V83.2434H38V82.2434Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path d="M39 82.25H38V83.25H39V82.25Z" fill="#030824" />
           <path d="M40 82.2566H39V83.2566H40V82.2566Z" fill="#1D3255" />
@@ -5320,36 +5320,36 @@ const BoatSvg = () => {
           <path
             d="M63 82.4079H62V83.4079H63V82.4079Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M64 82.4145H63V83.4145H64V82.4145Z" fill="#1D3255" />
           <path d="M65 82.421H64V83.421H65V82.421Z" fill="#030824" />
           <path
             d="M67 82.4342H66V83.4342H67V82.4342Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M68 82.4408H67V83.4408H68V82.4408Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M69 82.4474H68V83.4474H69V82.4474Z" fill="#030824" />
           <path
             d="M70 82.454H69V83.454H70V82.454Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M80 82.5197H79V83.5197H80V82.5197Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path d="M81 82.5263H80V83.5263H81V82.5263Z" fill="#030824" />
           <path
             d="M82 82.5329H81V83.5329H82V82.5329Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M83 82.5395H82V83.5395H83V82.5395Z" fill="#1D3255" />
           <path d="M84 82.546H83V83.546H84V82.546Z" fill="#1D3255" />
@@ -5402,25 +5402,25 @@ const BoatSvg = () => {
           <path
             d="M131 82.8553H130V83.8553H131V82.8553Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M132 82.8618H131V83.8618H132V82.8618Z" fill="#030824" />
           <path
             d="M133 82.8684H132V83.8684H133V82.8684Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M37 83.2368H36V84.2368H37V83.2368Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M38 83.2434H37V84.2434H38V83.2434Z" fill="#030824" />
           <path d="M39 83.25H38V84.25H39V83.25Z" fill="#1D3255" />
           <path
             d="M40 83.2566H39V84.2566H40V83.2566Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M41 83.2632H40V84.2632H41V83.2632Z" fill="#1D3255" />
           <path d="M42 83.2697H41V84.2697H42V83.2697Z" fill="#1D3255" />
@@ -5450,29 +5450,29 @@ const BoatSvg = () => {
           <path
             d="M67 83.4342H66V84.4342H67V83.4342Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M68 83.4408H67V84.4408H68V83.4408Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M69 83.4474H68V84.4474H69V83.4474Z" fill="#030824" />
           <path
             d="M70 83.454H69V84.454H70V83.454Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M79 83.5132H78V84.5132H79V83.5132Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path d="M80 83.5197H79V84.5197H80V83.5197Z" fill="#030824" />
           <path
             d="M81 83.5263H80V84.5263H81V83.5263Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M82 83.5329H81V84.5329H82V83.5329Z" fill="#1D3255" />
           <path d="M83 83.5395H82V84.5395H83V83.5395Z" fill="#1D3255" />
@@ -5526,25 +5526,25 @@ const BoatSvg = () => {
           <path
             d="M131 83.8553H130V84.8553H131V83.8553Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M132 83.8618H131V84.8618H132V83.8618Z" fill="#030824" />
           <path
             d="M133 83.8684H132V84.8684H133V83.8684Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M36 84.2303H35V85.2303H36V84.2303Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M37 84.2368H36V85.2368H37V84.2368Z" fill="#1D3255" />
           <path d="M38 84.2434H37V85.2434H38V84.2434Z" fill="#030824" />
           <path
             d="M39 84.25H38V85.25H39V84.25Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M40 84.2566H39V85.2566H40V84.2566Z" fill="#1D3255" />
           <path d="M41 84.2632H40V85.2632H41V84.2632Z" fill="#1D3255" />
@@ -5572,30 +5572,30 @@ const BoatSvg = () => {
           <path
             d="M63 84.4079H62V85.4079H63V84.4079Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M64 84.4145H63V85.4145H64V84.4145Z" fill="#1D3255" />
           <path d="M65 84.421H64V85.421H65V84.421Z" fill="#030824" />
           <path
             d="M67 84.4342H66V85.4342H67V84.4342Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M68 84.4408H67V85.4408H68V84.4408Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M69 84.4474H68V85.4474H69V84.4474Z" fill="#030824" />
           <path
             d="M70 84.454H69V85.454H70V84.454Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M78 84.5066H77V85.5066H78V84.5066Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M79 84.5132H78V85.5132H79V84.5132Z" fill="#030824" />
           <path d="M80 84.5197H79V85.5197H80V84.5197Z" fill="#1D3255" />
@@ -5620,7 +5620,7 @@ const BoatSvg = () => {
           <path
             d="M99 84.6447H98V85.6447H99V84.6447Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M100 84.6513H99V85.6513H100V84.6513Z" fill="#1D3255" />
           <path d="M101 84.6579H100V85.6579H101V84.6579Z" fill="#1D3255" />
@@ -5645,7 +5645,7 @@ const BoatSvg = () => {
           <path
             d="M120 84.7829H119V85.7829H120V84.7829Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M121 84.7895H120V85.7895H121V84.7895Z" fill="#1D3255" />
           <path d="M122 84.796H121V85.796H122V84.796Z" fill="#1D3255" />
@@ -5662,23 +5662,23 @@ const BoatSvg = () => {
           <path
             d="M133 84.8684H132V85.8684H133V84.8684Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M35 85.2237H34V86.2237H35V85.2237Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M36 85.2303H35V86.2303H36V85.2303Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path d="M37 85.2368H36V86.2368H37V85.2368Z" fill="#030824" />
           <path
             d="M38 85.2434H37V86.2434H38V85.2434Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M39 85.25H38V86.25H39V85.25Z" fill="#1D3255" />
           <path d="M40 85.2566H39V86.2566H40V85.2566Z" fill="#1D3255" />
@@ -5710,29 +5710,29 @@ const BoatSvg = () => {
           <path
             d="M67 85.4342H66V86.4342H67V85.4342Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M68 85.4408H67V86.4408H68V85.4408Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M69 85.4474H68V86.4474H69V85.4474Z" fill="#030824" />
           <path
             d="M70 85.454H69V86.454H70V85.454Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M78 85.5066H77V86.5066H78V85.5066Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path d="M79 85.5132H78V86.5132H79V85.5132Z" fill="#030824" />
           <path
             d="M80 85.5197H79V86.5197H80V85.5197Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M81 85.5263H80V86.5263H81V85.5263Z" fill="#1D3255" />
           <path d="M82 85.5329H81V86.5329H82V85.5329Z" fill="#1D3255" />
@@ -5790,18 +5790,18 @@ const BoatSvg = () => {
           <path
             d="M134 85.875H133V86.875H134V85.875Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M35 86.2237H34V87.2237H35V86.2237Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path d="M36 86.2303H35V87.2303H36V86.2303Z" fill="#030824" />
           <path
             d="M37 86.2368H36V87.2368H37V86.2368Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M38 86.2434H37V87.2434H38V86.2434Z" fill="#1D3255" />
           <path d="M39 86.25H38V87.25H39V86.25Z" fill="#1D3255" />
@@ -5815,7 +5815,7 @@ const BoatSvg = () => {
           <path
             d="M47 86.3026H46V87.3026H47V86.3026Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M48 86.3092H47V87.3092H48V86.3092Z" fill="#1D3255" />
           <path d="M49 86.3158H48V87.3158H49V86.3158Z" fill="#1D3255" />
@@ -5835,36 +5835,36 @@ const BoatSvg = () => {
           <path
             d="M63 86.4079H62V87.4079H63V86.4079Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M64 86.4145H63V87.4145H64V86.4145Z" fill="#1D3255" />
           <path d="M65 86.421H64V87.421H65V86.421Z" fill="#030824" />
           <path
             d="M67 86.4342H66V87.4342H67V86.4342Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M68 86.4408H67V87.4408H68V86.4408Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M69 86.4474H68V87.4474H69V86.4474Z" fill="#030824" />
           <path
             d="M70 86.454H69V87.454H70V86.454Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M77 86.5H76V87.5H77V86.5Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M78 86.5066H77V87.5066H78V86.5066Z" fill="#030824" />
           <path
             d="M79 86.5132H78V87.5132H79V86.5132Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M80 86.5197H79V87.5197H80V86.5197Z" fill="#1D3255" />
           <path d="M81 86.5263H80V87.5263H81V86.5263Z" fill="#1D3255" />
@@ -5900,7 +5900,7 @@ const BoatSvg = () => {
           <path
             d="M111 86.7237H110V87.7237H111V86.7237Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M112 86.7303H111V87.7303H112V86.7303Z" fill="#1D3255" />
           <path d="M113 86.7368H112V87.7368H113V86.7368Z" fill="#1D3255" />
@@ -5908,7 +5908,7 @@ const BoatSvg = () => {
           <path
             d="M115 86.75H114V87.75H115V86.75Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M116 86.7566H115V87.7566H116V86.7566Z" fill="#1D3255" />
           <path d="M117 86.7632H116V87.7632H117V86.7632Z" fill="#1D3255" />
@@ -5929,24 +5929,24 @@ const BoatSvg = () => {
           <path
             d="M132 86.8618H131V87.8618H132V86.8618Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M133 86.8684H132V87.8684H133V86.8684Z" fill="#030824" />
           <path
             d="M134 86.875H133V87.875H134V86.875Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M34 87.2171H33V88.2171H34V87.2171Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path d="M35 87.2237H34V88.2237H35V87.2237Z" fill="#030824" />
           <path
             d="M36 87.2303H35V88.2303H36V87.2303Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M37 87.2368H36V88.2368H37V87.2368Z" fill="#1D3255" />
           <path d="M38 87.2434H37V88.2434H38V87.2434Z" fill="#1D3255" />
@@ -5980,19 +5980,19 @@ const BoatSvg = () => {
           <path
             d="M67 87.4342H66V88.4342H67V87.4342Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M68 87.4408H67V88.4408H68V87.4408Z" fill="#1D3255" />
           <path d="M69 87.4474H68V88.4474H69V87.4474Z" fill="#030824" />
           <path
             d="M70 87.454H69V88.454H70V87.454Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M76 87.4934H75V88.4934H76V87.4934Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M77 87.5H76V88.5H77V87.5Z" fill="#030824" />
           <path d="M78 87.5066H77V88.5066H78V87.5066Z" fill="#1D3255" />
@@ -6054,18 +6054,18 @@ const BoatSvg = () => {
           <path
             d="M134 87.875H133V88.875H134V87.875Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M33 88.2105H32V89.2105H33V88.2105Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path d="M34 88.2171H33V89.2171H34V88.2171Z" fill="#030824" />
           <path
             d="M35 88.2237H34V89.2237H35V88.2237Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M36 88.2303H35V89.2303H36V88.2303Z" fill="#1D3255" />
           <path d="M37 88.2368H36V89.2368H37V88.2368Z" fill="#1D3255" />
@@ -6090,7 +6090,7 @@ const BoatSvg = () => {
           <path
             d="M56 88.3618H55V89.3618H56V88.3618Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M57 88.3684H56V89.3684H57V88.3684Z" fill="#1D3255" />
           <path d="M58 88.375H57V89.375H58V88.375Z" fill="#1D3255" />
@@ -6101,36 +6101,36 @@ const BoatSvg = () => {
           <path
             d="M63 88.4079H62V89.4079H63V88.4079Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M64 88.4145H63V89.4145H64V88.4145Z" fill="#1D3255" />
           <path d="M65 88.421H64V89.421H65V88.421Z" fill="#030824" />
           <path
             d="M67 88.4342H66V89.4342H67V88.4342Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M68 88.4408H67V89.4408H68V88.4408Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M69 88.4474H68V89.4474H69V88.4474Z" fill="#030824" />
           <path
             d="M70 88.454H69V89.454H70V88.454Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M76 88.4934H75V89.4934H76V88.4934Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path d="M77 88.5H76V89.5H77V88.5Z" fill="#030824" />
           <path
             d="M78 88.5066H77V89.5066H78V88.5066Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M79 88.5132H78V89.5132H79V88.5132Z" fill="#1D3255" />
           <path d="M80 88.5197H79V89.5197H80V88.5197Z" fill="#1D3255" />
@@ -6153,7 +6153,7 @@ const BoatSvg = () => {
           <path
             d="M97 88.6316H96V89.6316H97V88.6316Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M98 88.6382H97V89.6382H98V88.6382Z" fill="#1D3255" />
           <path d="M99 88.6447H98V89.6447H99V88.6447Z" fill="#1D3255" />
@@ -6166,7 +6166,7 @@ const BoatSvg = () => {
           <path
             d="M106 88.6908H105V89.6908H106V88.6908Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M107 88.6974H106V89.6974H107V88.6974Z" fill="#1D3255" />
           <path d="M108 88.704H107V89.704H108V88.704Z" fill="#1D3255" />
@@ -6188,7 +6188,7 @@ const BoatSvg = () => {
           <path
             d="M124 88.8092H123V89.8092H124V88.8092Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M125 88.8158H124V89.8158H125V88.8158Z" fill="#1D3255" />
           <path d="M126 88.8224H125V89.8224H126V88.8224Z" fill="#1D3255" />
@@ -6202,18 +6202,18 @@ const BoatSvg = () => {
           <path
             d="M134 88.875H133V89.875H134V88.875Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M32 89.204H31V90.204H32V89.204Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path d="M33 89.2105H32V90.2105H33V89.2105Z" fill="#030824" />
           <path
             d="M34 89.2171H33V90.2171H34V89.2171Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M35 89.2237H34V90.2237H35V89.2237Z" fill="#1D3255" />
           <path d="M36 89.2303H35V90.2303H36V89.2303Z" fill="#1D3255" />
@@ -6249,31 +6249,31 @@ const BoatSvg = () => {
           <path
             d="M67 89.4342H66V90.4342H67V89.4342Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M68 89.4408H67V90.4408H68V89.4408Z" fill="#1D3255" />
           <path d="M69 89.4474H68V90.4474H69V89.4474Z" fill="#030824" />
           <path
             d="M70 89.454H69V90.454H70V89.454Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M75 89.4868H74V90.4868H75V89.4868Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path d="M76 89.4934H75V90.4934H76V89.4934Z" fill="#030824" />
           <path
             d="M77 89.5H76V90.5H77V89.5Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M78 89.5066H77V90.5066H78V89.5066Z" fill="#1D3255" />
           <path
             d="M79 89.5132H78V90.5132H79V89.5132Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M80 89.5197H79V90.5197H80V89.5197Z" fill="#1D3255" />
           <path d="M81 89.5263H80V90.5263H81V89.5263Z" fill="#1D3255" />
@@ -6307,7 +6307,7 @@ const BoatSvg = () => {
           <path
             d="M109 89.7105H108V90.7105H109V89.7105Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M110 89.7171H109V90.7171H110V89.7171Z" fill="#1D3255" />
           <path d="M111 89.7237H110V90.7237H111V89.7237Z" fill="#1D3255" />
@@ -6318,14 +6318,14 @@ const BoatSvg = () => {
           <path
             d="M116 89.7566H115V90.7566H116V89.7566Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M117 89.7632H116V90.7632H117V89.7632Z" fill="#1D3255" />
           <path d="M118 89.7697H117V90.7697H118V89.7697Z" fill="#1D3255" />
           <path
             d="M119 89.7763H118V90.7763H119V89.7763Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M120 89.7829H119V90.7829H120V89.7829Z" fill="#1D3255" />
           <path d="M121 89.7895H120V90.7895H121V89.7895Z" fill="#1D3255" />
@@ -6344,18 +6344,18 @@ const BoatSvg = () => {
           <path
             d="M134 89.875H133V90.875H134V89.875Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M31 90.1974H30V91.1974H31V90.1974Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path d="M32 90.204H31V91.204H32V90.204Z" fill="#030824" />
           <path
             d="M33 90.2105H32V91.2105H33V90.2105Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M34 90.2171H33V91.2171H34V90.2171Z" fill="#1D3255" />
           <path d="M35 90.2237H34V91.2237H35V90.2237Z" fill="#1D3255" />
@@ -6389,36 +6389,36 @@ const BoatSvg = () => {
           <path
             d="M63 90.4079H62V91.4079H63V90.4079Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M64 90.4145H63V91.4145H64V90.4145Z" fill="#1D3255" />
           <path d="M65 90.421H64V91.421H65V90.421Z" fill="#1D3255" />
           <path
             d="M67 90.4342H66V91.4342H67V90.4342Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M68 90.4408H67V91.4408H68V90.4408Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M69 90.4474H68V91.4474H69V90.4474Z" fill="#030824" />
           <path
             d="M70 90.454H69V91.454H70V90.454Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M74 90.4803H73V91.4803H74V90.4803Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path d="M75 90.4868H74V91.4868H75V90.4868Z" fill="#030824" />
           <path
             d="M76 90.4934H75V91.4934H76V90.4934Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M77 90.5H76V91.5H77V90.5Z" fill="#1D3255" />
           <path d="M78 90.5066H77V91.5066H78V90.5066Z" fill="#1D3255" />
@@ -6468,7 +6468,7 @@ const BoatSvg = () => {
           <path
             d="M122 90.796H121V91.796H122V90.796Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M123 90.8026H122V91.8026H123V90.8026Z" fill="#1D3255" />
           <path d="M124 90.8092H123V91.8092H124V90.8092Z" fill="#1D3255" />
@@ -6485,28 +6485,28 @@ const BoatSvg = () => {
           <path
             d="M135 90.8816H134V91.8816H135V90.8816Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M29 91.1842H28V92.1842H29V91.1842Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M30 91.1908H29V92.1908H30V91.1908Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path d="M31 91.1974H30V92.1974H31V91.1974Z" fill="#030824" />
           <path
             d="M32 91.204H31V92.204H32V91.204Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M33 91.2105H32V92.2105H33V91.2105Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M34 91.2171H33V92.2171H34V91.2171Z" fill="#1D3255" />
           <path d="M35 91.2237H34V92.2237H35V91.2237Z" fill="#1D3255" />
@@ -6543,25 +6543,25 @@ const BoatSvg = () => {
           <path
             d="M67 91.4342H66V92.4342H67V91.4342Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M68 91.4408H67V92.4408H68V91.4408Z" fill="#1D3255" />
           <path d="M69 91.4474H68V92.4474H69V91.4474Z" fill="#030824" />
           <path
             d="M70 91.454H69V92.454H70V91.454Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M73 91.4737H72V92.4737H73V91.4737Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M74 91.4803H73V92.4803H74V91.4803Z" fill="#030824" />
           <path
             d="M75 91.4868H74V92.4868H75V91.4868Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M76 91.4934H75V92.4934H76V91.4934Z" fill="#1D3255" />
           <path d="M77 91.5H76V92.5H77V91.5Z" fill="#1D3255" />
@@ -6623,29 +6623,29 @@ const BoatSvg = () => {
           <path
             d="M133 91.8684H132V92.8684H133V91.8684Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M134 91.875H133V92.875H134V91.875Z" fill="#030824" />
           <path
             d="M135 91.8816H134V92.8816H135V91.8816Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M28 92.1776H27V93.1776H28V92.1776Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M29 92.1842H28V93.1842H29V92.1842Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path d="M30 92.1908H29V93.1908H30V92.1908Z" fill="#030824" />
           <path
             d="M31 92.1974H30V93.1974H31V92.1974Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M32 92.204H31V93.204H32V92.204Z" fill="#1D3255" />
           <path d="M33 92.2105H32V93.2105H33V92.2105Z" fill="#1D3255" />
@@ -6681,32 +6681,32 @@ const BoatSvg = () => {
           <path
             d="M63 92.4079H62V93.4079H63V92.4079Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M64 92.4145H63V93.4145H64V92.4145Z" fill="#1D3255" />
           <path d="M65 92.421H64V93.421H65V92.421Z" fill="#1D3255" />
           <path
             d="M67 92.4342H66V93.4342H67V92.4342Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M68 92.4408H67V93.4408H68V92.4408Z" fill="#1D3255" />
           <path d="M69 92.4474H68V93.4474H69V92.4474Z" fill="#030824" />
           <path
             d="M70 92.454H69V93.454H70V92.454Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M72 92.4671H71V93.4671H72V92.4671Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M73 92.4737H72V93.4737H73V92.4737Z" fill="#030824" />
           <path
             d="M74 92.4803H73V93.4803H74V92.4803Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M75 92.4868H74V93.4868H75V92.4868Z" fill="#1D3255" />
           <path d="M76 92.4934H75V93.4934H76V92.4934Z" fill="#1D3255" />
@@ -6741,7 +6741,7 @@ const BoatSvg = () => {
           <path
             d="M105 92.6842H104V93.6842H105V92.6842Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M106 92.6908H105V93.6908H106V92.6908Z" fill="#1D3255" />
           <path d="M107 92.6974H106V93.6974H107V92.6974Z" fill="#1D3255" />
@@ -6775,30 +6775,30 @@ const BoatSvg = () => {
           <path
             d="M135 92.8816H134V93.8816H135V92.8816Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M27 93.171H26V94.171H27V93.171Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M28 93.1776H27V94.1776H28V93.1776Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M29 93.1842H28V94.1842H29V93.1842Z" fill="#030824" />
           <path
             d="M30 93.1908H29V94.1908H30V93.1908Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M31 93.1974H30V94.1974H31V93.1974Z" fill="#1D3255" />
           <path d="M32 93.204H31V94.204H32V93.204Z" fill="#1D3255" />
           <path
             d="M33 93.2105H32V94.2105H33V93.2105Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M34 93.2171H33V94.2171H34V93.2171Z" fill="#1D3255" />
           <path d="M35 93.2237H34V94.2237H35V93.2237Z" fill="#1D3255" />
@@ -6809,7 +6809,7 @@ const BoatSvg = () => {
           <path
             d="M40 93.2566H39V94.2566H40V93.2566Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M41 93.2632H40V94.2632H41V93.2632Z" fill="#1D3255" />
           <path d="M42 93.2697H41V94.2697H42V93.2697Z" fill="#1D3255" />
@@ -6827,7 +6827,7 @@ const BoatSvg = () => {
           <path
             d="M54 93.3487H53V94.3487H54V93.3487Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M55 93.3553H54V94.3553H55V93.3553Z" fill="#1D3255" />
           <path d="M56 93.3618H55V94.3618H56V93.3618Z" fill="#1D3255" />
@@ -6843,19 +6843,19 @@ const BoatSvg = () => {
           <path
             d="M67 93.4342H66V94.4342H67V93.4342Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M68 93.4408H67V94.4408H68V93.4408Z" fill="#1D3255" />
           <path d="M69 93.4474H68V94.4474H69V93.4474Z" fill="#030824" />
           <path
             d="M70 93.454H69V94.454H70V93.454Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M71 93.4605H70V94.4605H71V93.4605Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path d="M72 93.4671H71V94.4671H72V93.4671Z" fill="#1D3255" />
           <path d="M73 93.4737H72V94.4737H73V93.4737Z" fill="#1D3255" />
@@ -6898,82 +6898,82 @@ const BoatSvg = () => {
           <path
             d="M110 93.7171H109V94.7171H110V93.7171Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M111 93.7237H110V94.7237H111V93.7237Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M112 93.7303H111V94.7303H112V93.7303Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M113 93.7368H112V94.7368H113V93.7368Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M114 93.7434H113V94.7434H114V93.7434Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M115 93.75H114V94.75H115V93.75Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M116 93.7566H115V94.7566H116V93.7566Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M117 93.7632H116V94.7632H117V93.7632Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M118 93.7697H117V94.7697H118V93.7697Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M119 93.7763H118V94.7763H119V93.7763Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M120 93.7829H119V94.7829H120V93.7829Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M121 93.7895H120V94.7895H121V93.7895Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M122 93.796H121V94.796H122V93.796Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M123 93.8026H122V94.8026H123V93.8026Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M124 93.8092H123V94.8092H124V93.8092Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M125 93.8158H124V94.8158H125V93.8158Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M126 93.8224H125V94.8224H126V93.8224Z" fill="#1D3255" />
           <path d="M127 93.829H126V94.829H127V93.829Z" fill="#1D3255" />
@@ -6987,24 +6987,24 @@ const BoatSvg = () => {
           <path
             d="M135 93.8816H134V94.8816H135V93.8816Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M25 94.1579H24V95.1579H25V94.1579Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M26 94.1645H25V95.1645H26V94.1645Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path d="M27 94.171H26V95.171H27V94.171Z" fill="#030824" />
           <path d="M28 94.1776H27V95.1776H28V94.1776Z" fill="#030824" />
           <path
             d="M29 94.1842H28V95.1842H29V94.1842Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M30 94.1908H29V95.1908H30V94.1908Z" fill="#1D3255" />
           <path d="M31 94.1974H30V95.1974H31V94.1974Z" fill="#1D3255" />
@@ -7042,25 +7042,25 @@ const BoatSvg = () => {
           <path
             d="M63 94.4079H62V95.4079H63V94.4079Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M64 94.4145H63V95.4145H64V94.4145Z" fill="#1D3255" />
           <path
             d="M65 94.421H64V95.421H65V94.421Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M67 94.4342H66V95.4342H67V94.4342Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M68 94.4408H67V95.4408H68V94.4408Z" fill="#1D3255" />
           <path d="M69 94.4474H68V95.4474H69V94.4474Z" fill="#030824" />
           <path
             d="M70 94.454H69V95.454H70V94.454Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M71 94.4605H70V95.4605H71V94.4605Z" fill="#030824" />
           <path d="M72 94.4671H71V95.4671H72V94.4671Z" fill="#1D3255" />
@@ -7101,17 +7101,17 @@ const BoatSvg = () => {
           <path
             d="M107 94.6974H106V95.6974H107V94.6974Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M108 94.704H107V95.704H108V94.704Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M109 94.7105H108V95.7105H109V94.7105Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M110 94.7171H109V95.7171H110V94.7171Z" fill="#1D3255" />
           <path d="M111 94.7237H110V95.7237H111V94.7237Z" fill="#030824" />
@@ -7132,17 +7132,17 @@ const BoatSvg = () => {
           <path
             d="M126 94.8224H125V95.8224H126V94.8224Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M127 94.829H126V95.829H127V94.829Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M128 94.8355H127V95.8355H128V94.8355Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M129 94.8421H128V95.8421H129V94.8421Z" fill="#1D3255" />
           <path d="M130 94.8487H129V95.8487H130V94.8487Z" fill="#1D3255" />
@@ -7153,33 +7153,33 @@ const BoatSvg = () => {
           <path
             d="M135 94.8816H134V95.8816H135V94.8816Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M23 95.1447H22V96.1447H23V95.1447Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M24 95.1513H23V96.1513H24V95.1513Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M25 95.1579H24V96.1579H25V95.1579Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path d="M26 95.1645H25V96.1645H26V95.1645Z" fill="#030824" />
           <path
             d="M27 95.171H26V96.171H27V95.171Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M28 95.1776H27V96.1776H28V95.1776Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M29 95.1842H28V96.1842H29V95.1842Z" fill="#1D3255" />
           <path d="M30 95.1908H29V96.1908H30V95.1908Z" fill="#1D3255" />
@@ -7215,41 +7215,41 @@ const BoatSvg = () => {
           <path
             d="M60 95.3882H59V96.3882H60V95.3882Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M61 95.3947H60V96.3947H61V95.3947Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M62 95.4013H61V96.4013H62V95.4013Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M63 95.4079H62V96.4079H63V95.4079Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M64 95.4145H63V96.4145H64V95.4145Z" fill="#030824" />
           <path d="M65 95.421H64V96.421H65V95.421Z" fill="#030824" />
           <path
             d="M67 95.4342H66V96.4342H67V95.4342Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M68 95.4408H67V96.4408H68V95.4408Z" fill="#1D3255" />
           <path d="M69 95.4474H68V96.4474H69V95.4474Z" fill="#030824" />
           <path
             d="M70 95.454H69V96.454H70V95.454Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M71 95.4605H70V96.4605H71V95.4605Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M72 95.4671H71V96.4671H72V95.4671Z" fill="#1D3255" />
           <path d="M73 95.4737H72V96.4737H73V95.4737Z" fill="#1D3255" />
@@ -7285,17 +7285,17 @@ const BoatSvg = () => {
           <path
             d="M103 95.671H102V96.671H103V95.671Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M104 95.6776H103V96.6776H104V95.6776Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M105 95.6842H104V96.6842H105V95.6842Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M106 95.6908H105V96.6908H106V95.6908Z" fill="#1D3255" />
           <path d="M107 95.6974H106V96.6974H107V95.6974Z" fill="#030824" />
@@ -7305,67 +7305,67 @@ const BoatSvg = () => {
           <path
             d="M111 95.7237H110V96.7237H111V95.7237Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M112 95.7303H111V96.7303H112V95.7303Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M113 95.7368H112V96.7368H113V95.7368Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M114 95.7434H113V96.7434H114V95.7434Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M115 95.75H114V96.75H115V95.75Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M116 95.7566H115V96.7566H116V95.7566Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M117 95.7632H116V96.7632H117V95.7632Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M118 95.7697H117V96.7697H118V95.7697Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M119 95.7763H118V96.7763H119V95.7763Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M120 95.7829H119V96.7829H120V95.7829Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M121 95.7895H120V96.7895H121V95.7895Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M122 95.796H121V96.796H122V95.796Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M123 95.8026H122V96.8026H123V95.8026Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path d="M124 95.8092H123V96.8092H124V95.8092Z" fill="#1D3255" />
           <path d="M125 95.8158H124V96.8158H125V95.8158Z" fill="#030824" />
@@ -7375,17 +7375,17 @@ const BoatSvg = () => {
           <path
             d="M129 95.8421H128V96.8421H129V95.8421Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M130 95.8487H129V96.8487H130V95.8487Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M131 95.8553H130V96.8553H131V95.8553Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M132 95.8618H131V96.8618H132V95.8618Z" fill="#1D3255" />
           <path d="M133 95.8684H132V96.8684H133V95.8684Z" fill="#1D3255" />
@@ -7393,34 +7393,34 @@ const BoatSvg = () => {
           <path
             d="M135 95.8816H134V96.8816H135V95.8816Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M21 96.1316H20V97.1316H21V96.1316Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M22 96.1382H21V97.1382H22V96.1382Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M23 96.1447H22V97.1447H23V96.1447Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path d="M24 96.1513H23V97.1513H24V96.1513Z" fill="#030824" />
           <path d="M25 96.1579H24V97.1579H25V96.1579Z" fill="#030824" />
           <path
             d="M26 96.1645H25V97.1645H26V96.1645Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M27 96.171H26V97.171H27V96.171Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M28 96.1776H27V97.1776H28V96.1776Z" fill="#1D3255" />
           <path d="M29 96.1842H28V97.1842H29V96.1842Z" fill="#1D3255" />
@@ -7451,27 +7451,27 @@ const BoatSvg = () => {
           <path
             d="M54 96.3487H53V97.3487H54V96.3487Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M55 96.3553H54V97.3553H55V96.3553Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M56 96.3618H55V97.3618H56V96.3618Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M57 96.3684H56V97.3684H57V96.3684Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M58 96.375H57V97.375H58V96.375Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M59 96.3816H58V97.3816H59V96.3816Z" fill="#1D3255" />
           <path d="M60 96.3882H59V97.3882H60V96.3882Z" fill="#030824" />
@@ -7482,12 +7482,12 @@ const BoatSvg = () => {
           <path
             d="M65 96.421H64V97.421H65V96.421Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M67 96.4342H66V97.4342H67V96.4342Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M68 96.4408H67V97.4408H68V96.4408Z" fill="#1D3255" />
           <path d="M69 96.4474H68V97.4474H69V96.4474Z" fill="#030824" />
@@ -7512,7 +7512,7 @@ const BoatSvg = () => {
           <path
             d="M88 96.5724H87V97.5724H88V96.5724Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M89 96.579H88V97.579H89V96.579Z" fill="#1D3255" />
           <path d="M90 96.5855H89V97.5855H90V96.5855Z" fill="#1D3255" />
@@ -7527,22 +7527,22 @@ const BoatSvg = () => {
           <path
             d="M99 96.6447H98V97.6447H99V96.6447Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M100 96.6513H99V97.6513H100V96.6513Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M101 96.6579H100V97.6579H101V96.6579Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M102 96.6645H101V97.6645H102V96.6645Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M103 96.671H102V97.671H103V96.671Z" fill="#1D3255" />
           <path d="M104 96.6776H103V97.6776H104V96.6776Z" fill="#030824" />
@@ -7551,52 +7551,52 @@ const BoatSvg = () => {
           <path
             d="M107 96.6974H106V97.6974H107V96.6974Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M108 96.704H107V97.704H108V96.704Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M109 96.7105H108V97.7105H109V96.7105Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M110 96.7171H109V97.7171H110V96.7171Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M111 96.7237H110V97.7237H111V96.7237Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M124 96.8092H123V97.8092H124V96.8092Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M125 96.8158H124V97.8158H125V96.8158Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M126 96.8224H125V97.8224H126V96.8224Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M127 96.829H126V97.829H127V96.829Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M128 96.8355H127V97.8355H128V96.8355Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path d="M129 96.8421H128V97.8421H129V96.8421Z" fill="#030824" />
           <path d="M130 96.8487H129V97.8487H130V96.8487Z" fill="#030824" />
@@ -7604,40 +7604,40 @@ const BoatSvg = () => {
           <path
             d="M132 96.8618H131V97.8618H132V96.8618Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M133 96.8684H132V97.8684H133V96.8684Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M134 96.875H133V97.875H134V96.875Z" fill="#030824" />
           <path
             d="M135 96.8816H134V97.8816H135V96.8816Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M21 97.1316H20V98.1316H21V97.1316Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M22 97.1382H21V98.1382H22V97.1382Z" fill="#030824" />
           <path d="M23 97.1447H22V98.1447H23V97.1447Z" fill="#030824" />
           <path
             d="M24 97.1513H23V98.1513H24V97.1513Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M25 97.1579H24V98.1579H25V97.1579Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M26 97.1645H25V98.1645H26V97.1645Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M27 97.171H26V98.171H27V97.171Z" fill="#1D3255" />
           <path d="M28 97.1776H27V98.1776H28V97.1776Z" fill="#1D3255" />
@@ -7661,38 +7661,38 @@ const BoatSvg = () => {
           <path
             d="M46 97.296H45V98.296H46V97.296Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M47 97.3026H46V98.3026H47V97.3026Z" fill="#1D3255" />
           <path
             d="M48 97.3092H47V98.3092H48V97.3092Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M49 97.3158H48V98.3158H49V97.3158Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M50 97.3224H49V98.3224H50V97.3224Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M51 97.329H50V98.329H51V97.329Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M52 97.3355H51V98.3355H52V97.3355Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M53 97.3421H52V98.3421H53V97.3421Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M54 97.3487H53V98.3487H54V97.3487Z" fill="#1D3255" />
           <path d="M55 97.3553H54V98.3553H55V97.3553Z" fill="#030824" />
@@ -7703,46 +7703,46 @@ const BoatSvg = () => {
           <path
             d="M60 97.3882H59V98.3882H60V97.3882Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M61 97.3947H60V98.3947H61V97.3947Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M62 97.4013H61V98.4013H62V97.4013Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M63 97.4079H62V98.4079H63V97.4079Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M64 97.4145H63V98.4145H64V97.4145Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M67 97.4342H66V98.4342H67V97.4342Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M68 97.4408H67V98.4408H68V97.4408Z" fill="#1D3255" />
           <path d="M69 97.4474H68V98.4474H69V97.4474Z" fill="#030824" />
           <path
             d="M70 97.454H69V98.454H70V97.454Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M71 97.4605H70V98.4605H71V97.4605Z" fill="#1D3255" />
           <path d="M72 97.4671H71V98.4671H72V97.4671Z" fill="#1D3255" />
           <path
             d="M73 97.4737H72V98.4737H73V97.4737Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M74 97.4803H73V98.4803H74V97.4803Z" fill="#1D3255" />
           <path d="M75 97.4868H74V98.4868H75V97.4868Z" fill="#1D3255" />
@@ -7754,7 +7754,7 @@ const BoatSvg = () => {
           <path
             d="M81 97.5263H80V98.5263H81V97.5263Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M82 97.5329H81V98.5329H82V97.5329Z" fill="#1D3255" />
           <path d="M83 97.5395H82V98.5395H83V97.5395Z" fill="#1D3255" />
@@ -7771,27 +7771,27 @@ const BoatSvg = () => {
           <path
             d="M94 97.6118H93V98.6118H94V97.6118Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M95 97.6184H94V98.6184H95V97.6184Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M96 97.625H95V98.625H96V97.625Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M97 97.6316H96V98.6316H97V97.6316Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M98 97.6382H97V98.6382H98V97.6382Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M99 97.6447H98V98.6447H99V97.6447Z" fill="#030824" />
           <path d="M100 97.6513H99V98.6513H100V97.6513Z" fill="#030824" />
@@ -7801,37 +7801,37 @@ const BoatSvg = () => {
           <path
             d="M104 97.6776H103V98.6776H104V97.6776Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M105 97.6842H104V98.6842H105V97.6842Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M106 97.6908H105V98.6908H106V97.6908Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M128 97.8355H127V98.8355H128V97.8355Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M129 97.8421H128V98.8421H129V97.8421Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M130 97.8487H129V98.8487H130V97.8487Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M131 97.8553H130V98.8553H131V97.8553Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M132 97.8618H131V98.8618H132V97.8618Z" fill="#030824" />
           <path d="M133 97.8684H132V98.8684H133V97.8684Z" fill="#030824" />
@@ -7839,17 +7839,17 @@ const BoatSvg = () => {
           <path
             d="M135 97.8816H134V98.8816H135V97.8816Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M22 98.1382H21V99.1382H22V98.1382Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M23 98.1447H22V99.1447H23V98.1447Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path d="M24 98.1513H23V99.1513H24V98.1513Z" fill="#030824" />
           <path d="M25 98.1579H24V99.1579H25V98.1579Z" fill="#030824" />
@@ -7857,94 +7857,94 @@ const BoatSvg = () => {
           <path
             d="M27 98.171H26V99.171H27V98.171Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M28 98.1776H27V99.1776H28V98.1776Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M29 98.1842H28V99.1842H29V98.1842Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M30 98.1908H29V99.1908H30V98.1908Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M31 98.1974H30V99.1974H31V98.1974Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M32 98.204H31V99.204H32V98.204Z" fill="#1D3255" />
           <path
             d="M33 98.2105H32V99.2105H33V98.2105Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M34 98.2171H33V99.2171H34V98.2171Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M35 98.2237H34V99.2237H35V98.2237Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M36 98.2303H35V99.2303H36V98.2303Z" fill="#1D3255" />
           <path
             d="M37 98.2368H36V99.2368H37V98.2368Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M38 98.2434H37V99.2434H38V98.2434Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M39 98.25H38V99.25H39V98.25Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M40 98.2566H39V99.2566H40V98.2566Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M41 98.2632H40V99.2632H41V98.2632Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M42 98.2697H41V99.2697H42V98.2697Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M43 98.2763H42V99.2763H43V98.2763Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M44 98.2829H43V99.2829H44V98.2829Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M45 98.2895H44V99.2895H45V98.2895Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M46 98.296H45V99.296H46V98.296Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M47 98.3026H46V99.3026H47V98.3026Z" fill="#1D3255" />
           <path d="M48 98.3092H47V99.3092H48V98.3092Z" fill="#1D3255" />
@@ -7957,37 +7957,37 @@ const BoatSvg = () => {
           <path
             d="M55 98.3553H54V99.3553H55V98.3553Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M56 98.3618H55V99.3618H56V98.3618Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M57 98.3684H56V99.3684H57V98.3684Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M58 98.375H57V99.375H58V98.375Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M59 98.3816H58V99.3816H59V98.3816Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M60 98.3882H59V99.3882H60V98.3882Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M67 98.4342H66V99.4342H67V98.4342Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M68 98.4408H67V99.4408H68V98.4408Z" fill="#1D3255" />
           <path d="M69 98.4474H68V99.4474H69V98.4474Z" fill="#030824" />
@@ -8001,7 +8001,7 @@ const BoatSvg = () => {
           <path
             d="M77 98.5H76V99.5H77V98.5Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M78 98.5066H77V99.5066H78V98.5066Z" fill="#1D3255" />
           <path d="M79 98.5132H78V99.5132H79V98.5132Z" fill="#1D3255" />
@@ -8016,32 +8016,32 @@ const BoatSvg = () => {
           <path
             d="M88 98.5724H87V99.5724H88V98.5724Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M89 98.579H88V99.579H89V98.579Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M90 98.5855H89V99.5855H90V98.5855Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M91 98.5921H90V99.5921H91V98.5921Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M92 98.5987H91V99.5987H92V98.5987Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M93 98.6053H92V99.6053H93V98.6053Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M94 98.6118H93V99.6118H94V98.6118Z" fill="#1D3255" />
           <path d="M95 98.6184H94V99.6184H95V98.6184Z" fill="#030824" />
@@ -8051,63 +8051,63 @@ const BoatSvg = () => {
           <path
             d="M99 98.6447H98V99.6447H99V98.6447Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M100 98.6513H99V99.6513H100V98.6513Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M101 98.6579H100V99.6579H101V98.6579Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M102 98.6645H101V99.6645H102V98.6645Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M103 98.671H102V99.671H103V98.671Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M131 98.8553H130V99.8553H131V98.8553Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M132 98.8618H131V99.8618H132V98.8618Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M133 98.8684H132V99.8684H133V98.8684Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M134 98.875H133V99.875H134V98.875Z" fill="#030824" />
           <path
             d="M135 98.8816H134V99.8816H135V98.8816Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M24 99.1513H23V100.151H24V99.1513Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M25 99.1579H24V100.158H25V99.1579Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M26 99.1645H25V100.164H26V99.1645Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M27 99.171H26V100.171H27V99.171Z" fill="#030824" />
           <path d="M28 99.1776H27V100.178H28V99.1776Z" fill="#030824" />
@@ -8133,49 +8133,49 @@ const BoatSvg = () => {
           <path
             d="M48 99.3092H47V100.309H48V99.3092Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M49 99.3158H48V100.316H49V99.3158Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M50 99.3224H49V100.322H50V99.3224Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M51 99.329H50V100.329H51V99.329Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M52 99.3355H51V100.336H52V99.3355Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M53 99.3421H52V100.342H53V99.3421Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M54 99.3487H53V100.349H54V99.3487Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M67 99.4342H66V100.434H67V99.4342Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M68 99.4408H67V100.441H68V99.4408Z" fill="#1D3255" />
           <path d="M69 99.4474H68V100.447H69V99.4474Z" fill="#030824" />
           <path
             d="M70 99.454H69V100.454H70V99.454Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M71 99.4605H70V100.461H71V99.4605Z" fill="#1D3255" />
           <path d="M72 99.4671H71V100.467H72V99.4671Z" fill="#1D3255" />
@@ -8192,27 +8192,27 @@ const BoatSvg = () => {
           <path
             d="M83 99.5395H82V100.539H83V99.5395Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M84 99.546H83V100.546H84V99.546Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M85 99.5526H84V100.553H85V99.5526Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M86 99.5592H85V100.559H86V99.5592Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M87 99.5658H86V100.566H87V99.5658Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M88 99.5724H87V100.572H88V99.5724Z" fill="#1D3255" />
           <path d="M89 99.579H88V100.579H89V99.579Z" fill="#030824" />
@@ -8224,163 +8224,163 @@ const BoatSvg = () => {
           <path
             d="M95 99.6184H94V100.618H95V99.6184Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M96 99.625H95V100.625H96V99.625Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M97 99.6316H96V100.632H97V99.6316Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M98 99.6382H97V100.638H98V99.6382Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M99 99.6447H98V100.645H99V99.6447Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M133 99.8684H132V100.868H133V99.8684Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M134 99.875H133V100.875H134V99.875Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path d="M135 99.8816H134V100.882H135V99.8816Z" fill="#030824" />
           <path
             d="M136 99.8882H135V100.888H136V99.8882Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M26 100.164H25V101.164H26V100.164Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M27 100.171H26V101.171H27V100.171Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M28 100.178H27V101.178H28V100.178Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M29 100.184H28V101.184H29V100.184Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M30 100.191H29V101.191H30V100.191Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M31 100.197H30V101.197H31V100.197Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M32 100.204H31V101.204H32V100.204Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M33 100.211H32V101.211H33V100.211Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M34 100.217H33V101.217H34V100.217Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M35 100.224H34V101.224H35V100.224Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M36 100.23H35V101.23H36V100.23Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M37 100.237H36V101.237H37V100.237Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M38 100.243H37V101.243H38V100.243Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M39 100.25H38V101.25H39V100.25Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M40 100.257H39V101.257H40V100.257Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M41 100.263H40V101.263H41V100.263Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M42 100.27H41V101.27H42V100.27Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M43 100.276H42V101.276H43V100.276Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M44 100.283H43V101.283H44V100.283Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M45 100.289H44V101.289H45V100.289Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M46 100.296H45V101.296H46V100.296Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M47 100.303H46V101.303H47V100.303Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M48 100.309H47V101.309H48V100.309Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M67 100.434H66V101.434H67V100.434Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M68 100.441H67V101.441H68V100.441Z" fill="#1D3255" />
           <path d="M69 100.447H68V101.447H69V100.447Z" fill="#030824" />
@@ -8394,27 +8394,27 @@ const BoatSvg = () => {
           <path
             d="M77 100.5H76V101.5H77V100.5Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M78 100.507H77V101.507H78V100.507Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M79 100.513H78V101.513H79V100.513Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M80 100.52H79V101.52H80V100.52Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M81 100.526H80V101.526H81V100.526Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M82 100.533H81V101.533H82V100.533Z" fill="#1D3255" />
           <path d="M83 100.539H82V101.539H83V100.539Z" fill="#030824" />
@@ -8426,89 +8426,89 @@ const BoatSvg = () => {
           <path
             d="M89 100.579H88V101.579H89V100.579Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M90 100.586H89V101.586H90V100.586Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M91 100.592H90V101.592H91V100.592Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M92 100.599H91V101.599H92V100.599Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M93 100.605H92V101.605H93V100.605Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M94 100.612H93V101.612H94V100.612Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M135 100.882H134V101.882H135V100.882Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M136 100.888H135V101.888H136V100.888Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M34 101.217H33V102.217H34V101.217Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M36 101.23H35V102.23H36V101.23Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M38 101.243H37V102.243H38V101.243Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M67 101.434H66V102.434H67V101.434Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M68 101.441H67V102.441H68V101.441Z" fill="#1D3255" />
           <path d="M69 101.447H68V102.447H69V101.447Z" fill="#030824" />
           <path
             d="M70 101.454H69V102.454H70V101.454Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M71 101.461H70V102.461H71V101.461Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M72 101.467H71V102.467H72V101.467Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M73 101.474H72V102.474H73V101.474Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M74 101.48H73V102.48H74V101.48Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M75 101.487H74V102.487H75V101.487Z" fill="#1D3255" />
           <path d="M76 101.493H75V102.493H76V101.493Z" fill="#030824" />
@@ -8521,64 +8521,64 @@ const BoatSvg = () => {
           <path
             d="M83 101.539H82V102.539H83V101.539Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M84 101.546H83V102.546H84V101.546Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M85 101.553H84V102.553H85V101.553Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M86 101.559H85V102.559H86V101.559Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M87 101.566H86V102.566H87V101.566Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M88 101.572H87V102.572H88V101.572Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M129 101.842H128V102.842H129V101.842Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M130 101.849H129V102.849H130V101.849Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M131 101.855H130V102.855H131V101.855Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M132 101.862H131V102.862H132V101.862Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M67 102.434H66V103.434H67V102.434Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M68 102.441H67V103.441H68V102.441Z" fill="#1D3255" />
           <path d="M69 102.447H68V103.447H69V102.447Z" fill="#030824" />
           <path
             d="M70 102.454H69V103.454H70V102.454Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M71 102.461H70V103.461H71V102.461Z" fill="#030824" />
           <path d="M72 102.467H71V103.467H72V102.467Z" fill="#030824" />
@@ -8588,57 +8588,57 @@ const BoatSvg = () => {
           <path
             d="M76 102.493H75V103.493H76V102.493Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M77 102.5H76V103.5H77V102.5Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M78 102.507H77V103.507H78V102.507Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M79 102.513H78V103.513H79V102.513Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M80 102.52H79V103.52H80V102.52Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M81 102.526H80V103.526H81V102.526Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M82 102.533H81V103.533H82V102.533Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M125 102.816H124V103.816H125V102.816Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M126 102.822H125V103.822H126V102.822Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M127 102.829H126V103.829H127V102.829Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M128 102.836H127V103.836H128V102.836Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path d="M129 102.842H128V103.842H129V102.842Z" fill="#1D3255" />
           <path d="M130 102.849H129V103.849H130V102.849Z" fill="#030824" />
@@ -8647,12 +8647,12 @@ const BoatSvg = () => {
           <path
             d="M133 102.868H132V103.868H133V102.868Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M67 103.434H66V104.434H67V103.434Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M68 103.441H67V104.441H68V103.441Z" fill="#1D3255" />
           <path d="M69 103.447H68V104.447H69V103.447Z" fill="#030824" />
@@ -8660,57 +8660,57 @@ const BoatSvg = () => {
           <path
             d="M71 103.461H70V104.461H71V103.461Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M72 103.467H71V104.467H72V103.467Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M73 103.474H72V104.474H73V103.474Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M74 103.48H73V104.48H74V103.48Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M75 103.487H74V104.487H75V103.487Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M119 103.776H118V104.776H119V103.776Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M120 103.783H119V104.783H120V103.783Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M121 103.789H120V104.789H121V103.789Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M122 103.796H121V104.796H122V103.796Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M123 103.803H122V104.803H123V103.803Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M124 103.809H123V104.809H124V103.809Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path d="M125 103.816H124V104.816H125V103.816Z" fill="#1D3255" />
           <path d="M126 103.822H125V104.822H126V103.822Z" fill="#030824" />
@@ -8722,12 +8722,12 @@ const BoatSvg = () => {
           <path
             d="M132 103.862H131V104.862H132V103.862Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M67 104.434H66V105.434H67V104.434Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M68 104.441H67V105.441H68V104.441Z" fill="#1D3255" />
           <path d="M69 104.447H68V105.447H69V104.447Z" fill="#1D3255" />
@@ -8735,47 +8735,47 @@ const BoatSvg = () => {
           <path
             d="M71 104.461H70V105.461H71V104.461Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M112 104.73H111V105.73H112V104.73Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M113 104.737H112V105.737H113V104.737Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M114 104.743H113V105.743H114V104.743Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M115 104.75H114V105.75H115V104.75Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M116 104.757H115V105.757H116V104.757Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M117 104.763H116V105.763H117V104.763Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M118 104.77H117V105.77H118V104.77Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M119 104.776H118V105.776H119V104.776Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M120 104.783H119V105.783H120V104.783Z" fill="#030824" />
           <path d="M121 104.789H120V105.789H121V104.789Z" fill="#030824" />
@@ -8790,18 +8790,18 @@ const BoatSvg = () => {
           <path
             d="M130 104.849H129V105.849H130V104.849Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M131 104.855H130V105.855H131V104.855Z" fill="#030824" />
           <path
             d="M132 104.862H131V105.862H132V104.862Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M67 105.434H66V106.434H67V105.434Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M68 105.441H67V106.441H68V105.441Z" fill="#1D3255" />
           <path d="M69 105.447H68V106.447H69V105.447Z" fill="#1D3255" />
@@ -8809,57 +8809,57 @@ const BoatSvg = () => {
           <path
             d="M71 105.461H70V106.461H71V105.461Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M103 105.671H102V106.671H103V105.671Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M104 105.678H103V106.678H104V105.678Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M105 105.684H104V106.684H105V105.684Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M106 105.691H105V106.691H106V105.691Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M107 105.697H106V106.697H107V105.697Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M108 105.704H107V106.704H108V105.704Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M109 105.711H108V106.711H109V105.711Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M110 105.717H109V106.717H110V105.717Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M111 105.724H110V106.724H111V105.724Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M112 105.73H111V106.73H112V105.73Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M113 105.737H112V106.737H113V105.737Z" fill="#030824" />
           <path d="M114 105.743H113V106.743H114V105.743Z" fill="#030824" />
@@ -8881,18 +8881,18 @@ const BoatSvg = () => {
           <path
             d="M130 105.849H129V106.849H130V105.849Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M131 105.855H130V106.855H131V105.855Z" fill="#030824" />
           <path
             d="M132 105.862H131V106.862H132V105.862Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M67 106.434H66V107.434H67V106.434Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M68 106.441H67V107.441H68V106.441Z" fill="#1D3255" />
           <path d="M69 106.447H68V107.447H69V106.447Z" fill="#1D3255" />
@@ -8900,72 +8900,72 @@ const BoatSvg = () => {
           <path
             d="M71 106.461H70V107.461H71V106.461Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M90 106.586H89V107.586H90V106.586Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M91 106.592H90V107.592H91V106.592Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M92 106.599H91V107.599H92V106.599Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M93 106.605H92V107.605H93V106.605Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M94 106.612H93V107.612H94V106.612Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M95 106.618H94V107.618H95V106.618Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M96 106.625H95V107.625H96V106.625Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M97 106.632H96V107.632H97V106.632Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M98 106.638H97V107.638H98V106.638Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M99 106.645H98V107.645H99V106.645Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M100 106.651H99V107.651H100V106.651Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M101 106.658H100V107.658H101V106.658Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M102 106.664H101V107.664H102V106.664Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path d="M103 106.671H102V107.671H103V106.671Z" fill="#1D3255" />
           <path d="M104 106.678H103V107.678H104V106.678Z" fill="#030824" />
@@ -8987,7 +8987,7 @@ const BoatSvg = () => {
           <path
             d="M120 106.783H119V107.783H120V106.783Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M121 106.789H120V107.789H121V106.789Z" fill="#1D3255" />
           <path d="M122 106.796H121V107.796H122V106.796Z" fill="#1D3255" />
@@ -8996,7 +8996,7 @@ const BoatSvg = () => {
           <path
             d="M125 106.816H124V107.816H125V106.816Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M126 106.822H125V107.822H126V106.822Z" fill="#1D3255" />
           <path d="M127 106.829H126V107.829H127V106.829Z" fill="#1D3255" />
@@ -9006,12 +9006,12 @@ const BoatSvg = () => {
           <path
             d="M131 106.855H130V107.855H131V106.855Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M67 107.434H66V108.434H67V107.434Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M68 107.441H67V108.441H68V107.441Z" fill="#1D3255" />
           <path d="M69 107.447H68V108.447H69V107.447Z" fill="#1D3255" />
@@ -9019,102 +9019,102 @@ const BoatSvg = () => {
           <path
             d="M71 107.461H70V108.461H71V107.461Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M72 107.467H71V108.467H72V107.467Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M73 107.474H72V108.474H73V107.474Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M74 107.48H73V108.48H74V107.48Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M75 107.487H74V108.487H75V107.487Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M76 107.493H75V108.493H76V107.493Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M77 107.5H76V108.5H77V107.5Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M78 107.507H77V108.507H78V107.507Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M79 107.513H78V108.513H79V107.513Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M80 107.52H79V108.52H80V107.52Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M81 107.526H80V108.526H81V107.526Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M82 107.533H81V108.533H82V107.533Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M83 107.539H82V108.539H83V107.539Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M84 107.546H83V108.546H84V107.546Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M85 107.553H84V108.553H85V107.553Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M86 107.559H85V108.559H86V107.559Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M87 107.566H86V108.566H87V107.566Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M88 107.572H87V108.572H88V107.572Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M89 107.579H88V108.579H89V107.579Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M90 107.586H89V108.586H90V107.586Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M91 107.592H90V108.592H91V107.592Z" fill="#030824" />
           <path d="M92 107.599H91V108.599H92V107.599Z" fill="#030824" />
@@ -9139,12 +9139,12 @@ const BoatSvg = () => {
           <path
             d="M111 107.724H110V108.724H111V107.724Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M112 107.73H111V108.73H112V107.73Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M113 107.737H112V108.737H113V107.737Z" fill="#1D3255" />
           <path d="M114 107.743H113V108.743H114V107.743Z" fill="#1D3255" />
@@ -9165,223 +9165,223 @@ const BoatSvg = () => {
           <path
             d="M129 107.842H128V108.842H129V107.842Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M130 107.849H129V108.849H130V107.849Z" fill="#030824" />
           <path
             d="M131 107.855H130V108.855H131V107.855Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M26 108.164H25V109.164H26V108.164Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M27 108.171H26V109.171H27V108.171Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M28 108.178H27V109.178H28V108.178Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M29 108.184H28V109.184H29V108.184Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M30 108.191H29V109.191H30V108.191Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M31 108.197H30V109.197H31V108.197Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M32 108.204H31V109.204H32V108.204Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M33 108.211H32V109.211H33V108.211Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M34 108.217H33V109.217H34V108.217Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M35 108.224H34V109.224H35V108.224Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M36 108.23H35V109.23H36V108.23Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M37 108.237H36V109.237H37V108.237Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M38 108.243H37V109.243H38V108.243Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M39 108.25H38V109.25H39V108.25Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M40 108.257H39V109.257H40V108.257Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M41 108.263H40V109.263H41V108.263Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M42 108.27H41V109.27H42V108.27Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M43 108.276H42V109.276H43V108.276Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M44 108.283H43V109.283H44V108.283Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M45 108.289H44V109.289H45V108.289Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M46 108.296H45V109.296H46V108.296Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M47 108.303H46V109.303H47V108.303Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M48 108.309H47V109.309H48V108.309Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M49 108.316H48V109.316H49V108.316Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M50 108.322H49V109.322H50V108.322Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M51 108.329H50V109.329H51V108.329Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M52 108.336H51V109.336H52V108.336Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M53 108.342H52V109.342H53V108.342Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M54 108.349H53V109.349H54V108.349Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M55 108.355H54V109.355H55V108.355Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M56 108.362H55V109.362H56V108.362Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M57 108.368H56V109.368H57V108.368Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M58 108.375H57V109.375H58V108.375Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M59 108.382H58V109.382H59V108.382Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M60 108.388H59V109.388H60V108.388Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M61 108.395H60V109.395H61V108.395Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M62 108.401H61V109.401H62V108.401Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M63 108.408H62V109.408H63V108.408Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M64 108.414H63V109.414H64V108.414Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M65 108.421H64V109.421H65V108.421Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M66 108.428H65V109.428H66V108.428Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M67 108.434H66V109.434H67V108.434Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path d="M68 108.441H67V109.441H68V108.441Z" fill="#1D3255" />
           <path d="M69 108.447H68V109.447H69V108.447Z" fill="#1D3255" />
@@ -9411,13 +9411,13 @@ const BoatSvg = () => {
           <path
             d="M93 108.605H92V109.605H93V108.605Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M94 108.612H93V109.612H94V108.612Z" fill="#1D3255" />
           <path
             d="M95 108.618H94V109.618H95V108.618Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M96 108.625H95V109.625H96V108.625Z" fill="#1D3255" />
           <path d="M97 108.632H96V109.632H97V108.632Z" fill="#1D3255" />
@@ -9426,13 +9426,13 @@ const BoatSvg = () => {
           <path
             d="M100 108.651H99V109.651H100V108.651Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M101 108.658H100V109.658H101V108.658Z" fill="#1D3255" />
           <path
             d="M102 108.664H101V109.664H102V108.664Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M103 108.671H102V109.671H103V108.671Z" fill="#1D3255" />
           <path d="M104 108.678H103V109.678H104V108.678Z" fill="#1D3255" />
@@ -9463,18 +9463,18 @@ const BoatSvg = () => {
           <path
             d="M129 108.842H128V109.842H129V108.842Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M130 108.849H129V109.849H130V108.849Z" fill="#030824" />
           <path
             d="M131 108.855H130V109.855H131V108.855Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M25 109.158H24V110.158H25V109.158Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M26 109.164H25V110.164H26V109.164Z" fill="#030824" />
           <path d="M27 109.171H26V110.171H27V109.171Z" fill="#030824" />
@@ -9531,17 +9531,17 @@ const BoatSvg = () => {
           <path
             d="M78 109.507H77V110.507H78V109.507Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M79 109.513H78V110.513H79V109.513Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M80 109.52H79V110.52H80V109.52Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M81 109.526H80V110.526H81V109.526Z" fill="#1D3255" />
           <path d="M82 109.533H81V110.533H82V109.533Z" fill="#1D3255" />
@@ -9552,7 +9552,7 @@ const BoatSvg = () => {
           <path
             d="M87 109.566H86V110.566H87V109.566Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M88 109.572H87V110.572H88V109.572Z" fill="#1D3255" />
           <path d="M89 109.579H88V110.579H89V109.579Z" fill="#1D3255" />
@@ -9597,132 +9597,132 @@ const BoatSvg = () => {
           <path
             d="M128 109.836H127V110.836H128V109.836Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M129 109.842H128V110.842H129V109.842Z" fill="#030824" />
           <path
             d="M130 109.849H129V110.849H130V109.849Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M25 110.158H24V111.158H25V110.158Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M26 110.164H25V111.164H26V110.164Z" fill="#030824" />
           <path
             d="M27 110.171H26V111.171H27V110.171Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M28 110.178H27V111.178H28V110.178Z" fill="#1D3255" />
           <path
             d="M29 110.184H28V111.184H29V110.184Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M30 110.191H29V111.191H30V110.191Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M31 110.197H30V111.197H31V110.197Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M32 110.204H31V111.204H32V110.204Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M33 110.211H32V111.211H33V110.211Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M34 110.217H33V111.217H34V110.217Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M35 110.224H34V111.224H35V110.224Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M36 110.23H35V111.23H36V110.23Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M37 110.237H36V111.237H37V110.237Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M38 110.243H37V111.243H38V110.243Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M39 110.25H38V111.25H39V110.25Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M40 110.257H39V111.257H40V110.257Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M41 110.263H40V111.263H41V110.263Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M42 110.27H41V111.27H42V110.27Z" fill="#1D3255" />
           <path
             d="M43 110.276H42V111.276H43V110.276Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M44 110.283H43V111.283H44V110.283Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M45 110.289H44V111.289H45V110.289Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M46 110.296H45V111.296H46V110.296Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M47 110.303H46V111.303H47V110.303Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M48 110.309H47V111.309H48V110.309Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M49 110.316H48V111.316H49V110.316Z" fill="#1D3255" />
           <path
             d="M50 110.322H49V111.322H50V110.322Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M51 110.329H50V111.329H51V110.329Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M52 110.336H51V111.336H52V110.336Z" fill="#1D3255" />
           <path d="M53 110.342H52V111.342H53V110.342Z" fill="#1D3255" />
@@ -9734,7 +9734,7 @@ const BoatSvg = () => {
           <path
             d="M59 110.382H58V111.382H59V110.382Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M60 110.388H59V111.388H60V110.388Z" fill="#1D3255" />
           <path d="M61 110.395H60V111.395H61V110.395Z" fill="#1D3255" />
@@ -9751,7 +9751,7 @@ const BoatSvg = () => {
           <path
             d="M72 110.467H71V111.467H72V110.467Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M73 110.474H72V111.474H73V110.474Z" fill="#1D3255" />
           <path d="M74 110.48H73V111.48H74V110.48Z" fill="#1D3255" />
@@ -9774,7 +9774,7 @@ const BoatSvg = () => {
           <path
             d="M91 110.592H90V111.592H91V110.592Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M92 110.599H91V111.599H92V110.599Z" fill="#1D3255" />
           <path d="M93 110.605H92V111.605H93V110.605Z" fill="#1D3255" />
@@ -9815,24 +9815,24 @@ const BoatSvg = () => {
           <path
             d="M128 110.836H127V111.836H128V110.836Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M129 110.842H128V111.842H129V110.842Z" fill="#030824" />
           <path
             d="M130 110.849H129V111.849H130V110.849Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M25 111.158H24V112.158H25V111.158Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M26 111.164H25V112.164H26V111.164Z" fill="#030824" />
           <path
             d="M27 111.171H26V112.171H27V111.171Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M28 111.178H27V112.178H28V111.178Z" fill="#1D3255" />
           <path d="M29 111.184H28V112.184H29V111.184Z" fill="#1D3255" />
@@ -9937,24 +9937,24 @@ const BoatSvg = () => {
           <path
             d="M128 111.836H127V112.836H128V111.836Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M129 111.842H128V112.842H129V111.842Z" fill="#030824" />
           <path
             d="M130 111.849H129V112.849H130V111.849Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M25 112.158H24V113.158H25V112.158Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M26 112.164H25V113.164H26V112.164Z" fill="#030824" />
           <path
             d="M27 112.171H26V113.171H27V112.171Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M28 112.178H27V113.178H28V112.178Z" fill="#1D3255" />
           <path d="M29 112.184H28V113.184H29V112.184Z" fill="#1D3255" />
@@ -10037,7 +10037,7 @@ const BoatSvg = () => {
           <path
             d="M106 112.691H105V113.691H106V112.691Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M107 112.697H106V113.697H107V112.697Z" fill="#1D3255" />
           <path d="M108 112.704H107V113.704H108V112.704Z" fill="#1D3255" />
@@ -10062,24 +10062,24 @@ const BoatSvg = () => {
           <path
             d="M127 112.829H126V113.829H127V112.829Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M128 112.836H127V113.836H128V112.836Z" fill="#030824" />
           <path
             d="M129 112.842H128V113.842H129V112.842Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M25 113.158H24V114.158H25V113.158Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M26 113.164H25V114.164H26V113.164Z" fill="#030824" />
           <path
             d="M27 113.171H26V114.171H27V113.171Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M28 113.178H27V114.178H28V113.178Z" fill="#1D3255" />
           <path d="M29 113.184H28V114.184H29V113.184Z" fill="#1D3255" />
@@ -10166,7 +10166,7 @@ const BoatSvg = () => {
           <path
             d="M110 113.717H109V114.717H110V113.717Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M111 113.724H110V114.724H111V113.724Z" fill="#1D3255" />
           <path d="M112 113.73H111V114.73H112V113.73Z" fill="#1D3255" />
@@ -10182,7 +10182,7 @@ const BoatSvg = () => {
           <path
             d="M122 113.796H121V114.796H122V113.796Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M123 113.803H122V114.803H123V113.803Z" fill="#1D3255" />
           <path d="M124 113.809H123V114.809H124V113.809Z" fill="#1D3255" />
@@ -10190,25 +10190,25 @@ const BoatSvg = () => {
           <path
             d="M126 113.822H125V114.822H126V113.822Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M127 113.829H126V114.829H127V113.829Z" fill="#1D3255" />
           <path d="M128 113.836H127V114.836H128V113.836Z" fill="#030824" />
           <path
             d="M129 113.842H128V114.842H129V113.842Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M25 114.158H24V115.158H25V114.158Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path d="M26 114.164H25V115.164H26V114.164Z" fill="#030824" />
           <path
             d="M27 114.171H26V115.171H27V114.171Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M28 114.178H27V115.178H28V114.178Z" fill="#1D3255" />
           <path d="M29 114.184H28V115.184H29V114.184Z" fill="#1D3255" />
@@ -10311,24 +10311,24 @@ const BoatSvg = () => {
           <path
             d="M126 114.822H125V115.822H126V114.822Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M127 114.829H126V115.829H127V114.829Z" fill="#030824" />
           <path
             d="M128 114.836H127V115.836H128V114.836Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M25 115.158H24V116.158H25V115.158Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M26 115.164H25V116.164H26V115.164Z" fill="#030824" />
           <path
             d="M27 115.171H26V116.171H27V115.171Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M28 115.178H27V116.178H28V115.178Z" fill="#1D3255" />
           <path d="M29 115.184H28V116.184H29V115.184Z" fill="#1D3255" />
@@ -10359,7 +10359,7 @@ const BoatSvg = () => {
           <path
             d="M54 115.349H53V116.349H54V115.349Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M55 115.355H54V116.355H55V115.355Z" fill="#1D3255" />
           <path d="M56 115.362H55V116.362H56V115.362Z" fill="#1D3255" />
@@ -10434,25 +10434,25 @@ const BoatSvg = () => {
           <path
             d="M125 115.816H124V116.816H125V115.816Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M126 115.822H125V116.822H126V115.822Z" fill="#1D3255" />
           <path d="M127 115.829H126V116.829H127V115.829Z" fill="#030824" />
           <path
             d="M128 115.836H127V116.836H128V115.836Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M25 116.158H24V117.158H25V116.158Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path d="M26 116.164H25V117.164H26V116.164Z" fill="#030824" />
           <path
             d="M27 116.171H26V117.171H27V116.171Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M28 116.178H27V117.178H28V116.178Z" fill="#1D3255" />
           <path d="M29 116.184H28V117.184H29V116.184Z" fill="#1D3255" />
@@ -10505,7 +10505,7 @@ const BoatSvg = () => {
           <path
             d="M76 116.493H75V117.493H76V116.493Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M77 116.5H76V117.5H77V116.5Z" fill="#1D3255" />
           <path d="M78 116.507H77V117.507H78V116.507Z" fill="#1D3255" />
@@ -10558,24 +10558,24 @@ const BoatSvg = () => {
           <path
             d="M125 116.816H124V117.816H125V116.816Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M126 116.822H125V117.822H126V116.822Z" fill="#030824" />
           <path
             d="M127 116.829H126V117.829H127V116.829Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M25 117.158H24V118.158H25V117.158Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M26 117.164H25V118.164H26V117.164Z" fill="#030824" />
           <path
             d="M27 117.171H26V118.171H27V117.171Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M28 117.178H27V118.178H28V117.178Z" fill="#1D3255" />
           <path d="M29 117.184H28V118.184H29V117.184Z" fill="#1D3255" />
@@ -10608,7 +10608,7 @@ const BoatSvg = () => {
           <path
             d="M56 117.362H55V118.362H56V117.362Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M57 117.368H56V118.368H57V117.368Z" fill="#1D3255" />
           <path d="M58 117.375H57V118.375H58V117.375Z" fill="#1D3255" />
@@ -10656,7 +10656,7 @@ const BoatSvg = () => {
           <path
             d="M100 117.651H99V118.651H100V117.651Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M101 117.658H100V118.658H101V117.658Z" fill="#1D3255" />
           <path d="M102 117.664H101V118.664H102V117.664Z" fill="#1D3255" />
@@ -10684,24 +10684,24 @@ const BoatSvg = () => {
           <path
             d="M124 117.809H123V118.809H124V117.809Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M125 117.816H124V118.816H125V117.816Z" fill="#030824" />
           <path
             d="M126 117.822H125V118.822H126V117.822Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M25 118.158H24V119.158H25V118.158Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path d="M26 118.164H25V119.164H26V118.164Z" fill="#030824" />
           <path
             d="M27 118.171H26V119.171H27V118.171Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M28 118.178H27V119.178H28V118.178Z" fill="#1D3255" />
           <path d="M29 118.184H28V119.184H29V118.184Z" fill="#1D3255" />
@@ -10725,22 +10725,22 @@ const BoatSvg = () => {
           <path
             d="M47 118.303H46V119.303H47V118.303Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M48 118.309H47V119.309H48V118.309Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M49 118.316H48V119.316H49V118.316Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M50 118.322H49V119.322H50V118.322Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M51 118.329H50V119.329H51V118.329Z" fill="#1D3255" />
           <path d="M52 118.336H51V119.336H52V118.336Z" fill="#1D3255" />
@@ -10762,7 +10762,7 @@ const BoatSvg = () => {
           <path
             d="M68 118.441H67V119.441H68V118.441Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M69 118.447H68V119.447H69V118.447Z" fill="#1D3255" />
           <path d="M70 118.454H69V119.454H70V118.454Z" fill="#1D3255" />
@@ -10771,7 +10771,7 @@ const BoatSvg = () => {
           <path
             d="M73 118.474H72V119.474H73V118.474Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M74 118.48H73V119.48H74V118.48Z" fill="#1D3255" />
           <path d="M75 118.487H74V119.487H75V118.487Z" fill="#1D3255" />
@@ -10782,7 +10782,7 @@ const BoatSvg = () => {
           <path
             d="M80 118.52H79V119.52H80V118.52Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M81 118.526H80V119.526H81V118.526Z" fill="#1D3255" />
           <path d="M82 118.533H81V119.533H82V118.533Z" fill="#1D3255" />
@@ -10796,7 +10796,7 @@ const BoatSvg = () => {
           <path
             d="M90 118.586H89V119.586H90V118.586Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M91 118.592H90V119.592H91V118.592Z" fill="#1D3255" />
           <path d="M92 118.599H91V119.599H92V118.599Z" fill="#1D3255" />
@@ -10819,17 +10819,17 @@ const BoatSvg = () => {
           <path
             d="M109 118.711H108V119.711H109V118.711Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M110 118.717H109V119.717H110V118.717Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M111 118.724H110V119.724H111V118.724Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M112 118.73H111V119.73H112V118.73Z" fill="#1D3255" />
           <path d="M113 118.737H112V119.737H113V118.737Z" fill="#1D3255" />
@@ -10840,7 +10840,7 @@ const BoatSvg = () => {
           <path
             d="M118 118.77H117V119.77H118V118.77Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M119 118.776H118V119.776H119V118.776Z" fill="#1D3255" />
           <path d="M120 118.783H119V119.783H120V118.783Z" fill="#1D3255" />
@@ -10849,25 +10849,25 @@ const BoatSvg = () => {
           <path
             d="M123 118.803H122V119.803H123V118.803Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M124 118.809H123V119.809H124V118.809Z" fill="#030824" />
           <path d="M125 118.816H124V119.816H125V118.816Z" fill="#1D3255" />
           <path
             d="M126 118.822H125V119.822H126V118.822Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M25 119.158H24V120.158H25V119.158Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M26 119.164H25V120.164H26V119.164Z" fill="#030824" />
           <path
             d="M27 119.171H26V120.171H27V119.171Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M28 119.178H27V120.178H28V119.178Z" fill="#1D3255" />
           <path d="M29 119.184H28V120.184H29V119.184Z" fill="#1D3255" />
@@ -10888,12 +10888,12 @@ const BoatSvg = () => {
           <path
             d="M44 119.283H43V120.283H44V119.283Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M45 119.289H44V120.289H45V119.289Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M46 119.296H45V120.296H46V119.296Z" fill="#1D3255" />
           <path d="M47 119.303H46V120.303H47V119.303Z" fill="#030824" />
@@ -10903,12 +10903,12 @@ const BoatSvg = () => {
           <path
             d="M51 119.329H50V120.329H51V119.329Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M52 119.336H51V120.336H52V119.336Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M53 119.342H52V120.342H53V119.342Z" fill="#1D3255" />
           <path d="M54 119.349H53V120.349H54V119.349Z" fill="#1D3255" />
@@ -10921,7 +10921,7 @@ const BoatSvg = () => {
           <path
             d="M61 119.395H60V120.395H61V119.395Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M62 119.401H61V120.401H62V119.401Z" fill="#1D3255" />
           <path d="M63 119.408H62V120.408H63V119.408Z" fill="#1D3255" />
@@ -10940,34 +10940,34 @@ const BoatSvg = () => {
           <path
             d="M76 119.493H75V120.493H76V119.493Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M77 119.5H76V120.5H77V119.5Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M78 119.507H77V120.507H78V119.507Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M79 119.513H78V120.513H79V119.513Z" fill="#1D3255" />
           <path d="M80 119.52H79V120.52H80V119.52Z" fill="#1D3255" />
           <path
             d="M81 119.526H80V120.526H81V119.526Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M82 119.533H81V120.533H82V119.533Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M83 119.539H82V120.539H83V119.539Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M84 119.546H83V120.546H84V119.546Z" fill="#1D3255" />
           <path d="M85 119.553H84V120.553H85V119.553Z" fill="#1D3255" />
@@ -10994,12 +10994,12 @@ const BoatSvg = () => {
           <path
             d="M106 119.691H105V120.691H106V119.691Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M107 119.697H106V120.697H107V119.697Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M108 119.704H107V120.704H108V119.704Z" fill="#1D3255" />
           <path d="M109 119.711H108V120.711H109V119.711Z" fill="#030824" />
@@ -11009,7 +11009,7 @@ const BoatSvg = () => {
           <path
             d="M113 119.737H112V120.737H113V119.737Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M114 119.743H113V120.743H114V119.743Z" fill="#1D3255" />
           <path d="M115 119.75H114V120.75H115V119.75Z" fill="#1D3255" />
@@ -11022,25 +11022,25 @@ const BoatSvg = () => {
           <path
             d="M122 119.796H121V120.796H122V119.796Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M123 119.803H122V120.803H123V119.803Z" fill="#1D3255" />
           <path d="M124 119.809H123V120.809H124V119.809Z" fill="#030824" />
           <path
             d="M125 119.816H124V120.816H125V119.816Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M25 120.158H24V121.158H25V120.158Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M26 120.164H25V121.164H26V120.164Z" fill="#030824" />
           <path
             d="M27 120.171H26V121.171H27V120.171Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M28 120.178H27V121.178H28V120.178Z" fill="#1D3255" />
           <path d="M29 120.184H28V121.184H29V120.184Z" fill="#1D3255" />
@@ -11049,7 +11049,7 @@ const BoatSvg = () => {
           <path
             d="M32 120.204H31V121.204H32V120.204Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M33 120.211H32V121.211H33V120.211Z" fill="#1D3255" />
           <path d="M34 120.217H33V121.217H34V120.217Z" fill="#1D3255" />
@@ -11064,7 +11064,7 @@ const BoatSvg = () => {
           <path
             d="M43 120.276H42V121.276H43V120.276Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M44 120.283H43V121.283H44V120.283Z" fill="#030824" />
           <path d="M45 120.289H44V121.289H45V120.289Z" fill="#030824" />
@@ -11072,17 +11072,17 @@ const BoatSvg = () => {
           <path
             d="M47 120.303H46V121.303H47V120.303Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M48 120.309H47V121.309H48V120.309Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M49 120.316H48V121.316H49V120.316Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path d="M50 120.322H49V121.322H50V120.322Z" fill="#030824" />
           <path d="M51 120.329H50V121.329H51V120.329Z" fill="#030824" />
@@ -11090,7 +11090,7 @@ const BoatSvg = () => {
           <path
             d="M53 120.342H52V121.342H53V120.342Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M54 120.349H53V121.349H54V120.349Z" fill="#1D3255" />
           <path d="M55 120.355H54V121.355H55V120.355Z" fill="#1D3255" />
@@ -11106,7 +11106,7 @@ const BoatSvg = () => {
           <path
             d="M65 120.421H64V121.421H65V120.421Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M66 120.428H65V121.428H66V120.428Z" fill="#1D3255" />
           <path d="M67 120.434H66V121.434H67V120.434Z" fill="#1D3255" />
@@ -11119,7 +11119,7 @@ const BoatSvg = () => {
           <path
             d="M74 120.48H73V121.48H74V120.48Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M75 120.487H74V121.487H75V120.487Z" fill="#1D3255" />
           <path d="M76 120.493H75V121.493H76V120.493Z" fill="#030824" />
@@ -11133,12 +11133,12 @@ const BoatSvg = () => {
           <path
             d="M84 120.546H83V121.546H84V120.546Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M85 120.553H84V121.553H85V120.553Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M86 120.559H85V121.559H86V120.559Z" fill="#1D3255" />
           <path d="M87 120.566H86V121.566H87V120.566Z" fill="#1D3255" />
@@ -11152,14 +11152,14 @@ const BoatSvg = () => {
           <path
             d="M95 120.618H94V121.618H95V120.618Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M96 120.625H95V121.625H96V120.625Z" fill="#1D3255" />
           <path d="M97 120.632H96V121.632H97V120.632Z" fill="#1D3255" />
           <path
             d="M98 120.638H97V121.638H98V120.638Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M99 120.645H98V121.645H99V120.645Z" fill="#1D3255" />
           <path d="M100 120.651H99V121.651H100V120.651Z" fill="#1D3255" />
@@ -11169,12 +11169,12 @@ const BoatSvg = () => {
           <path
             d="M104 120.678H103V121.678H104V120.678Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M105 120.684H104V121.684H105V120.684Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M106 120.691H105V121.691H106V120.691Z" fill="#1D3255" />
           <path d="M107 120.697H106V121.697H107V120.697Z" fill="#030824" />
@@ -11183,7 +11183,7 @@ const BoatSvg = () => {
           <path
             d="M110 120.717H109V121.717H110V120.717Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M111 120.724H110V121.724H111V120.724Z" fill="#1D3255" />
           <path d="M112 120.73H111V121.73H112V120.73Z" fill="#030824" />
@@ -11192,7 +11192,7 @@ const BoatSvg = () => {
           <path
             d="M115 120.75H114V121.75H115V120.75Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M116 120.757H115V121.757H116V120.757Z" fill="#1D3255" />
           <path d="M117 120.763H116V121.763H117V120.763Z" fill="#1D3255" />
@@ -11202,25 +11202,25 @@ const BoatSvg = () => {
           <path
             d="M121 120.789H120V121.789H121V120.789Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M122 120.796H121V121.796H122V120.796Z" fill="#1D3255" />
           <path d="M123 120.803H122V121.803H123V120.803Z" fill="#030824" />
           <path
             d="M124 120.809H123V121.809H124V120.809Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M25 121.158H24V122.158H25V121.158Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path d="M26 121.164H25V122.164H26V121.164Z" fill="#030824" />
           <path
             d="M27 121.171H26V122.171H27V121.171Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M28 121.178H27V122.178H28V121.178Z" fill="#1D3255" />
           <path d="M29 121.184H28V122.184H29V121.184Z" fill="#1D3255" />
@@ -11237,12 +11237,12 @@ const BoatSvg = () => {
           <path
             d="M40 121.257H39V122.257H40V121.257Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M41 121.263H40V122.263H41V121.263Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M42 121.27H41V122.27H42V121.27Z" fill="#030824" />
           <path d="M43 121.276H42V122.276H43V121.276Z" fill="#030824" />
@@ -11250,32 +11250,32 @@ const BoatSvg = () => {
           <path
             d="M45 121.289H44V122.289H45V121.289Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M46 121.296H45V122.296H46V121.296Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M47 121.303H46V122.303H47V121.303Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M49 121.316H48V122.316H49V121.316Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M50 121.322H49V122.322H50V121.322Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M51 121.329H50V122.329H51V121.329Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path d="M52 121.336H51V122.336H52V121.336Z" fill="#030824" />
           <path d="M53 121.342H52V122.342H53V121.342Z" fill="#030824" />
@@ -11283,12 +11283,12 @@ const BoatSvg = () => {
           <path
             d="M55 121.355H54V122.355H55V121.355Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M56 121.362H55V122.362H56V121.362Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M57 121.368H56V122.368H57V121.368Z" fill="#1D3255" />
           <path d="M58 121.375H57V122.375H58V121.375Z" fill="#1D3255" />
@@ -11307,12 +11307,12 @@ const BoatSvg = () => {
           <path
             d="M71 121.461H70V122.461H71V121.461Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M72 121.467H71V122.467H72V121.467Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M73 121.474H72V122.474H73V121.474Z" fill="#1D3255" />
           <path d="M74 121.48H73V122.48H74V121.48Z" fill="#030824" />
@@ -11320,37 +11320,37 @@ const BoatSvg = () => {
           <path
             d="M76 121.493H75V122.493H76V121.493Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M77 121.5H76V122.5H77V121.5Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M78 121.507H77V122.507H78V121.507Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M79 121.513H78V122.513H79V121.513Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M80 121.52H79V122.52H80V121.52Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M81 121.526H80V122.526H81V121.526Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M82 121.533H81V122.533H82V121.533Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path d="M83 121.539H82V122.539H83V121.539Z" fill="#030824" />
           <path d="M84 121.546H83V122.546H84V121.546Z" fill="#030824" />
@@ -11358,12 +11358,12 @@ const BoatSvg = () => {
           <path
             d="M86 121.559H85V122.559H86V121.559Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M87 121.566H86V122.566H87V121.566Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M88 121.572H87V122.572H88V121.572Z" fill="#1D3255" />
           <path d="M89 121.579H88V122.579H89V121.579Z" fill="#1D3255" />
@@ -11382,12 +11382,12 @@ const BoatSvg = () => {
           <path
             d="M102 121.664H101V122.664H102V121.664Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M103 121.671H102V122.671H103V121.671Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M104 121.678H103V122.678H104V121.678Z" fill="#1D3255" />
           <path d="M105 121.684H104V122.684H105V121.684Z" fill="#030824" />
@@ -11395,129 +11395,129 @@ const BoatSvg = () => {
           <path
             d="M107 121.697H106V122.697H107V121.697Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M108 121.704H107V122.704H108V121.704Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M109 121.711H108V122.711H109V121.711Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M110 121.717H109V122.717H110V121.717Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M111 121.724H110V122.724H111V121.724Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M112 121.73H111V122.73H112V121.73Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M113 121.737H112V122.737H113V121.737Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path d="M114 121.743H113V122.743H114V121.743Z" fill="#030824" />
           <path d="M115 121.75H114V122.75H115V121.75Z" fill="#030824" />
           <path
             d="M116 121.757H115V122.757H116V121.757Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M117 121.763H116V122.763H117V121.763Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M118 121.77H117V122.77H118V121.77Z" fill="#1D3255" />
           <path d="M119 121.776H118V122.776H119V121.776Z" fill="#1D3255" />
           <path
             d="M120 121.783H119V122.783H120V121.783Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M121 121.789H120V122.789H121V121.789Z" fill="#030824" />
           <path d="M122 121.796H121V122.796H122V121.796Z" fill="#030824" />
           <path
             d="M123 121.803H122V122.803H123V121.803Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M25 122.158H24V123.158H25V122.158Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M26 122.164H25V123.164H26V122.164Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path d="M27 122.171H26V123.171H27V122.171Z" fill="#1D3255" />
           <path
             d="M28 122.178H27V123.178H28V122.178Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M29 122.184H28V123.184H29V122.184Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M30 122.191H29V123.191H30V122.191Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M31 122.197H30V123.197H31V122.197Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M32 122.204H31V123.204H32V122.204Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M33 122.211H32V123.211H33V122.211Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M34 122.217H33V123.217H34V122.217Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M35 122.224H34V123.224H35V122.224Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M36 122.23H35V123.23H36V122.23Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M37 122.237H36V123.237H37V122.237Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M38 122.243H37V123.243H38V122.243Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M39 122.25H38V123.25H39V122.25Z" fill="#1D3255" />
           <path d="M40 122.257H39V123.257H40V122.257Z" fill="#030824" />
@@ -11525,27 +11525,27 @@ const BoatSvg = () => {
           <path
             d="M42 122.27H41V123.27H42V122.27Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M43 122.276H42V123.276H43V122.276Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M44 122.283H43V123.283H44V122.283Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M52 122.336H51V123.336H52V122.336Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M53 122.342H52V123.342H53V122.342Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path d="M54 122.349H53V123.349H54V122.349Z" fill="#1D3255" />
           <path d="M55 122.355H54V123.355H55V122.355Z" fill="#030824" />
@@ -11555,57 +11555,57 @@ const BoatSvg = () => {
           <path
             d="M59 122.382H58V123.382H59V122.382Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M60 122.388H59V123.388H60V122.388Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M61 122.395H60V123.395H61V122.395Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M62 122.401H61V123.401H62V122.401Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M63 122.408H62V123.408H63V122.408Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M64 122.414H63V123.414H64V122.414Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M65 122.421H64V123.421H65V122.421Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M66 122.428H65V123.428H66V122.428Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M67 122.434H66V123.434H67V122.434Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M68 122.441H67V123.441H68V122.441Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M69 122.447H68V123.447H69V122.447Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M70 122.454H69V123.454H70V122.454Z" fill="#1D3255" />
           <path d="M71 122.461H70V123.461H71V122.461Z" fill="#030824" />
@@ -11614,27 +11614,27 @@ const BoatSvg = () => {
           <path
             d="M74 122.48H73V123.48H74V122.48Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M75 122.487H74V123.487H75V122.487Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M76 122.493H75V123.493H76V122.493Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M83 122.539H82V123.539H83V122.539Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M84 122.546H83V123.546H84V122.546Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path d="M85 122.553H84V123.553H85V122.553Z" fill="#030824" />
           <path d="M86 122.559H85V123.559H86V122.559Z" fill="#030824" />
@@ -11642,72 +11642,72 @@ const BoatSvg = () => {
           <path
             d="M88 122.572H87V123.572H88V122.572Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M89 122.579H88V123.579H89V122.579Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M90 122.586H89V123.586H90V122.586Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M91 122.592H90V123.592H91V122.592Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M92 122.599H91V123.599H92V122.599Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M93 122.605H92V123.605H93V122.605Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M94 122.612H93V123.612H94V122.612Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M95 122.618H94V123.618H95V122.618Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M96 122.625H95V123.625H96V122.625Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M97 122.632H96V123.632H97V122.632Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M98 122.638H97V123.638H98V122.638Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M99 122.645H98V123.645H99V122.645Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M100 122.651H99V123.651H100V122.651Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M101 122.658H100V123.658H101V122.658Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M102 122.664H101V123.664H102V122.664Z" fill="#1D3255" />
           <path d="M103 122.671H102V123.671H103V122.671Z" fill="#030824" />
@@ -11715,46 +11715,46 @@ const BoatSvg = () => {
           <path
             d="M105 122.684H104V123.684H105V122.684Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M106 122.691H105V123.691H106V122.691Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M114 122.743H113V123.743H114V122.743Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M115 122.75H114V123.75H115V122.75Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path d="M116 122.757H115V123.757H116V122.757Z" fill="#030824" />
           <path d="M117 122.763H116V123.763H117V122.763Z" fill="#030824" />
           <path
             d="M118 122.77H117V123.77H118V122.77Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M119 122.776H118V123.776H119V122.776Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M120 122.783H119V123.783H120V122.783Z" fill="#030824" />
           <path d="M121 122.789H120V123.789H121V122.789Z" fill="#1D3255" />
           <path
             d="M122 122.796H121V123.796H122V122.796Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M26 123.164H25V124.164H26V123.164Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path d="M27 123.171H26V124.171H27V123.171Z" fill="#030824" />
           <path d="M28 123.178H27V124.178H28V123.178Z" fill="#1D3255" />
@@ -11772,32 +11772,32 @@ const BoatSvg = () => {
           <path
             d="M40 123.257H39V124.257H40V123.257Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M41 123.263H40V124.263H41V123.263Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M42 123.27H41V124.27H42V123.27Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M54 123.349H53V124.349H54V123.349Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M55 123.355H54V124.355H55V123.355Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M56 123.362H55V124.362H56V123.362Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path d="M57 123.368H56V124.368H57V123.368Z" fill="#030824" />
           <path d="M58 123.375H57V124.375H58V123.375Z" fill="#030824" />
@@ -11816,32 +11816,32 @@ const BoatSvg = () => {
           <path
             d="M71 123.461H70V124.461H71V123.461Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path
             d="M72 123.467H71V124.467H72V123.467Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M73 123.474H72V124.474H73V123.474Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M85 123.553H84V124.553H85V123.553Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M86 123.559H85V124.559H86V123.559Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M87 123.566H86V124.566H87V123.566Z"
             fill="#344261"
-            fill-opacity="0.984314"
+            fillOpacity="0.984314"
           />
           <path d="M88 123.572H87V124.572H88V123.572Z" fill="#030824" />
           <path d="M89 123.579H88V124.579H89V123.579Z" fill="#030824" />
@@ -11861,379 +11861,379 @@ const BoatSvg = () => {
           <path
             d="M103 123.671H102V124.671H103V123.671Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M104 123.678H103V124.678H104V123.678Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M116 123.757H115V124.757H116V123.757Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M117 123.763H116V124.763H117V123.763Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path d="M118 123.77H117V124.77H118V123.77Z" fill="#030824" />
           <path d="M119 123.776H118V124.776H119V123.776Z" fill="#030824" />
           <path
             d="M120 123.783H119V124.783H120V123.783Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M121 123.789H120V124.789H121V123.789Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M26 124.164H25V125.164H26V124.164Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M27 124.171H26V125.171H27V124.171Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M28 124.178H27V125.178H28V124.178Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M29 124.184H28V125.184H29V124.184Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M30 124.191H29V125.191H30V124.191Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M31 124.197H30V125.197H31V124.197Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M32 124.204H31V125.204H32V124.204Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M33 124.211H32V125.211H33V124.211Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M34 124.217H33V125.217H34V124.217Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M35 124.224H34V125.224H35V124.224Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M36 124.23H35V125.23H36V124.23Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M37 124.237H36V125.237H37V124.237Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M38 124.243H37V125.243H38V124.243Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M39 124.25H38V125.25H39V124.25Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M40 124.257H39V125.257H40V124.257Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M57 124.368H56V125.368H57V124.368Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M58 124.375H57V125.375H58V124.375Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M59 124.382H58V125.382H59V124.382Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M60 124.388H59V125.388H60V124.388Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M61 124.395H60V125.395H61V124.395Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M62 124.401H61V125.401H62V124.401Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M63 124.408H62V125.408H63V124.408Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M64 124.414H63V125.414H64V124.414Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M65 124.421H64V125.421H65V124.421Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M66 124.428H65V125.428H66V124.428Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M67 124.434H66V125.434H67V124.434Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M68 124.441H67V125.441H68V124.441Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M69 124.447H68V125.447H69V124.447Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M70 124.454H69V125.454H70V124.454Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M71 124.461H70V125.461H71V124.461Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M87 124.566H86V125.566H87V124.566Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M88 124.572H87V125.572H88V124.572Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M89 124.579H88V125.579H89V124.579Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M90 124.586H89V125.586H90V124.586Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M91 124.592H90V125.592H91V124.592Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M92 124.599H91V125.599H92V124.599Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M93 124.605H92V125.605H93V124.605Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M94 124.612H93V125.612H94V124.612Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M95 124.618H94V125.618H95V124.618Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M96 124.625H95V125.625H96V124.625Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M97 124.632H96V125.632H97V124.632Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M98 124.638H97V125.638H98V124.638Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M99 124.645H98V125.645H99V124.645Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M100 124.651H99V125.651H100V124.651Z"
             fill="#555D72"
-            fill-opacity="0.752941"
+            fillOpacity="0.752941"
           />
           <path
             d="M101 124.658H100V125.658H101V124.658Z"
             fill="#8C92A2"
-            fill-opacity="0.494118"
+            fillOpacity="0.494118"
           />
           <path
             d="M102 124.664H101V125.664H102V124.664Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M118 124.77H117V125.77H118V124.77Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M119 124.776H118V125.776H119V124.776Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M120 124.783H119V125.783H120V124.783Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M28 125.178H27V126.178H28V125.178Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M29 125.184H28V126.184H29V125.184Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M31 125.197H30V126.197H31V125.197Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M32 125.204H31V126.204H32V125.204Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M34 125.217H33V126.217H34V125.217Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M35 125.224H34V126.224H35V125.224Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M36 125.23H35V126.23H36V125.23Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M61 125.395H60V126.395H61V125.395Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M63 125.408H62V126.408H63V125.408Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M65 125.421H64V126.421H65V125.421Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M66 125.428H65V126.428H66V125.428Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M67 125.434H66V126.434H67V125.434Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M90 125.586H89V126.586H90V125.586Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M92 125.599H91V126.599H92V125.599Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M93 125.605H92V126.605H93V125.605Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M95 125.618H94V126.618H95V125.618Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M96 125.625H95V126.625H96V125.625Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M98 125.638H97V126.638H98V125.638Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M99 125.645H98V126.645H99V125.645Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
           <path
             d="M100 125.651H99V126.651H100V125.651Z"
             fill="#C4C9D8"
-            fill-opacity="0.203922"
+            fillOpacity="0.203922"
           />
         </g>
       </g>

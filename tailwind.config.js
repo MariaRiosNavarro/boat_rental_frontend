@@ -2,16 +2,16 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   daisyui: {
-    themes: ["pastel", "dim"],
+    themes: [],
   },
   theme: {
     extend: {
-      // colors: {
-      //   bgColor: "#EEF8F6D",
-      //   primaryColor: "#86E6EE",
-      //   secondaryColor: "#B8FDED",
-      //   accentColor: "#F4D4DE",
-      // },
+      colors: {
+        bgColor: "#EEF8F6D",
+        primaryColor: "#86E6EE",
+        secondaryColor: "#B8FDED",
+        accentColor: "#F4D4DE",
+      },
       screens: {
         smallmobile: "320px",
         // => @media (min-width: 320px) { ... }
