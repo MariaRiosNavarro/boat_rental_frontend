@@ -1,6 +1,4 @@
 # React + Vite + Tailwind + DaisyUI -> Fullstack Boat Rental
 
-- ![Structure](/public/img/design.png)
-- ![Structure](/public/img/structure.png)
-
--[escalidraw](https://excalidraw.com/)
+- ![Structure](/public/readmeimg/design.png)
+- ![Structure](/public/readmeimg/structure.png)
