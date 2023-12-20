@@ -13,10 +13,10 @@ function App() {
 
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/boats" element={<List />} />
+          <Route path="/boats" element={<List listType="boats" />} />
           <Route path="/boat/:id" element={<Detail />} />
           <Route path="/add-boat" element={<Add />} />
-          <Route path="/rentals" element={<List />} />
+          <Route path="/rentals" element={<List listType="rentals" />} />
           <Route path="/rental/:id" element={<Detail />} />
           <Route path="/rent" element={<Add />} />
         </Routes>
