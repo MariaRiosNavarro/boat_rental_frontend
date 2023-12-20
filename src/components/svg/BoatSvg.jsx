@@ -1,8 +1,13 @@
 const BoatSvg = () => {
   return (
-    <svg fill="none" viewBox="0 0 152 153" xmlns="http://www.w3.org/2000/svg">
-      <g clip-path="url(#b)">
-        <g clip-path="url(#a)">
+    <svg
+      fill="none"
+      viewBox="0 0 152 153"
+      xmlns="http://www.w3.org/2000/svg"
+      className="z-40"
+    >
+      <g clipPath="url(#b)">
+        <g clipPath="url(#a)">
           <path d="m67 12.434h-1v1h1v-1z" fill="#C4C9D8" fillOpacity=".20392" />
           <path d="m68 12.441h-1v1h1v-1z" fill="#C4C9D8" fillOpacity=".20392" />
           <path d="m66 13.428h-1v1h1v-1z" fill="#C4C9D8" fillOpacity=".20392" />

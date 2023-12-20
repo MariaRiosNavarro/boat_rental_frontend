@@ -6,9 +6,10 @@ const AnchorSvg = () => {
       viewBox="0 0 190 154"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
+      className="max-w-[4rem] max-h-[4rem] z-40"
     >
-      <g clip-path="url(#clip0_5_23262)">
-        <g clip-path="url(#clip1_5_23262)">
+      <g clipPath="url(#clip0_5_23262)">
+        <g clipPath="url(#clip1_5_23262)">
           <path
             d="M58 20.3H57V21.3H58V20.3Z"
             fill="#DDE6EE"
