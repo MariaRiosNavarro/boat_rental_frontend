@@ -13,8 +13,4 @@ const Header = (props) => {
   );
 };
 
-Header.propTypes = {
-  property: PropTypes.string,
-};
-
 export default Header;
