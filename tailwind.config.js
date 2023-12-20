@@ -7,10 +7,10 @@ export default {
   theme: {
     extend: {
       colors: {
-        bgColor: "#EEF8F6D",
-        primaryColor: "#86E6EE",
-        secondaryColor: "#B8FDED",
-        accentColor: "#F4D4DE",
+        bgColor: "#FFFADD",
+        primaryColor: "#22668D",
+        secondaryColor: "#8ECDDD",
+        accentColor: "#FFCC70",
       },
       screens: {
         smallmobile: "320px",

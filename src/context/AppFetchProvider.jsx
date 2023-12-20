@@ -62,7 +62,7 @@ export const AppFetchProvider = ({ children }) => {
   useEffect(() => {
     fetchBoats();
     fetchRental();
-  }, [refresh]);
+  }, []);
 
   return (
     <AppContext.Provider

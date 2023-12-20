@@ -11,8 +11,12 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/:id" element={<Detail />} />
-          <Route path="/add" element={<Add />} />
+          <Route path="/boats" element={<List />} />
+          <Route path="/boat/:id" element={<Detail />} />
+          <Route path="/add-boat" element={<Add />} />
+          <Route path="/rentals" element={<List />} />
+          <Route path="/rental/:id" element={<Detail />} />
+          <Route path="/rent" element={<Add />} />
         </Routes>
       </BrowserRouter>
     </>
