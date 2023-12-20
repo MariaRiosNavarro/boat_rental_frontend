@@ -5,9 +5,9 @@ const Header = (props) => {
     <>
       <header>
         <div className="flex items-center justify-center">
-          <span className="text-4xl font-bold text-">PROPS</span>{" "}
+          <span className="text-4xl font-bold text-[#86E6EE]">PROPS</span>
           <RudderSvg />
-          <span className="text-4xl font-bold">BOATS</span>
+          <span className="text-4xl font-bold text-[#86E6EE]">BOATS</span>
         </div>
       </header>
     </>
