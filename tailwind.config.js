@@ -2,7 +2,16 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   daisyui: {
-    themes: [],
+    themes: [
+      {
+        mytheme: {
+          "base-100": "#FFFADD",
+          primary: "#22668D",
+          secondary: "#8ECDDD",
+          accent: "#FFCC70",
+        },
+      },
+    ],
   },
   theme: {
     extend: {
@@ -11,6 +20,7 @@ export default {
         primaryColor: "#22668D",
         secondaryColor: "#8ECDDD",
         accentColor: "#FFCC70",
+        logoColor: "#556074",
       },
       screens: {
         smallmobile: "320px",

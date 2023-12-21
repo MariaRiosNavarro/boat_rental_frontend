@@ -5,3 +5,4 @@
 
 used:
 https://www.npmjs.com/package/react-wavify
+npm install react-icons --save
