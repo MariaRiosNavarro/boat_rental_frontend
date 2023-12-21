@@ -1,6 +1,6 @@
 import Wave from "react-wavify";
-import BoatsList from "../components/Boat/BoatList";
-import RentalList from "../components/Rental/RentalList";
+import BoatForm from "../components/Boat/BoatForm";
+import RentalForm from "../components/Rental/RentalForm";
 
 const Add = ({ formType }) => {
   return (

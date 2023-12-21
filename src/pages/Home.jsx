@@ -1,7 +1,42 @@
 import Wave from "react-wavify";
 import { Link } from "react-router-dom";
+import { useMyContext } from "../context/AppFetchProvider";
+import { useEffect, useState } from "react";
 
-const Home = () => {
+const Home = ({ rentalCount }) => {
+  const { boats } = useMyContext();
+  const [freeBoatsToday, setFreeBoatsToday] = useState([]);
+
+  let boatsCount = boats.length;
+
+  useEffect(() => {
+    const fetchFreeBootsToday = async () => {
+      //today free Boats
+      let date = new Date();
+      let formattedDate = date.toISOString().split("T")[0];
+      try {
+        const response = await fetch(
+          `${
+            import.meta.env.VITE_BACKEND_URL
+          }/api/boats/free-boats/${formattedDate}`
+        );
+        if (!response.ok) {
+          throw new Error(`Request failed with status ${response.status}`);
+        }
+        const responseData = await response.json();
+        setFreeBoatsToday(responseData);
+        console.log(responseData);
+      } catch (error) {
+        console.log("Fetch Error: ", error.message);
+        throw new Error("An error occurred during the fetch operation");
+      }
+    };
+
+    fetchFreeBootsToday();
+  }, []);
+
+  let freeTodayCount = freeBoatsToday.length;
+
   return (
     <div className="relative top-[-2rem] border-t-[#5A848E] ">
       <Wave
@@ -36,7 +71,7 @@ const Home = () => {
                 </svg>
               </div>
               <div className="stat-title">Reservation</div>
-              <div className="stat-value">4</div>
+              <div className="stat-value">{rentalCount}</div>
               {/* <div className="stat-desc">Jan 1st - Feb 1st</div> */}
             </div>
           </Link>
@@ -57,8 +92,8 @@ const Home = () => {
                   ></path>
                 </svg>
               </div>
-              <div className="stat-title">Available boats</div>
-              <div className="stat-value">5</div>
+              <div className="stat-title">Available boats today</div>
+              <div className="stat-value">{freeTodayCount}</div>
               {/* <div className="stat-desc">↗︎ 400 (22%)</div> */}
             </div>
           </Link>
@@ -80,7 +115,7 @@ const Home = () => {
                 </svg>
               </div>
               <div className="stat-title">All Boats</div>
-              <div className="stat-value">8</div>
+              <div className="stat-value">{boatsCount}</div>
               {/* <div className="stat-desc">↘︎ 90 (14%)</div> */}
             </div>
           </Link>

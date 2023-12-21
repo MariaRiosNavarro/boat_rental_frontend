@@ -1,8 +1,9 @@
 import Wave from "react-wavify";
 import BoatsList from "../components/Boat/BoatList";
 import RentalList from "../components/Rental/RentalList";
+import { Link } from "react-router-dom";
 
-const List = ({ listType }) => {
+const List = ({ listType, rentals }) => {
   return (
     <div className="relative top-[-2rem] border-t-[#5A848E] ">
       <Wave
@@ -20,9 +21,16 @@ const List = ({ listType }) => {
       <div className="border border-t-[#5A848E]  border-transparent bg-[#5A848E] flex flex-col justify-center">
         <h2 className="text-[2rem] text-base-100 font-bolder text-center p-4">
           {listType === "boats" ? "Boats" : "Rentals"}
+          <Link to={listType === "boats" ? "/add-boat" : "/rent"}>
+            <span>＋</span>
+          </Link>
         </h2>
         <section className="mx-auto my-0">
-          {listType === "boats" ? <BoatsList /> : <RentalList />}
+          {listType === "boats" ? (
+            <BoatsList />
+          ) : (
+            <RentalList rentals={rentals} />
+          )}
         </section>
       </div>
     </div>
