@@ -1,14 +1,18 @@
 const BoatItem = (props) => {
+  let imgPath = props?.img || "";
+  let path;
+
+  if (imgPath.includes("images")) {
+    path = import.meta.env.VITE_BACKEND_URL + "/" + props.img;
+  } else {
+    path = "/img/placeholder.jpg";
+  }
   return (
     <>
       <div className="max-w-[30%]">
         <div className="card w-96 bg-secondary shadow-xl">
           <figure className="h-[15rem] overflow-hidden">
-            <img
-              className="object-cover min-h-[15rem]"
-              src={import.meta.env.VITE_BACKEND_URL + "/" + props.img}
-              alt="img"
-            />
+            <img className="object-cover min-h-[15rem]" src={path} alt="img" />
           </figure>
           <div className="card-body">
             <h2 className="card-title">

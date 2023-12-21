@@ -1,8 +1,11 @@
 const Button = (props) => {
   return (
     <>
-      <h1>Button</h1>
-      <button></button>
+      <input
+        className="btn btn-secondary w-[50%] mx-auto my-0"
+        type={props.type}
+        value={props.value}
+      />
     </>
   );
 };

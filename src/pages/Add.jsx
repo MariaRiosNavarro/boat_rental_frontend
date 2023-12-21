@@ -18,8 +18,7 @@ const Add = ({ formType }) => {
         }}
       ></Wave>
       <div className="min-h-screen border border-t-[#5A848E]  border-transparent bg-[#5A848E]">
-        <h2>{formType === "boats" ? "Boats" : "Rentals"}</h2>
-        <section>
+        <section className="flex flex-col gap-4 min-w-[70%] mx-auto my-0 pb-[10rem] ">
           {formType === "boats" ? <BoatForm /> : <RentalForm />}
         </section>
       </div>
