@@ -21,7 +21,6 @@ const BoatForm = () => {
     autopilot: false,
     wifi: false,
     hotwater: false,
-    img: null,
   });
 
   //Handle Files
@@ -49,7 +48,7 @@ const BoatForm = () => {
   const saveBoat = async (event) => {
     event.preventDefault();
     const formDataToSend = new FormData();
-
+    formDataToSend.append("img", formData.img);
     formDataToSend.append("boatname", formData.boatname);
     formDataToSend.append("boattype", formData.boattype);
     formDataToSend.append("boatsubtype", formData.boatsubtype);
@@ -75,12 +74,13 @@ const BoatForm = () => {
         }
       );
       const result = await response.json();
-      // if (!response.ok) {
-      //   throw new Error("Network response was not ok");
-      // } else {
-      console.log(result);
-
-      // }
+      if (!response.ok) {
+        console.log(result.message);
+        throw new Error("Network response was not ok");
+      } else {
+        event.target.reset();
+        console.log(result.message);
+      }
     } catch (error) {
       console.error("Error Message-------->", error);
     }
@@ -225,7 +225,9 @@ const BoatForm = () => {
         <input
           type="file"
           name="img"
+          id="movieImage"
           className="file-input file-input-bordered file-input-secondary w-full max-w-xs mx-auto my-0"
+          onChange={(e) => handleFile(e)}
         />
         {/* select options */}
         <select
