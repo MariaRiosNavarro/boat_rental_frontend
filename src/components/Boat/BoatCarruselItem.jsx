@@ -5,7 +5,6 @@ const BoatCarruselItem = (props) => {
   const { onClick } = props;
 
   if (!rentals) {
-    // You might want to render a loading state or handle this case differently.
     return null;
   }
   // Handle Images

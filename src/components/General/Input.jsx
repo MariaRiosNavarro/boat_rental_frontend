@@ -1,10 +1,13 @@
 const Input = (props) => {
+  const { max, min } = props;
   return (
     <>
       <label className="mx-auto my-0 text-2xl font-bolder" htmlFor={props.name}>
         {props.label}
       </label>
       <input
+        max={max}
+        min={min}
         type={props.type}
         name={props.name}
         id={props.name}

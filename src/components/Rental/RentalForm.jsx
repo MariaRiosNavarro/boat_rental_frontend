@@ -1,10 +1,17 @@
 import Button from "../General/Button";
 import Input from "../General/Input";
 import BoatCarrusel from "../Boat/BoatCarrusel";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import { useMyContext } from "../../context/AppFetchProvider";
 
 const RentalForm = () => {
-  const [selectedId, setSelectedId] = useState("");
+  const { setRefresh, boats } = useMyContext();
+  const [boatReservedMessage, setBoatReservedMessage] = useState("");
+  const [savedReservationMessage, setSavedReservationMessage] = useState("");
+  const [selectedBoat, setSelectedBoat] = useState({
+    id: "",
+    boat: "",
+  });
   const [formData, setFormData] = useState({
     username: "",
     daystart: new Date(),
@@ -12,32 +19,79 @@ const RentalForm = () => {
     bonus: false,
   });
 
-  const handleId = (clickedId) => {
-    setSelectedId(clickedId);
+  const handleId = async (clickedId) => {
+    // handle id
+    const selectedBoatInfo = boats.find((boat) => boat._id === clickedId);
+
+    setSelectedBoat({
+      id: selectedBoatInfo._id,
+      boat: selectedBoatInfo.boatname,
+    });
   };
 
   const saveRentForm = async (event) => {
     event.preventDefault();
-    console.log(formData);
-    // const formDataToSend = new FormData();
-    // formDataToSend.append("username", formData.username);
-    // formDataToSend.append("daystart", formData.daystart);
-    // formDataToSend.append("dayend", formData.dayend);
-    // formDataToSend.append("bonus", formData.bonus);
 
+    let selectedId = selectedBoat.id;
+    let start = formData.daystart;
+    let end = formData.dayend;
+
+    //check if this boat is reserved in this time
     try {
       const response = await fetch(
-        import.meta.env.VITE_BACKEND_URL + "/api/rentals/" + selectedId,
-        {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify({ ...formData }),
-        }
+        import.meta.env.VITE_BACKEND_URL +
+          "/api/rentals/reservations-one-boat/" +
+          selectedId +
+          "/" +
+          start +
+          "/" +
+          end
       );
-    } catch (error) {}
+      const result = await response.json();
+      console.log(result);
+
+      // if reserved put a message
+      setBoatReservedMessage(
+        result.isReserved ? "The boat is booked on these dates" : ""
+      );
+
+      // not reserved, save the reservation
+      if (!result.isReserved) {
+        const saveResponse = await fetch(
+          import.meta.env.VITE_BACKEND_URL + "/api/rentals/" + selectedBoat.id,
+          {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify({ ...formData }),
+          }
+        );
+
+        const saveResult = await saveResponse.json();
+        setSavedReservationMessage("Your reservation has been made");
+        setTimeout(() => {
+          setSavedReservationMessage("");
+        }, 4000);
+
+        if (!saveResponse.ok) {
+          console.log(saveResult.message);
+          throw new Error("Network response was not ok");
+        } else {
+          console.log(saveResult.message);
+        }
+      }
+    } catch (error) {
+      console.error("Error Message-------->", error);
+    } finally {
+      event.target.reset();
+      // setForcePageReload((prev) => !prev);
+    }
   };
+
+  // Need it to  avoid choosing a date from the past
+
+  const currentDate = new Date().toISOString().split("T")[0];
 
   return (
     <>
@@ -46,16 +100,28 @@ const RentalForm = () => {
       </h1>
       <form
         onSubmit={saveRentForm}
-        className="mx-auto my-0 flex flex-col items-center gap-4 relative"
+        className="mx-auto my-0 flex flex-col items-center gap-4 "
       >
         <BoatCarrusel onClick={(id) => handleId(id)} />
-        {selectedId && (
-          <p className="input input-bordered bg-secondary w-full max-w-xs mx-auto my-0">
-            Boat ID selected:{selectedId}
-          </p>
+        <p
+          className={`input input-bordered bg-secondary h-auto mx-auto my-0 p-8 ${
+            selectedBoat.id ? "visible" : "invisible"
+          }`}
+        >
+          Boat ID selected: {selectedBoat.id}
+          <br />
+          Boat Name: {selectedBoat.boat}
+        </p>
+
+        {boatReservedMessage && (
+          <p className="text-red-500">{boatReservedMessage}</p>
         )}
 
-        <div className="flex flex-col items-center absolute top-[29rem]">
+        {savedReservationMessage && (
+          <p className="text-green-500">{savedReservationMessage}</p>
+        )}
+
+        <div className="flex flex-col items-center">
           <Input
             label="Your username: "
             type="text"
@@ -84,6 +150,7 @@ const RentalForm = () => {
             type="date"
             label="From which day: "
             name="daystart"
+            min={currentDate}
             formData={formData}
             setFormData={setFormData}
           />
@@ -92,6 +159,7 @@ const RentalForm = () => {
             type="date"
             name="dayend"
             formData={formData}
+            min={currentDate}
             setFormData={setFormData}
           />
           <Button value="Save" type="submit" />
