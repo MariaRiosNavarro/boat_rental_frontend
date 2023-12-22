@@ -4,37 +4,8 @@ import { useMyContext } from "../context/AppFetchProvider";
 import { useEffect, useState } from "react";
 
 const Home = ({ rentalCount }) => {
-  const { boats } = useMyContext();
-  const [freeBoatsToday, setFreeBoatsToday] = useState([]);
-
+  const { boats, freeBoatsToday } = useMyContext();
   let boatsCount = boats.length;
-
-  useEffect(() => {
-    const fetchFreeBootsToday = async () => {
-      //today free Boats
-      let date = new Date();
-      let formattedDate = date.toISOString().split("T")[0];
-      try {
-        const response = await fetch(
-          `${
-            import.meta.env.VITE_BACKEND_URL
-          }/api/boats/free-boats/${formattedDate}`
-        );
-        if (!response.ok) {
-          throw new Error(`Request failed with status ${response.status}`);
-        }
-        const responseData = await response.json();
-        setFreeBoatsToday(responseData);
-        console.log(responseData);
-      } catch (error) {
-        console.log("Fetch Error: ", error.message);
-        throw new Error("An error occurred during the fetch operation");
-      }
-    };
-
-    fetchFreeBootsToday();
-  }, []);
-
   let freeTodayCount = freeBoatsToday.length;
 
   return (

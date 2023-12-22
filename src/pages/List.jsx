@@ -27,7 +27,7 @@ const List = ({ listType, rentals }) => {
         </h2>
         <section className="mx-auto my-0">
           {listType === "boats" ? (
-            <BoatsList />
+            <BoatsList rentals={rentals} />
           ) : (
             <RentalList rentals={rentals} />
           )}
