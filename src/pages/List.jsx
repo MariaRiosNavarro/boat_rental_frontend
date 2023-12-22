@@ -3,7 +3,7 @@ import BoatsList from "../components/Boat/BoatList";
 import RentalList from "../components/Rental/RentalList";
 import { Link } from "react-router-dom";
 
-const List = ({ listType, rentals }) => {
+const List = ({ listType }) => {
   return (
     <div className="relative top-[-2rem] border-t-[#5A848E] ">
       <Wave
@@ -26,11 +26,7 @@ const List = ({ listType, rentals }) => {
           </Link>
         </h2>
         <section className="mx-auto my-0">
-          {listType === "boats" ? (
-            <BoatsList rentals={rentals} />
-          ) : (
-            <RentalList rentals={rentals} />
-          )}
+          {listType === "boats" ? <BoatsList /> : <RentalList />}
         </section>
       </div>
     </div>

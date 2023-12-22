@@ -3,10 +3,11 @@ import { Link } from "react-router-dom";
 import { useMyContext } from "../context/AppFetchProvider";
 import { useEffect, useState } from "react";
 
-const Home = ({ rentalCount }) => {
-  const { boats, freeBoatsToday } = useMyContext();
+const Home = () => {
+  const { boats, freeBoatsToday, rentals } = useMyContext();
   let boatsCount = boats.length;
   let freeTodayCount = freeBoatsToday.length;
+  let rentalCount = rentals.length;
 
   return (
     <div className="relative top-[-2rem] border-t-[#5A848E] ">

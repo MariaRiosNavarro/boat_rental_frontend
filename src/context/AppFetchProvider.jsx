@@ -9,7 +9,8 @@ export const AppFetchProvider = ({ children }) => {
   const [boats, setBoats] = useState([]);
   const [refresh, setRefresh] = useState(false);
   const [freeBoatsToday, setFreeBoatsToday] = useState([]);
-  const [reservedBoats, setReservedBoats] = useState([]);
+  const [rentals, setRentals] = useState([]);
+  const [loading, setLoading] = useState(true);
 
   //GET ALL BOATS
 
@@ -42,7 +43,7 @@ export const AppFetchProvider = ({ children }) => {
         const response = await fetch(
           `${
             import.meta.env.VITE_BACKEND_URL
-          }/api/boats/free-boats/${formattedDate}/${formattedDate}`
+          }/api/rentals/free-boats/${formattedDate}/${formattedDate}`
         );
         if (!response.ok) {
           throw new Error(`Request failed with status ${response.status}`);
@@ -58,26 +59,32 @@ export const AppFetchProvider = ({ children }) => {
     fetchFreeBootsToday();
   }, []);
 
-  // useEffect(() => {
-  //   const findReservedBoats = async () => {
-  //     try {
-  //       const response = await fetch(
-  //         `${import.meta.env.VITE_BACKEND_URL}/api/boats/reserved-boats/all`
-  //       );
-  //       if (!response.ok) {
-  //         throw new Error(`Request failed with status ${response.status}`);
-  //       }
-  //       const responseData = await response.json();
-  //       // setReservedBoats(responseData);
-  //       console.log(responseData);
-  //     } catch (error) {
-  //       console.log("Fetch Error: ", error.message);
-  //       throw new Error("An error occurred during the fetch operation");
-  //     }
-  //   };
+  useEffect(() => {
+    const fetchRentals = async () => {
+      try {
+        const response = await fetch(
+          `${import.meta.env.VITE_BACKEND_URL}/api/rentals`
+        );
+        if (!response.ok) {
+          throw new Error(`Request failed with status ${response.status}`);
+        }
+        const responseData = await response.json();
 
-  //   findReservedBoats();
-  // }, []);
+        setRentals(responseData);
+        setLoading(false);
+      } catch (error) {
+        console.log("Fetch Error: ", error.message);
+        setLoading(false);
+        throw new Error("An error occurred during the fetch operation");
+      }
+    };
+
+    fetchRentals();
+  }, []);
+
+  if (loading) {
+    return <h1>Loading...</h1>;
+  }
 
   return (
     <AppContext.Provider
@@ -88,6 +95,8 @@ export const AppFetchProvider = ({ children }) => {
         setRefresh,
         freeBoatsToday,
         setFreeBoatsToday,
+        rentals,
+        setRentals,
       }}
     >
       {children}
