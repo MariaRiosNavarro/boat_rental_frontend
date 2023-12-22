@@ -1,7 +1,7 @@
 import { useMyContext } from "../../context/AppFetchProvider";
 
 const BoatItem = (props) => {
-  const { rentals } = useMyContext;
+  const { rentals } = useMyContext();
   // Handle Images
   const imgPath = props?.img || "";
   let path;

@@ -2,6 +2,7 @@ import { useMyContext } from "../../context/AppFetchProvider";
 
 const BoatCarruselItem = (props) => {
   const { rentals } = useMyContext();
+  const { onClick } = props;
 
   if (!rentals) {
     // You might want to render a loading state or handle this case differently.
@@ -50,18 +51,25 @@ const BoatCarruselItem = (props) => {
     <>
       <div
         id={props._id}
+        onClick={() => onClick(props._id)}
         className="carousel-item relative max-h-[40vh] w-[30%]"
       >
         {isReserved && (
-          <div className="absolute top-1 left-1 r-2 p-4 border-8 border-red-100 bg-base-100 text-sm">
-            RESERVED from <span className="block">{start}</span> to{" "}
-            <span className="block">{end}</span>
+          <div className="absolute top-1 left-1 r-2 p-4  text-sm flex flex-col">
+            <p className="badge badge-warning">RESERVED</p>
+            <div className="badge badge-base-100">
+              From<span className="px-1">{start}</span>to
+              <span className="px-1">{end}</span>
+            </div>
           </div>
         )}
         <div className="absolute bottom-1 right-1">
-          <p>
-            <span>{props.boatname}</span> for <span>{props.price}</span>€/day
-          </p>
+          <div className="flex flex-col">
+            <span className="badge badge-base-100 font-bold text-md">
+              {props.boatname}
+            </span>
+            <span className="badge badge-base-100">for {props.price}€/day</span>
+          </div>
         </div>
         <img className="object-cover" src={path} alt={props.name} />
       </div>

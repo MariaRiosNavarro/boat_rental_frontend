@@ -2,7 +2,7 @@ import { useMyContext } from "../../context/AppFetchProvider";
 import RentalItem from "./RentalItem";
 
 const RentalList = () => {
-  const { rentals } = useMyContext;
+  const { rentals } = useMyContext();
   return (
     <>
       <div className="flex flex-col  gap-8 pb-[10rem]">

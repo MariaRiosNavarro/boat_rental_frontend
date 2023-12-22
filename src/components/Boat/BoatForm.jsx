@@ -3,8 +3,7 @@ import Input from "../General/Input";
 import { useState } from "react";
 
 const BoatForm = () => {
-  const [message, setMessage] = useState("");
-  const [useFile, setUseFile] = useState(false);
+  // const [message, setMessage] = useState("");
   const [formData, setFormData] = useState({
     boatname: "",
     boattype: "",

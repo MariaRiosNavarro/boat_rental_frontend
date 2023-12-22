@@ -1,16 +1,11 @@
-import { useMyContext } from "../../context/AppFetchProvider";
-
 const RentalItem = (props) => {
-  const { boats } = useMyContext();
-
   //search Boat data to this reservation
 
   let documentBoat = props.documentBoat;
+  console.log(documentBoat.boatname);
 
-  const boatData = boats.filter((boat) => boat._id === documentBoat)[0];
-
-  let name = boatData ? boatData.boatname : "Unknown Boat";
-  let price = boatData ? boatData.price : "Unknown Price";
+  let name = documentBoat ? documentBoat.boatname : "Unknown Boat";
+  let price = documentBoat ? documentBoat.price : "Unknown Price";
 
   // handle bonus
 
