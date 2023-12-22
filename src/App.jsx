@@ -22,7 +22,7 @@ function App() {
           throw new Error(`Request failed with status ${response.status}`);
         }
         const responseData = await response.json();
-        console.log(responseData);
+
         setRentals(responseData);
         setLoading(false);
       } catch (error) {
@@ -46,7 +46,10 @@ function App() {
 
         <Routes>
           <Route path="/" element={<Home rentalCount={rentalCount} />} />
-          <Route path="/boats" element={<List listType="boats" />} />
+          <Route
+            path="/boats"
+            element={<List listType="boats" rentals={rentals} />}
+          />
           <Route path="/boat/:id" element={<Detail />} />
           <Route path="/add-boat" element={<Add formType="boats" />} />
           <Route
