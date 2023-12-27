@@ -40,7 +40,7 @@ const RentalForm = () => {
     try {
       const response = await fetch(
         import.meta.env.VITE_BACKEND_URL +
-          "/api/rentals/reservations-one-boat/" +
+          "/api/rentals/reservation-one-boat/" +
           selectedId +
           "/" +
           start +
