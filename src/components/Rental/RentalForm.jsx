@@ -114,11 +114,15 @@ const RentalForm = () => {
         </p>
 
         {boatReservedMessage && (
-          <p className="text-red-500">{boatReservedMessage}</p>
+          <p className="bg-red-300 text-black text-xl p-4 rounded-md">
+            {boatReservedMessage}
+          </p>
         )}
 
         {savedReservationMessage && (
-          <p className="text-green-500">{savedReservationMessage}</p>
+          <p className="bg-green-500 text-black text-xl p-4 rounded-md">
+            {savedReservationMessage}
+          </p>
         )}
 
         <div className="flex flex-col items-center">
