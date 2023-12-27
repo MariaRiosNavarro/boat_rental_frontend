@@ -5,7 +5,7 @@ const RentalList = () => {
   const { rentals } = useMyContext();
   return (
     <>
-      <div className="flex flex-col  gap-8 pb-[10rem]">
+      <div className="flex flex-col  gap-8 pb-[20rem]">
         {rentals.map((rent) => (
           <RentalItem key={rent._id} {...rent} />
         ))}

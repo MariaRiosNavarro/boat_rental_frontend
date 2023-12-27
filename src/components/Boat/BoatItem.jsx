@@ -1,7 +1,32 @@
+import { useEffect, useState } from "react";
 import { useMyContext } from "../../context/AppFetchProvider";
+import { formatReservationDates } from "../../utils/formatReservationDates";
 
 const BoatItem = (props) => {
   const { rentals } = useMyContext();
+  const [reservations, setReservations] = useState([]);
+  const isReserved = rentals.some((r) => r.referenceBootId === props._id);
+
+  useEffect(() => {
+    if (isReserved) {
+      const getReservationsOneBoat = async () => {
+        try {
+          const response = await fetch(
+            import.meta.env.VITE_BACKEND_URL +
+              "/api/rentals/reservations-one-boat/" +
+              props._id
+          );
+          const result = await response.json();
+          setReservations(result.data);
+          console.log(reservations);
+        } catch (error) {
+          console.error("Error fetching reservations", error);
+        }
+      };
+      getReservationsOneBoat();
+    }
+  }, []);
+
   // Handle Images
   const imgPath = props?.img || "";
   let path;
@@ -11,36 +36,6 @@ const BoatItem = (props) => {
   } else {
     path = "/img/placeholder.jpg";
   }
-  // Handle Reservation
-  const isReserved = rentals.some((r) => r.referenceBootId === props._id);
-
-  const firstReservation = rentals.find((r) => r.referenceBootId === props._id);
-
-  // Handle Dates Output
-
-  let start, end;
-
-  if (firstReservation) {
-    const startDate = new Date(firstReservation.daystart);
-    const endDate = new Date(firstReservation.dayend);
-    // Start
-    const formattedStart = `${startDate
-      .getDate()
-      .toString()
-      .padStart(2, "0")}-${(startDate.getMonth() + 1)
-      .toString()
-      .padStart(2, "0")}-${startDate.getFullYear()}`;
-
-    // End
-    const formattedEnd = `${endDate.getDate().toString().padStart(2, "0")}-${(
-      endDate.getMonth() + 1
-    )
-      .toString()
-      .padStart(2, "0")}-${endDate.getFullYear()}`;
-
-    start = firstReservation ? formattedStart : "";
-    end = firstReservation ? formattedEnd : "";
-  }
 
   return (
     <>
@@ -48,8 +43,17 @@ const BoatItem = (props) => {
         <div className="card w-96 bg-secondary shadow-xl">
           <figure className="h-[15rem] overflow-hidden relative">
             {isReserved && (
-              <div className="absolute t-8 r-2 p-4 border-8 border-red-100 bg-base-100">
-                RESERVED from <span>{start}</span> to <span>{end}</span>
+              <div className="absolute top-1 left-1 r-2 p-4  text-sm flex flex-col">
+                <p className="badge badge-warning">RESERVED</p>
+                {reservations.map((reservation, index) => {
+                  const { start, end } = formatReservationDates(reservation);
+                  return (
+                    <div key={index} className="badge badge-base-100">
+                      From<span className="px-1">{start}</span>to
+                      <span className="px-1">{end}</span>
+                    </div>
+                  );
+                })}
               </div>
             )}
             <img className="object-cover min-h-[15rem]" src={path} alt="img" />
@@ -63,8 +67,20 @@ const BoatItem = (props) => {
               <p className="">{props.description}</p>
             </div>
             <div className="card-actions justify-end">
-              <div className="badge badge-base-100">{props.boattype}</div>
-              <div className="badge  badge-base-100">{props.boatsubtype}</div>
+              <div
+                className={`badge badge-base-100 ${
+                  props.boattype ? "visible" : "invisible"
+                }`}
+              >
+                {props.boattype}
+              </div>
+              <div
+                className={`badge  badge-base-100 ${
+                  props.boatsubtype ? "visible" : "invisible"
+                }`}
+              >
+                {props.boatsubtype}
+              </div>
             </div>
           </div>
         </div>

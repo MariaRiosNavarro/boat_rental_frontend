@@ -48,7 +48,6 @@ const RentalForm = () => {
           end
       );
       const result = await response.json();
-      console.log(result);
 
       // if reserved put a message
       setBoatReservedMessage(
@@ -69,23 +68,23 @@ const RentalForm = () => {
         );
 
         const saveResult = await saveResponse.json();
-        setSavedReservationMessage("Your reservation has been made");
-        setTimeout(() => {
-          setSavedReservationMessage("");
-        }, 4000);
 
         if (!saveResponse.ok) {
           console.log(saveResult.message);
           throw new Error("Network response was not ok");
         } else {
+          setSavedReservationMessage(saveResult.message);
+          setTimeout(() => {
+            setSavedReservationMessage("");
+          }, 4000);
           console.log(saveResult.message);
+          setRefresh((prev) => !prev);
         }
       }
     } catch (error) {
       console.error("Error Message-------->", error);
     } finally {
       event.target.reset();
-      // setForcePageReload((prev) => !prev);
     }
   };
 
@@ -100,7 +99,7 @@ const RentalForm = () => {
       </h1>
       <form
         onSubmit={saveRentForm}
-        className="mx-auto my-0 flex flex-col items-center gap-4 "
+        className="mx-auto my-0 flex flex-col items-center gap-4"
       >
         <BoatCarrusel onClick={(id) => handleId(id)} />
         <p

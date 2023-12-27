@@ -1,12 +1,38 @@
 import { useMyContext } from "../../context/AppFetchProvider";
+import { useEffect, useState } from "react";
+import { formatReservationDates } from "../../utils/formatReservationDates";
 
 const BoatCarruselItem = (props) => {
   const { rentals } = useMyContext();
   const { onClick } = props;
 
+  const [reservations, setReservations] = useState([]);
+  const isReserved = rentals.some((r) => r.referenceBootId === props._id);
+
   if (!rentals) {
     return null;
   }
+
+  useEffect(() => {
+    if (isReserved) {
+      const getReservationsOneBoat = async () => {
+        try {
+          const response = await fetch(
+            import.meta.env.VITE_BACKEND_URL +
+              "/api/rentals/reservations-one-boat/" +
+              props._id
+          );
+          const result = await response.json();
+          setReservations(result.data);
+          console.log(reservations);
+        } catch (error) {
+          console.error("Error fetching reservations", error);
+        }
+      };
+      getReservationsOneBoat();
+    }
+  }, []);
+
   // Handle Images
   const imgPath = props?.img || "";
   let path;
@@ -16,36 +42,7 @@ const BoatCarruselItem = (props) => {
   } else {
     path = "/img/placeholder.jpg";
   }
-  // Handle Reservation
-  const isReserved = rentals.some((r) => r.referenceBootId === props._id);
 
-  const firstReservation = rentals.find((r) => r.referenceBootId === props._id);
-
-  // Handle Dates Output
-
-  let start, end;
-
-  if (firstReservation) {
-    const startDate = new Date(firstReservation.daystart);
-    const endDate = new Date(firstReservation.dayend);
-    // Start
-    const formattedStart = `${startDate
-      .getDate()
-      .toString()
-      .padStart(2, "0")}-${(startDate.getMonth() + 1)
-      .toString()
-      .padStart(2, "0")}-${startDate.getFullYear()}`;
-
-    // End
-    const formattedEnd = `${endDate.getDate().toString().padStart(2, "0")}-${(
-      endDate.getMonth() + 1
-    )
-      .toString()
-      .padStart(2, "0")}-${endDate.getFullYear()}`;
-
-    start = firstReservation ? formattedStart : "";
-    end = firstReservation ? formattedEnd : "";
-  }
   return (
     <>
       <div
@@ -56,10 +53,15 @@ const BoatCarruselItem = (props) => {
         {isReserved && (
           <div className="absolute top-1 left-1 r-2 p-4  text-sm flex flex-col">
             <p className="badge badge-warning">RESERVED</p>
-            <div className="badge badge-base-100">
-              From<span className="px-1">{start}</span>to
-              <span className="px-1">{end}</span>
-            </div>
+            {reservations.map((reservation, index) => {
+              const { start, end } = formatReservationDates(reservation);
+              return (
+                <div key={index} className="badge badge-base-100">
+                  From<span className="px-1">{start}</span>to
+                  <span className="px-1">{end}</span>
+                </div>
+              );
+            })}
           </div>
         )}
         <div className="absolute bottom-1 right-1">

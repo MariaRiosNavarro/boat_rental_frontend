@@ -1,8 +1,10 @@
+import { useMyContext } from "../../context/AppFetchProvider";
 import Button from "../General/Button";
 import Input from "../General/Input";
 import { useState } from "react";
 
 const BoatForm = () => {
+  const { setRefresh } = useMyContext;
   const [message, setMessage] = useState("");
   const [formData, setFormData] = useState({
     boatname: "",
@@ -87,6 +89,7 @@ const BoatForm = () => {
         }, 4000);
         event.target.reset();
         console.log(result.message);
+        setRefresh((prev) => !prev);
       }
     } catch (error) {
       console.error("Error Message-------->", error);

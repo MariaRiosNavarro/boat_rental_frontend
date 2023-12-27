@@ -10,7 +10,7 @@ export const AppFetchProvider = ({ children }) => {
   const [refresh, setRefresh] = useState(false);
   const [freeBoatsToday, setFreeBoatsToday] = useState([]);
   const [rentals, setRentals] = useState([]);
-  const [loading, setLoading] = useState(true);
+  // const [loading, setLoading] = useState(true);
 
   //---------------------------------------!GET ALL BOATS
 
@@ -53,7 +53,8 @@ export const AppFetchProvider = ({ children }) => {
           throw new Error(`Request failed with status ${response.status}`);
         } else {
           const responseData = await response.json();
-          setFreeBoatsToday(responseData.data);
+          const rentalsData = responseData.data || [];
+          setFreeBoatsToday(rentalsData);
         }
       } catch (error) {
         console.log("Fetch Error: ", error.message);
@@ -62,15 +63,14 @@ export const AppFetchProvider = ({ children }) => {
     };
 
     fetchFreeBootsToday();
-  }, []);
+  }, [refresh]);
 
-  //--------------------------------!GET all reservations as of today
+  //--------------------------------!GET all reservations as of today including those that started in the past but are still operating today.
 
   useEffect(() => {
     const fetchRentals = async () => {
-      //today free Boats
+      //today
       let date = new Date();
-
       let formattedDate = date.toISOString().split("T")[0];
       try {
         const response = await fetch(
@@ -84,20 +84,18 @@ export const AppFetchProvider = ({ children }) => {
         const responseData = await response.json();
         const rentalsData = responseData.data || [];
         setRentals(rentalsData);
-        setLoading(false);
       } catch (error) {
         console.log("Fetch Error: ", error.message);
-        setLoading(false);
         throw new Error("An error occurred during the fetch operation");
       }
     };
 
     fetchRentals();
-  }, []);
+  }, [refresh]);
 
-  if (loading) {
-    return <h1>Loading...</h1>;
-  }
+  // if (loading) {
+  //   return <h1>Loading...</h1>;
+  // }
 
   return (
     <AppContext.Provider
