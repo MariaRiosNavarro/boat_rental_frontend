@@ -1,9 +1,11 @@
+import { useMyContext } from "../../context/AppFetchProvider";
 import Button from "../General/Button";
 import Input from "../General/Input";
 import { useState } from "react";
 
 const BoatForm = () => {
-  // const [message, setMessage] = useState("");
+  const { setRefresh } = useMyContext;
+  const [message, setMessage] = useState("");
   const [formData, setFormData] = useState({
     boatname: "",
     boattype: "",
@@ -75,10 +77,19 @@ const BoatForm = () => {
       const result = await response.json();
       if (!response.ok) {
         console.log(result.message);
+        setMessage(result.message);
+        setTimeout(() => {
+          setMessage("");
+        }, 4000);
         throw new Error("Network response was not ok");
       } else {
+        setMessage(result.message);
+        setTimeout(() => {
+          setMessage("");
+        }, 4000);
         event.target.reset();
         console.log(result.message);
+        setRefresh((prev) => !prev);
       }
     } catch (error) {
       console.error("Error Message-------->", error);
@@ -240,6 +251,12 @@ const BoatForm = () => {
           <option value="carbon">Carbon</option>
           <option value="metal">Metal</option>
         </select>
+
+        {message ? (
+          <p className="p-4 bg-secondaryColor text-xl text-center">{message}</p>
+        ) : (
+          ""
+        )}
         <Button type="submit" value="Save" />
       </form>
     </>

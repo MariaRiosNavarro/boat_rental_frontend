@@ -10,9 +10,9 @@ export const AppFetchProvider = ({ children }) => {
   const [refresh, setRefresh] = useState(false);
   const [freeBoatsToday, setFreeBoatsToday] = useState([]);
   const [rentals, setRentals] = useState([]);
-  const [loading, setLoading] = useState(true);
+  // const [loading, setLoading] = useState(true);
 
-  //GET ALL BOATS
+  //---------------------------------------!GET ALL BOATS
 
   useEffect(() => {
     const fetchBoats = async () => {
@@ -22,9 +22,11 @@ export const AppFetchProvider = ({ children }) => {
         );
         if (!response.ok) {
           throw new Error(`Request failed with status ${response.status}`);
+        } else {
+          const responseData = await response.json();
+          const boatsData = responseData.data || [];
+          setBoats(boatsData);
         }
-        const responseData = await response.json();
-        setBoats(responseData);
       } catch (error) {
         console.log("Fetch Error: ", error.message);
         throw new Error("An error occurred during the fetch operation");
@@ -32,6 +34,8 @@ export const AppFetchProvider = ({ children }) => {
     };
     fetchBoats();
   }, [refresh]);
+
+  // ----------------------------------!GET FREE BOOTS TODAY
 
   useEffect(() => {
     const fetchFreeBootsToday = async () => {
@@ -47,9 +51,11 @@ export const AppFetchProvider = ({ children }) => {
         );
         if (!response.ok) {
           throw new Error(`Request failed with status ${response.status}`);
+        } else {
+          const responseData = await response.json();
+          const rentalsData = responseData.data || [];
+          setFreeBoatsToday(rentalsData);
         }
-        const responseData = await response.json();
-        setFreeBoatsToday(responseData);
       } catch (error) {
         console.log("Fetch Error: ", error.message);
         throw new Error("An error occurred during the fetch operation");
@@ -57,34 +63,39 @@ export const AppFetchProvider = ({ children }) => {
     };
 
     fetchFreeBootsToday();
-  }, []);
+  }, [refresh]);
+
+  //--------------------------------!GET all reservations as of today including those that started in the past but are still operating today.
 
   useEffect(() => {
     const fetchRentals = async () => {
+      //today
+      let date = new Date();
+      let formattedDate = date.toISOString().split("T")[0];
       try {
         const response = await fetch(
-          `${import.meta.env.VITE_BACKEND_URL}/api/rentals`
+          `${
+            import.meta.env.VITE_BACKEND_URL
+          }/api/rentals/date/${formattedDate}`
         );
         if (!response.ok) {
           throw new Error(`Request failed with status ${response.status}`);
         }
         const responseData = await response.json();
-
-        setRentals(responseData);
-        setLoading(false);
+        const rentalsData = responseData.data || [];
+        setRentals(rentalsData);
       } catch (error) {
         console.log("Fetch Error: ", error.message);
-        setLoading(false);
         throw new Error("An error occurred during the fetch operation");
       }
     };
 
     fetchRentals();
-  }, []);
+  }, [refresh]);
 
-  if (loading) {
-    return <h1>Loading...</h1>;
-  }
+  // if (loading) {
+  //   return <h1>Loading...</h1>;
+  // }
 
   return (
     <AppContext.Provider

@@ -40,7 +40,7 @@ const RentalForm = () => {
     try {
       const response = await fetch(
         import.meta.env.VITE_BACKEND_URL +
-          "/api/rentals/reservations-one-boat/" +
+          "/api/rentals/reservation-one-boat/" +
           selectedId +
           "/" +
           start +
@@ -48,7 +48,6 @@ const RentalForm = () => {
           end
       );
       const result = await response.json();
-      console.log(result);
 
       // if reserved put a message
       setBoatReservedMessage(
@@ -69,23 +68,23 @@ const RentalForm = () => {
         );
 
         const saveResult = await saveResponse.json();
-        setSavedReservationMessage("Your reservation has been made");
-        setTimeout(() => {
-          setSavedReservationMessage("");
-        }, 4000);
 
         if (!saveResponse.ok) {
           console.log(saveResult.message);
           throw new Error("Network response was not ok");
         } else {
+          setSavedReservationMessage(saveResult.message);
+          setTimeout(() => {
+            setSavedReservationMessage("");
+          }, 4000);
           console.log(saveResult.message);
+          setRefresh((prev) => !prev);
         }
       }
     } catch (error) {
       console.error("Error Message-------->", error);
     } finally {
       event.target.reset();
-      // setForcePageReload((prev) => !prev);
     }
   };
 
@@ -100,7 +99,7 @@ const RentalForm = () => {
       </h1>
       <form
         onSubmit={saveRentForm}
-        className="mx-auto my-0 flex flex-col items-center gap-4 "
+        className="mx-auto my-0 flex flex-col items-center gap-4"
       >
         <BoatCarrusel onClick={(id) => handleId(id)} />
         <p
@@ -114,11 +113,15 @@ const RentalForm = () => {
         </p>
 
         {boatReservedMessage && (
-          <p className="text-red-500">{boatReservedMessage}</p>
+          <p className="bg-red-300 text-black text-xl p-4 rounded-md">
+            {boatReservedMessage}
+          </p>
         )}
 
         {savedReservationMessage && (
-          <p className="text-green-500">{savedReservationMessage}</p>
+          <p className="bg-green-500 text-black text-xl p-4 rounded-md">
+            {savedReservationMessage}
+          </p>
         )}
 
         <div className="flex flex-col items-center">
