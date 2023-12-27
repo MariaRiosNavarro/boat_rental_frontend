@@ -12,7 +12,7 @@ export const AppFetchProvider = ({ children }) => {
   const [rentals, setRentals] = useState([]);
   const [loading, setLoading] = useState(true);
 
-  //GET ALL BOATS
+  //---------------------------------------!GET ALL BOATS
 
   useEffect(() => {
     const fetchBoats = async () => {
@@ -22,9 +22,11 @@ export const AppFetchProvider = ({ children }) => {
         );
         if (!response.ok) {
           throw new Error(`Request failed with status ${response.status}`);
+        } else {
+          const responseData = await response.json();
+          const boatsData = responseData.data || [];
+          setBoats(boatsData);
         }
-        const responseData = await response.json();
-        setBoats(responseData);
       } catch (error) {
         console.log("Fetch Error: ", error.message);
         throw new Error("An error occurred during the fetch operation");
@@ -32,6 +34,8 @@ export const AppFetchProvider = ({ children }) => {
     };
     fetchBoats();
   }, [refresh]);
+
+  // ----------------------------------!GET FREE BOOTS TODAY
 
   useEffect(() => {
     const fetchFreeBootsToday = async () => {
@@ -47,9 +51,10 @@ export const AppFetchProvider = ({ children }) => {
         );
         if (!response.ok) {
           throw new Error(`Request failed with status ${response.status}`);
+        } else {
+          const responseData = await response.json();
+          setFreeBoatsToday(responseData);
         }
-        const responseData = await response.json();
-        setFreeBoatsToday(responseData);
       } catch (error) {
         console.log("Fetch Error: ", error.message);
         throw new Error("An error occurred during the fetch operation");
@@ -58,6 +63,8 @@ export const AppFetchProvider = ({ children }) => {
 
     fetchFreeBootsToday();
   }, []);
+
+  //--------------------------------!GET ALL RESERVATIONS
 
   useEffect(() => {
     const fetchRentals = async () => {
