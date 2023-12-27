@@ -76,8 +76,8 @@ export const AppFetchProvider = ({ children }) => {
           throw new Error(`Request failed with status ${response.status}`);
         }
         const responseData = await response.json();
-
-        setRentals(responseData);
+        const rentalsData = responseData.data || [];
+        setRentals(rentalsData);
         setLoading(false);
       } catch (error) {
         console.log("Fetch Error: ", error.message);
