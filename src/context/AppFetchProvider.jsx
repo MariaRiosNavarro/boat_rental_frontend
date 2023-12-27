@@ -53,7 +53,7 @@ export const AppFetchProvider = ({ children }) => {
           throw new Error(`Request failed with status ${response.status}`);
         } else {
           const responseData = await response.json();
-          setFreeBoatsToday(responseData);
+          setFreeBoatsToday(responseData.data);
         }
       } catch (error) {
         console.log("Fetch Error: ", error.message);
@@ -64,13 +64,19 @@ export const AppFetchProvider = ({ children }) => {
     fetchFreeBootsToday();
   }, []);
 
-  //--------------------------------!GET ALL RESERVATIONS
+  //--------------------------------!GET all reservations as of today
 
   useEffect(() => {
     const fetchRentals = async () => {
+      //today free Boats
+      let date = new Date();
+
+      let formattedDate = date.toISOString().split("T")[0];
       try {
         const response = await fetch(
-          `${import.meta.env.VITE_BACKEND_URL}/api/rentals`
+          `${
+            import.meta.env.VITE_BACKEND_URL
+          }/api/rentals/date/${formattedDate}`
         );
         if (!response.ok) {
           throw new Error(`Request failed with status ${response.status}`);
