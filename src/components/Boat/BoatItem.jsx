@@ -42,9 +42,11 @@ const BoatItem = (props) => {
       <div className="max-w-[30%]">
         <div className="card w-96 bg-secondary shadow-xl">
           <figure className="h-[15rem] overflow-hidden relative">
+            {/* wenn Boat is reserved */}
             {isReserved && (
               <div className="absolute top-1 left-1 r-2 p-4  text-sm flex flex-col">
                 <p className="badge badge-warning">RESERVED</p>
+                {/* Render Badge with the reservations formatted dates */}
                 {reservations.map((reservation, index) => {
                   const { start, end } = formatReservationDates(reservation);
                   return (

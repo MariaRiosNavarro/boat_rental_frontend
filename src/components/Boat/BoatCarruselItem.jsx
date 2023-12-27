@@ -50,9 +50,11 @@ const BoatCarruselItem = (props) => {
         onClick={() => onClick(props._id)}
         className="carousel-item relative max-h-[40vh] w-[30%]"
       >
+        {/* wenn Boat is reserved */}
         {isReserved && (
           <div className="absolute top-1 left-1 r-2 p-4  text-sm flex flex-col">
             <p className="badge badge-warning">RESERVED</p>
+            {/* Render Badge with the reservations formatted dates */}
             {reservations.map((reservation, index) => {
               const { start, end } = formatReservationDates(reservation);
               return (
