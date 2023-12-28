@@ -16,6 +16,8 @@ Welcome to the Full Stack Boats project, built with React, Vite, Tailwind CSS, a
 - A Boat icon in the header provides a quick link to the Boats List.
 - A Anchors icon in the header provides a quick link to the Reservations/Rentals List.
 
+![Home](/public/readmeimg/home.png)
+
 ### Home Page
 
 - The home page displays 3 informations.
@@ -24,11 +26,15 @@ Welcome to the Full Stack Boats project, built with React, Vite, Tailwind CSS, a
 
 ### Boats Page
 
+![Home](/public/readmeimg/blist.png)
+
 - A "+" Icon with a Link to the Boat form
 
 - List all boats
 
 - Each boats entry in the Boats Page also includes a link to its respective detail page with editing & delete capabilities.
+
+- Information about the next bookings is given on the picture
 
 - If the user did not provide an image in the input form I use a placeholder:
 
@@ -36,37 +42,62 @@ Welcome to the Full Stack Boats project, built with React, Vite, Tailwind CSS, a
 
 ### Rentals Page
 
+![Home](/public/readmeimg/rlist.png)
+
 - A "+" Icon with a Link to the Reservation form
 
 - List all reservations.
 
 - Each reservations entry in the favorites section also includes a button to its respective detail page with delete capabilities.
 
+![Home](/public/readmeimg/detailbuttonrlist.png)
+
 ### Boats Form
+
+![Home](/public/readmeimg/bform.png)
 
 - Users can add their own Boats through a dedicated form.
 - The form allows users to add a file, upload to cloudinary
 - A toast notification informs the user of the success or failure of the operation.
 
+![Home](/public/readmeimg/toastbform.png)
+
 ### Rental Form
+
+![Home](/public/readmeimg/rform.png)
 
 - A carousel of images serves as input for choosing the right boat, with current information on the stocks of that boat. The internal logic prevents the booking of a boat that is already booked on the dates the boat is booked.
 - Users can add their own Reservation through a dedicated form.
 - A toast notification informs the user of the success or failure of the operation.
 
+![Home](/public/readmeimg/rform2.png)
+
+![Home](/public/readmeimg/toastrform.png)
+
 ### Detail Page Boats - Edit & Delete
+
+![Home](/public/readmeimg/detailb.png)
 
 - Users can edit or remove Boats in the detail page.
 - Boats properties can be edited, including text properties (file editing functionality coming soon). The edit form triggers a toast notification to provide information to the user.
 
+![Home](/public/readmeimg/editb.png)
+
+![Home](/public/readmeimg/toastedit.png)
+
 ### Detail Page Rentals - Delete
+
+![Home](/public/readmeimg/rdetail.png)
 
 - Users remove Reservations in the detail page.
 
+![Home](/public/readmeimg/rdelete.png)
+
 ### Initial Stucture & Infos
 
-- ![Structure](/public/readmeimg/design.png)
-- ![Structure](/public/readmeimg/structure.png)
+![Structure](/public/readmeimg/design.png)
+
+![Structure](/public/readmeimg/structure.png)
 
 ### npm Design
 
