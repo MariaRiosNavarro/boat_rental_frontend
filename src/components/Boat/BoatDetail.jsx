@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { useParams } from "react-router-dom";
 import { useMyContext } from "../../context/AppFetchProvider";
+import EditBoat from "./EditBoat";
 
 const BoatDetail = () => {
   const { setRefresh } = useMyContext();
@@ -9,6 +10,7 @@ const BoatDetail = () => {
   const [loading, setLoading] = useState(false);
   const [boat, setBoat] = useState(null);
   const [deleteMessage, setDeleteMessage] = useState(null);
+  const [edit, setEdit] = useState(false);
 
   useEffect(() => {
     setLoading(true);
@@ -76,6 +78,12 @@ const BoatDetail = () => {
     }
   };
 
+  // HANDEL EDIT
+
+  const openEdit = () => {
+    setEdit((prev) => !prev);
+  };
+
   return (
     <>
       {deleteMessage ? (
@@ -86,9 +94,14 @@ const BoatDetail = () => {
           </Link>
         </div>
       ) : (
-        <article className="hero min-h-screen bg-[#5A848E] pb-[10rem]">
-          <div className="hero-content flex-col lg:flex-row">
-            <img src={path} className="max-w-md rounded-lg shadow-2xl" />
+        <article className="flex flex-col justify-center items-center mx-auto my-0  bg-[#5A848E] pb-[10rem] px-[3rem]">
+          <div className="flex flex-col lg:flex-row gap-8">
+            <figure className="w-md">
+              <img
+                src={path}
+                className="w-md object-cover w-[100%] rounded-lg shadow-2xl"
+              />
+            </figure>
             <div>
               <h1 className="text-5xl font-bold pb-[1rem]">{boat?.boatname}</h1>
 
@@ -193,13 +206,16 @@ const BoatDetail = () => {
                 <Link to="/boats">
                   <button className="btn btn-primary">Back</button>
                 </Link>
-                {/* <button className="btn btn-secondary">Edit</button> */}
+                <button onClick={openEdit} className="btn btn-warning">
+                  Edit
+                </button>
                 <button onClick={deleteBoat} className="btn btn-warning">
                   Delete
                 </button>
               </div>
             </div>
           </div>
+          {edit && <EditBoat boat={boat} />}
         </article>
       )}
     </>
