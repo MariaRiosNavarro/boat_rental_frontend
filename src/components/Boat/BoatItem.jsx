@@ -31,8 +31,8 @@ const BoatItem = (props) => {
   const imgPath = props?.img || "";
   let path;
 
-  if (imgPath.includes("images")) {
-    path = import.meta.env.VITE_BACKEND_URL + "/" + props.img;
+  if (imgPath.includes("https://res.cloudinary")) {
+    path = props.img;
   } else {
     path = "/img/placeholder.jpg";
   }
