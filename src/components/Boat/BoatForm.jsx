@@ -97,8 +97,14 @@ const BoatForm = () => {
         setRefresh((prev) => !prev);
       }
     } catch (error) {
-      console.error("Error Message-------->", error);
+      console.log("Error Message-------->", error);
       event.target.reset();
+    } finally {
+      event.target.reset();
+      setMessage("Boat added");
+      setTimeout(() => {
+        setMessage("");
+      }, 4000);
     }
   };
 
