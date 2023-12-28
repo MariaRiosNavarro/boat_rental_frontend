@@ -70,19 +70,11 @@ const BoatForm = () => {
     formDataToSend.append("wifi", formData.wifi);
     formDataToSend.append("hotwater", formData.hotwater);
 
-    // //Dynamical Header
-    // const headers = useFile
-    //   ? { "Content-Type": "multipart/form-data" } //for form with files
-    //   : {
-    //       // for form without files
-    //     };
-
     try {
       const response = await fetch(
         import.meta.env.VITE_BACKEND_URL + "/api/boats",
         {
           method: "POST",
-          // headers: headers,
           body: formDataToSend,
           mode: "no-cors",
         }
@@ -115,11 +107,7 @@ const BoatForm = () => {
         Add the Boat
       </h2>
 
-      <form
-        onSubmit={saveBoat}
-        // encType={useFile ? "multipart/form-data" : undefined}
-        className="flex flex-col gap-4  mx-auto my-0 "
-      >
+      <form onSubmit={saveBoat} className="flex flex-col gap-4  mx-auto my-0 ">
         {/* text */}
         <Input
           name="boatname"
