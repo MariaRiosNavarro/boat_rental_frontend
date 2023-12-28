@@ -6,6 +6,7 @@ import { useState } from "react";
 const BoatForm = () => {
   const { setRefresh } = useMyContext;
   const [message, setMessage] = useState("");
+  const [useFile, setUseFile] = useState(false);
   const [formData, setFormData] = useState({
     boatname: "",
     boattype: "",
@@ -29,6 +30,7 @@ const BoatForm = () => {
   const handleFile = (e) => {
     const file = e.target.files[0];
     console.log("Selected File:", file);
+    setUseFile(true);
     setFormData({ ...formData, img: file });
   };
 
@@ -49,7 +51,9 @@ const BoatForm = () => {
   const saveBoat = async (event) => {
     event.preventDefault();
     const formDataToSend = new FormData();
-    formDataToSend.append("img", formData.img);
+    if (useFile && formData.img) {
+      formDataToSend.append("img", formData.img);
+    }
     formDataToSend.append("boatname", formData.boatname);
     formDataToSend.append("boattype", formData.boattype);
     formDataToSend.append("boatsubtype", formData.boatsubtype);
@@ -66,13 +70,21 @@ const BoatForm = () => {
     formDataToSend.append("wifi", formData.wifi);
     formDataToSend.append("hotwater", formData.hotwater);
 
+    //Dynamical Header
+    const headers = useFile
+      ? {} //for form with files
+      : {
+          "Content-Type": "multipart/form-data", // for form without files
+        };
+
     try {
       const response = await fetch(
         import.meta.env.VITE_BACKEND_URL + "/api/boats",
         {
           method: "POST",
+          headers: headers,
           body: formDataToSend,
-          mode: "no-cors",
+          // mode: "no-cors",
         }
       );
       const result = await response.json();
@@ -103,7 +115,11 @@ const BoatForm = () => {
         Add the Boat
       </h2>
 
-      <form onSubmit={saveBoat} className="flex flex-col gap-4  mx-auto my-0 ">
+      <form
+        onSubmit={saveBoat}
+        encType="multipart/form-data"
+        className="flex flex-col gap-4  mx-auto my-0 "
+      >
         {/* text */}
         <Input
           name="boatname"
