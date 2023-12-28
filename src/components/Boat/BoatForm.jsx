@@ -84,7 +84,7 @@ const BoatForm = () => {
           method: "POST",
           headers: headers,
           body: formDataToSend,
-          mode: "no-cors",
+          mode: "cors",
         }
       );
       const result = await response.json();
