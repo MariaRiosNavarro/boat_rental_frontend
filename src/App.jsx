@@ -3,6 +3,7 @@ import Detail from "./pages/Detail";
 import Add from "./pages/Add";
 import Home from "./pages/Home";
 import Header from "./components/General/Header";
+import Footer from "./components/General/Footer";
 import List from "./pages/List";
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <Route path="/rental/:id" element={<Detail detailtype="rentals" />} />
           <Route path="/rent" element={<Add formType="rentals" />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </>
   );
