@@ -94,15 +94,15 @@ const BoatDetail = () => {
           </Link>
         </div>
       ) : (
-        <article className="flex flex-col justify-center items-center mx-auto my-0  bg-[#5A848E] pb-[10rem] px-[3rem]">
-          <div className="flex flex-col lg:flex-row gap-8">
-            <figure className="w-md h-[60vw]">
+        <article className="flex flex-col justify-center items-center w-[100%] mx-auto my-0  bg-[#5A848E] pb-[10rem] px-[5rem]">
+          <div className="flex flex-col lg:flex-row gap-8 w-[100%]">
+            <figure className="lg:w-[40%] h-[60vh] overflow-hidden">
               <img
                 src={path}
-                className="w-md object-cover w-[100%] rounded-lg shadow-2xl"
+                className="w-md object-cover w-[100%] h-[60vh] rounded-lg shadow-2xl"
               />
             </figure>
-            <div>
+            <div className="lg:w-[60%]">
               <h1 className="text-5xl font-bold pb-[1rem]">{boat?.boatname}</h1>
 
               <div className="flex gap-[0.5rem]">
