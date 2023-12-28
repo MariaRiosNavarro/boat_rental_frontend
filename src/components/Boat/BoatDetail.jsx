@@ -96,7 +96,7 @@ const BoatDetail = () => {
       ) : (
         <article className="flex flex-col justify-center items-center mx-auto my-0  bg-[#5A848E] pb-[10rem] px-[3rem]">
           <div className="flex flex-col lg:flex-row gap-8">
-            <figure className="w-md">
+            <figure className="w-md h-[60vw]">
               <img
                 src={path}
                 className="w-md object-cover w-[100%] rounded-lg shadow-2xl"
