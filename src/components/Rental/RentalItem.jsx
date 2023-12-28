@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const RentalItem = (props) => {
   //search Boat data to this reservation
 
@@ -50,6 +52,9 @@ const RentalItem = (props) => {
             <span>Price</span>
             <span>{price} €/day</span>
           </div>
+          <Link to={`/rental/${props._id}`}>
+            <button className="btn btn-primary my-4">See More</button>
+          </Link>
         </div>
       </div>
     </>

@@ -50,8 +50,6 @@ const BoatDetail = () => {
     path = "/img/placeholder.jpg";
   }
 
-  // Frontend: BoatDetail.jsx
-
   const deleteBoat = async () => {
     try {
       const response = await fetch(

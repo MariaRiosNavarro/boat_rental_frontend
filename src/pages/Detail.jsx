@@ -1,5 +1,6 @@
 import Wave from "react-wavify";
 import BoatDetail from "../components/Boat/BoatDetail";
+import RentalDetail from "../components/Rental/RentalDetail";
 
 const Detail = ({ detailtype }) => {
   return (
