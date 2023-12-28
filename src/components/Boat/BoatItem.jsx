@@ -14,7 +14,7 @@ const BoatItem = (props) => {
         try {
           const response = await fetch(
             import.meta.env.VITE_BACKEND_URL +
-              "/api/rentals/reservations-one-boat/" +
+              "/api/rentals/current-reservations/" +
               props._id
           );
           const result = await response.json();

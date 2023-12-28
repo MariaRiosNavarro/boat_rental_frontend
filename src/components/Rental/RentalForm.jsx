@@ -124,7 +124,7 @@ const RentalForm = () => {
           </p>
         )}
 
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center gap-4">
           <Input
             label="Your username: "
             type="text"
