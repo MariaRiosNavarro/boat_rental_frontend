@@ -76,7 +76,6 @@ const BoatForm = () => {
         {
           method: "POST",
           body: formDataToSend,
-          // mode: "no-cors",
         }
       );
       const result = await response.json();
@@ -92,19 +91,14 @@ const BoatForm = () => {
         setTimeout(() => {
           setMessage("");
         }, 4000);
-        event.target.reset();
+
         console.log(result.message);
         setRefresh((prev) => !prev);
       }
     } catch (error) {
       console.log("Error Message-------->", error);
-      event.target.reset();
     } finally {
       event.target.reset();
-      setMessage("Boat added");
-      setTimeout(() => {
-        setMessage("");
-      }, 4000);
     }
   };
 
