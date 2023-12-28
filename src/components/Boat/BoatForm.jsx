@@ -98,6 +98,7 @@ const BoatForm = () => {
       }
     } catch (error) {
       console.error("Error Message-------->", error);
+      event.target.reset();
     }
   };
 
