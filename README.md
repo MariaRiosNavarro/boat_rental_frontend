@@ -1,12 +1,12 @@
 # React + Vite + Tailwind + DaisyUI \* MongoDB Atlas + Cloudinary -> Fullstack Boat Rental (Desktop)
 
-## [RENDER DEPLOYMENT SERVER](https://boat-rental-server.onrender.com/)
-
 ## [RENDER DEPLOYMENT FRONTEND](https://boat-rental-frontend.onrender.com/)
+
+## [RENDER DEPLOYMENT SERVER](https://boat-rental-server.onrender.com/)
 
 Welcome to the Full Stack Boats project, built with React, Vite, Tailwind CSS, and DaisyUI, MongoDB ATLAS + Cloudinary. This application includes a self-hosted server and utilizes a MongoDB ATLAS with two collections: 'boats' and 'rentals'. Seamlessly integrated into the project are all CRUD (Create, Read, Update, Delete) operations for efficient data management.
 
--The Backend server can be found at [boats_rental_server](https://github.com/MariaRiosNavarro/boat_rental_server)
+-The Backend server Repo can be found at [boats_rental_server](https://github.com/MariaRiosNavarro/boat_rental_server)
 
 ## Features:
 
