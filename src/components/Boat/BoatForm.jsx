@@ -117,7 +117,7 @@ const BoatForm = () => {
 
       <form
         onSubmit={saveBoat}
-        encType="multipart/form-data"
+        encType={useFile ? "multipart/form-data" : undefined}
         className="flex flex-col gap-4  mx-auto my-0 "
       >
         {/* text */}
