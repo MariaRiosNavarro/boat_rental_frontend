@@ -1,6 +1,7 @@
 import Wave from "react-wavify";
+import BoatDetail from "../components/Boat/BoatDetail";
 
-const Detail = () => {
+const Detail = ({ detailtype }) => {
   return (
     <div className="relative top-[-2rem] border-t-[#5A848E] ">
       <Wave
@@ -16,7 +17,9 @@ const Detail = () => {
         }}
       ></Wave>
       <div className="min-h-screen border border-t-[#5A848E]  border-transparent bg-[#5A848E]">
-        <h1>Detail</h1>
+        <section className="flex flex-col gap-4 min-w-[70%] mx-auto my-0 pb-[10rem] ">
+          {detailtype === "boats" ? <BoatDetail /> : <RentalDetail />}
+        </section>
       </div>
     </div>
   );

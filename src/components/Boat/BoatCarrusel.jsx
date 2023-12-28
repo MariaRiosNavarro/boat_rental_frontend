@@ -5,7 +5,7 @@ const BoatCarrusel = ({ onClick }) => {
   return (
     <>
       <div className="carousel rounded-box max-w-[90vw] mx-h-[40vh] my-0 mx-auto">
-        {boats.map((boat) => (
+        {boats?.map((boat) => (
           <BoatCarruselItem key={boat._id} {...boat} onClick={onClick} />
         ))}
       </div>

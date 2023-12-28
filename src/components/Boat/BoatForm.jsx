@@ -161,6 +161,13 @@ const BoatForm = () => {
           formData={formData}
           setFormData={setFormData}
         />
+        <Input
+          name="price"
+          label="Price: "
+          type="number"
+          formData={formData}
+          setFormData={setFormData}
+        />
 
         {/* Checkbox */}
         <div className="flex gap-2 flex-wrap mx-auto my-0 pl-[8rem]">

@@ -5,7 +5,6 @@ import { formatReservationDates } from "../../utils/formatReservationDates";
 const BoatCarruselItem = (props) => {
   const { rentals } = useMyContext();
   const { onClick } = props;
-
   const [reservations, setReservations] = useState([]);
   const isReserved = rentals.some((r) => r.referenceBootId === props._id);
 
@@ -37,8 +36,8 @@ const BoatCarruselItem = (props) => {
   const imgPath = props?.img || "";
   let path;
 
-  if (imgPath.includes("images")) {
-    path = import.meta.env.VITE_BACKEND_URL + "/" + props.img;
+  if (imgPath.includes("https://res.cloudinary")) {
+    path = props.img;
   } else {
     path = "/img/placeholder.jpg";
   }
@@ -46,8 +45,8 @@ const BoatCarruselItem = (props) => {
   return (
     <>
       <div
-        id={props._id}
-        onClick={() => onClick(props._id)}
+        id={props?._id}
+        onClick={() => onClick(props?._id)}
         className="carousel-item relative max-h-[40vh] w-[30%]"
       >
         {/* wenn Boat is reserved */}
@@ -74,7 +73,7 @@ const BoatCarruselItem = (props) => {
             <span className="badge badge-base-100">for {props.price}€/day</span>
           </div>
         </div>
-        <img className="object-cover" src={path} alt={props.name} />
+        <img className="object-cover" src={path} alt="img" />
       </div>
     </>
   );

@@ -2,7 +2,7 @@ const RentalItem = (props) => {
   //search Boat data to this reservation
 
   let documentBoat = props.documentBoat;
-  console.log(documentBoat.boatname);
+  // console.log(documentBoat.boatname);
 
   let name = documentBoat ? documentBoat.boatname : "Unknown Boat";
   let price = documentBoat ? documentBoat.price : "Unknown Price";

@@ -6,7 +6,7 @@ const RentalList = () => {
   return (
     <>
       <div className="flex flex-col  gap-8 pb-[20rem]">
-        {rentals.map((rent) => (
+        {rentals?.map((rent) => (
           <RentalItem key={rent._id} {...rent} />
         ))}
       </div>
