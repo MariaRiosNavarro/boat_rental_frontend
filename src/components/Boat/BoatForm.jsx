@@ -72,9 +72,9 @@ const BoatForm = () => {
 
     //Dynamical Header
     const headers = useFile
-      ? {} //for form with files
+      ? { "Content-Type": "multipart/form-data" } //for form with files
       : {
-          "Content-Type": "multipart/form-data", // for form without files
+          // for form without files
         };
 
     try {
