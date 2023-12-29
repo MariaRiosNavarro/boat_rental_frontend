@@ -5,7 +5,7 @@ import { useMyContext } from "../../context/AppFetchProvider";
 import EditBoat from "./EditBoat";
 
 const BoatDetail = () => {
-  const { setRefresh } = useMyContext();
+  const { refresh, setRefresh } = useMyContext();
   const { id } = useParams();
   const [loading, setLoading] = useState(false);
   const [boat, setBoat] = useState(null);
@@ -31,7 +31,7 @@ const BoatDetail = () => {
       }
     };
     fetchOneBoat();
-  }, []);
+  }, [refresh]);
 
   if (loading) {
     return <h1>Loading...</h1>;

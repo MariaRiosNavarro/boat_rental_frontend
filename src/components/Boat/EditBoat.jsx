@@ -1,7 +1,9 @@
-import { useState, useEffect, useRef } from "react";
+import { useState, useRef } from "react";
+import { useMyContext } from "../../context/AppFetchProvider";
 
 const EditBoat = ({ boat, onClick }) => {
   const [message, setMessage] = useState(null);
+  const { setRefresh } = useMyContext();
 
   //   Boleans States - checkboxes
   const [skipper, setSkipper] = useState(boat?.skipper || false);
@@ -21,13 +23,8 @@ const EditBoat = ({ boat, onClick }) => {
   const bathroomRef = useRef(); //Number
   const yearRef = useRef(); //Number
   const meterRef = useRef(); //Number
-  //   const skipperRef = useRef(); //Boolean
-  //   const airconditionerRef = useRef(); //Boolean
-  //   const autopilotRef = useRef(); //Boolean
-  //   const wifiRef = useRef(); //Boolean
-  //   const hotwaterRef = useRef(); //Boolean
 
-  const handleSubmit = async () => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     const form = new FormData();
 
@@ -36,10 +33,10 @@ const EditBoat = ({ boat, onClick }) => {
     form.append("boatsubtype", boatSubtypeRef.current.innerText);
     form.append("description", descriptionRef.current.innerText);
     // Numbers
-    form.append("price", priceRef.current.innerText);
-    form.append("cabins", cabinsRef.current.innerText);
-    form.append("year", yearRef.current.innerText);
-    form.append("meter", meterRef.current.innerText);
+    form.append("price", Number(priceRef.current.innerText));
+    form.append("cabins", Number(cabinsRef.current.innerText));
+    form.append("year", Number(yearRef.current.innerText));
+    form.append("meter", Number(meterRef.current.innerText));
     // Booleans
     form.append("skipper", skipper);
     form.append("airconditioner", airconditioner);
@@ -49,6 +46,8 @@ const EditBoat = ({ boat, onClick }) => {
 
     const updateBoatData = Object.fromEntries(form);
     const headers = { "Content-Type": "application/json" };
+
+    console.log("before", updateBoatData);
 
     try {
       const response = await fetch(
@@ -65,14 +64,16 @@ const EditBoat = ({ boat, onClick }) => {
         setMessage(result.message);
         setTimeout(() => {
           setMessage("");
-        }, 24000);
+        }, 2400);
+
         throw new Error("Network response was not ok");
       } else {
-        // Toast
+        // Toast;
         setMessage(result.message);
         setTimeout(() => {
           setMessage("");
-        }, 24000);
+        }, 2400);
+        setRefresh((prev) => !prev);
       }
     } catch (error) {
       console.log(error.message);
@@ -269,7 +270,7 @@ const EditBoat = ({ boat, onClick }) => {
 
         {/*--------------- EDIT message */}
         {message && (
-          <div className="p-4 bg-secondaryColor_red flex justify-center rounded-3xl">
+          <div className="p-4 bg-secondary flex justify-center rounded-3xl m-4">
             <p className="text-2xl">{message}</p>
           </div>
         )}
