@@ -253,7 +253,7 @@ const RentalDetail = () => {
                   </div>
                 </div>
               </div>
-              {/* Button Group */}
+              {/* Button Group    */}
               <div className="flex gap-[2rem] my-[0.5rem]">
                 <Link to="/rentals">
                   <button className="btn btn-primary">Back</button>
