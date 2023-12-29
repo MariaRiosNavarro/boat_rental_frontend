@@ -112,12 +112,12 @@ const BoatDetail = () => {
               <div className="lg:w-[60%]">
                 {/* --------------------------------------MAIN DETAIL PAGE - Text */}
                 {/* --------------------------------------boatname */}
-                <h1 className="text-5xl font-bold pb-[1rem]">
+                <h1 className="text-5xl font-bold pb-[1rem] h-[4rem] my-2">
                   {boat?.boatname}
                 </h1>
 
                 {/* Badge Group */}
-                <div className="flex gap-[0.5rem]">
+                <div className="flex gap-[0.5rem] pb-[1rem]">
                   {/* --------------------------------------year*/}
                   <div
                     className={`badge badge-base-100 mb-[0.5rem] ${
@@ -167,68 +167,76 @@ const BoatDetail = () => {
                 </div>
                 {/* END BADGEs */}
                 {/* -------------------------------------Description*/}
-                <p className="py-6">{boat?.description}</p>
+                <p className="py-6 text-2xl font-bold">{boat?.description}</p>
                 {/* INFO GROUP */}
-                <div className="flex justify-center items-center gap-[2rem]">
-                  <div>
-                    {/* --------------------------------------skyper */}
-                    <p className="font-bolder text-l">
-                      Need a Skipper:
+                <div className="flex flex-col gap-8">
+                  <div className="flex  gap-4 ">
+                    {/* Group of ALL Numbers */}
+                    {/* --------------------------------------meter*/}
+                    <p className="font-bold text-xl">
+                      Meter:
                       <span className="pl-4 font-extrabold text-secondary">
-                        {boat?.skipper ? "Yes" : "No"}
-                      </span>
-                    </p>
-                    {/* --------------------------------------autopilot*/}
-                    <p className="font-bolder text-l">
-                      Autopilot:
-                      <span className="pl-4 font-extrabold text-secondary">
-                        {boat?.autopilot ? "Yes" : "No"}
+                        {boat?.meter === null ? "unknown" : boat.meter}
                       </span>
                     </p>
                     {/* --------------------------------------cabins*/}
-                    <p className="font-bolder text-l">
-                      Cabins:{" "}
+                    <p className="font-bold text-xl">
+                      Cabins:
                       <span className="pl-4 font-extrabold text-secondary">
-                        {boat?.cabins}
+                        {boat?.cabins === null ? "unknown" : boat.cabins}
                       </span>
                     </p>
                     {/* -------------------------------------Bathrooms*/}
-                    <p className="font-bolder text-l">
-                      Bathrooms:{" "}
+                    <p className="font-bold text-xl">
+                      Bathrooms:
                       <span className="pl-4 font-extrabold text-secondary">
-                        {boat?.bathrooms}
+                        {boat?.bathrooms === null ? "unknown" : boat.bathrooms}
                       </span>
                     </p>
                   </div>
-                  <div>
-                    {/* --------------------------------------meter*/}
-                    <p className="font-bolder text-l">
-                      Meter:
-                      <span className="pl-4 font-extrabold text-secondary">
-                        {boat?.meter}
-                      </span>
-                    </p>
-                    {/* --------------------------------------airconditioner*/}
-                    <p className="font-bolder text-l">
-                      Air Conditoner:
-                      <span className="pl-4 font-extrabold text-secondary">
-                        {boat.airconditioner ? "Yes" : "No"}
-                      </span>
-                    </p>
-                    {/* --------------------------------------wifi*/}
-                    <p className="font-bolder text-l">
-                      WIFI:
-                      <span className="pl-4 font-extrabold text-secondary">
-                        {boat.wifi ? "Yes" : "No"}
-                      </span>
-                    </p>
-                    {/* --------------------------------------hotwater*/}
-                    <p className="font-bolder text-l">
-                      Hot water:
-                      <span className="pl-4 font-extrabold text-secondary">
-                        {boat.hotwater ? "Yes" : "No"}
-                      </span>
-                    </p>
+                  {/* Group of ALL Boolean */}
+                  <div className="flex gap-4 pb-[2rem]">
+                    {/* Group of 3 Boolean */}
+                    <div>
+                      {/* --------------------------------------skyper */}
+                      <p className="font-bold text-xl">
+                        Need a Skipper:
+                        <span className="pl-4 font-extrabold text-secondary">
+                          {boat?.skipper ? "Yes" : "No"}
+                        </span>
+                      </p>
+                      {/* --------------------------------------autopilot*/}
+                      <p className="font-bold text-xl">
+                        Autopilot:
+                        <span className="pl-4 font-extrabold text-secondary">
+                          {boat?.autopilot ? "Yes" : "No"}
+                        </span>
+                      </p>
+                      {/* --------------------------------------airconditioner*/}
+                      <p className="font-bold text-xl">
+                        Air Conditoner:
+                        <span className="pl-4 font-extrabold text-secondary">
+                          {boat.airconditioner ? "Yes" : "No"}
+                        </span>
+                      </p>
+                    </div>
+                    {/* Group of 2 Boolean */}
+                    <div>
+                      {/* --------------------------------------wifi*/}
+                      <p className="font-bold text-xl">
+                        WIFI:
+                        <span className="pl-4 font-extrabold text-secondary">
+                          {boat.wifi ? "Yes" : "No"}
+                        </span>
+                      </p>
+                      {/* --------------------------------------hotwater*/}
+                      <p className="font-bold text-xl">
+                        Hot water:
+                        <span className="pl-4 font-extrabold text-secondary">
+                          {boat.hotwater ? "Yes" : "No"}
+                        </span>
+                      </p>
+                    </div>
                   </div>
                 </div>
                 {/* Button Group */}

@@ -93,7 +93,7 @@ const EditBoat = ({ boat, onClick }) => {
 
         {/* Badge Group */}
 
-        <div className="flex gap-[0.5rem]">
+        <div className="flex gap-[0.5rem] pb-[1rem]">
           {/* --------------------------------------year - NUMBER*/}
           <div
             contentEditable
@@ -135,7 +135,11 @@ const EditBoat = ({ boat, onClick }) => {
         {/* END BADGEs */}
         {/* -------------------------------------Description - STRING*/}
 
-        <p ref={descriptionRef} contentEditable className="py-6 text-xl">
+        <p
+          ref={descriptionRef}
+          contentEditable
+          className="py-6 text-2xl font-bold"
+        >
           {boat.description}
         </p>
 
@@ -146,7 +150,7 @@ const EditBoat = ({ boat, onClick }) => {
             {/* Group of ALL Numbers */}
 
             {/* --------------------------------------meter - NUMBER*/}
-            <p className="label-text  font-bolder text-xl">
+            <p className="label-text  font-bold text-xl">
               Meter:
               <span
                 ref={meterRef}
@@ -157,7 +161,7 @@ const EditBoat = ({ boat, onClick }) => {
               </span>
             </p>
             {/* --------------------------------------cabins - NUMBER*/}
-            <p className="font-bolder label-text text-xl">
+            <p className="font-bold label-text text-xl">
               Cabins:
               <span
                 ref={cabinsRef}
@@ -168,7 +172,7 @@ const EditBoat = ({ boat, onClick }) => {
               </span>
             </p>
             {/* -------------------------------------Bathrooms - NUMBER*/}
-            <p className="font-bolder label-text  text-xl">
+            <p className="font-bold label-text  text-xl">
               Bathrooms:
               <span
                 ref={bathroomRef}
@@ -187,7 +191,7 @@ const EditBoat = ({ boat, onClick }) => {
 
               <div className="form-control">
                 <label className="cursor-pointer label">
-                  <span className="label-text text-xl pr-[1rem]">
+                  <span className="label-text font-bold text-xl pr-[1rem]">
                     Need a Skipper:
                   </span>
                   <input
@@ -202,7 +206,7 @@ const EditBoat = ({ boat, onClick }) => {
               {/* --------------------------------------autopilot - BOOLEAN*/}
               <div className="form-control">
                 <label className="cursor-pointer label">
-                  <span className="label-text text-xl pr-[1rem]">
+                  <span className="label-text font-bold text-xl pr-[1rem]">
                     Autopilot:
                   </span>
                   <input
@@ -216,7 +220,7 @@ const EditBoat = ({ boat, onClick }) => {
               {/* --------------------------------------airconditioner - BOOLEAN*/}
               <div className="form-control">
                 <label className="cursor-pointer label">
-                  <span className="label-text text-xl pr-[1rem]">
+                  <span className="label-text font-bold text-xl pr-[1rem]">
                     Air Conditioner:
                   </span>
                   <input
@@ -233,7 +237,9 @@ const EditBoat = ({ boat, onClick }) => {
               {/* --------------------------------------wifi - BOOLEAN*/}
               <div className="form-control">
                 <label className="cursor-pointer label">
-                  <span className="label-text text-xl pr-[1rem]">WIFI:</span>
+                  <span className="label-text font-bold text-xl pr-[1rem]">
+                    WIFI:
+                  </span>
                   <input
                     type="checkbox"
                     checked={wifi}
@@ -246,7 +252,7 @@ const EditBoat = ({ boat, onClick }) => {
               {/* --------------------------------------hotwater - BOOLEAN*/}
               <div className="form-control">
                 <label className="cursor-pointer label">
-                  <span className="label-text text-xl pr-[1rem]">
+                  <span className="label-text font-bold text-xl pr-[1rem]">
                     Hot water:
                   </span>
                   <input
