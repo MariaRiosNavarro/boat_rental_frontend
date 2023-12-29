@@ -27,6 +27,7 @@ Welcome to the Full Stack Boats project, built with React, Vite, Tailwind CSS, a
 ### Boats Page
 
 ![Home](/public/readmeimg/blist.png)
+![Home](/public/readmeimg/blist2.png)
 
 - A "+" Icon with a Link to the Boat form
 
@@ -76,14 +77,15 @@ Welcome to the Full Stack Boats project, built with React, Vite, Tailwind CSS, a
 
 ### Detail Page Boats - Edit & Delete
 
-![Home](/public/readmeimg/detailb.png)
+![Home](/public/readmeimg/bdetail.png)
 
 - Users can edit or remove Boats in the detail page.
 - Boats properties can be edited, including text properties (file editing functionality coming soon). The edit form triggers a toast notification to provide information to the user.
+- The content of the ship is updated immediately after the save, when closing with the edit button, the new updated information is visible in the component.
 
-![Home](/public/readmeimg/editb.png)
-
-![Home](/public/readmeimg/toastedit.png)
+![Home](/public/readmeimg/bupdate.png)
+![Home](/public/readmeimg/bupdate2.png)
+![Home](/public/readmeimg/bdetail3.png)
 
 ### Detail Page Rentals - Delete
 
