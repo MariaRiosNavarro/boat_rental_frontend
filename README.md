@@ -1,4 +1,4 @@
-# React + Vite + Tailwind + DaisyUI \* MongoDB Atlas + Cloudinary -> Fullstack Boat Rental (Desktop)
+# React + Vite + Tailwind + DaisyUI \* MongoDB Atlas + Cloudinary -> Fullstack Boat Rental (Responsive)
 
 ## [RENDER DEPLOYMENT FRONTEND](https://boat-rental-frontend.onrender.com/)
 
