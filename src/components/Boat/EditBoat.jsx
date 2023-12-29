@@ -72,7 +72,8 @@ const EditBoat = ({ boat, onClick }) => {
         setMessage(result.message);
         setTimeout(() => {
           setMessage("");
-        }, 2400);
+          setRefresh((prev) => !prev);
+        }, 5000);
         setRefresh((prev) => !prev);
       }
     } catch (error) {
