@@ -1,5 +1,4 @@
 import { createContext, useContext, useEffect, useState } from "react";
-// import { fetchAsync } from "./utils/fetchAsync";
 
 const AppContext = createContext();
 
@@ -10,7 +9,6 @@ export const AppFetchProvider = ({ children }) => {
   const [refresh, setRefresh] = useState(false);
   const [freeBoatsToday, setFreeBoatsToday] = useState([]);
   const [rentals, setRentals] = useState([]);
-  // const [loading, setLoading] = useState(true);
 
   //---------------------------------------!GET ALL BOATS
 
@@ -92,10 +90,6 @@ export const AppFetchProvider = ({ children }) => {
 
     fetchRentals();
   }, [refresh]);
-
-  // if (loading) {
-  //   return <h1>Loading...</h1>;
-  // }
 
   return (
     <AppContext.Provider

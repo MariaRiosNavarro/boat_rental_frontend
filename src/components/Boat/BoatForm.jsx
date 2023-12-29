@@ -255,7 +255,6 @@ const BoatForm = () => {
         {/* select options */}
         <select
           multiple
-          // value={formData.material}
           className="select select-primary w-full max-w-xs mx-auto my-0"
           onChange={handleMaterialChange}
         >
