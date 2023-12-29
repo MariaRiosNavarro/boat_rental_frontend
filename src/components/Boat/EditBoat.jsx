@@ -74,10 +74,10 @@ const EditBoat = ({ boat, onClick }) => {
           setMessage("");
           setRefresh((prev) => !prev);
         }, 5000);
-        setRefresh((prev) => !prev);
       }
     } catch (error) {
       console.log(error.message);
+    } finally {
     }
   };
 
