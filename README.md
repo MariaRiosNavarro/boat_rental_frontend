@@ -91,9 +91,9 @@ Welcome to the Full Stack Boats project, built with React, Vite, Tailwind CSS, a
 
 ![Home](/public/readmeimg/rdetail1.png)
 
-- Users remove Reservations in the detail page.
+- User can remove Reservations in the detail page.
 
-![Home](/public/readmeimg/rdelete.png)
+![Home](/public/readmeimg/rdelete.png)x
 
 ### Initial Stucture & Infos
 
