@@ -89,7 +89,7 @@ Welcome to the Full Stack Boats project, built with React, Vite, Tailwind CSS, a
 
 ### Detail Page Rentals - Delete
 
-![Home](/public/readmeimg/rdetail.png)
+![Home](/public/readmeimg/rdetail1.png)
 
 - Users remove Reservations in the detail page.
 
