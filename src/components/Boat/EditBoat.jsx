@@ -1,38 +1,52 @@
 import { useState, useEffect, useRef } from "react";
 
-const EditBoat = ({ boat }) => {
+const EditBoat = ({ boat, onClick }) => {
   const [message, setMessage] = useState(null);
 
-  const boatNameRef = useRef();
-  const boatTypeRef = useRef();
-  const boatSubtypeRef = useRef();
-  const skipperRef = useRef();
-  const priceRef = useRef();
-  const cabinsRef = useRef();
-  const yearRef = useRef();
-  const descriptionRef = useRef();
-  const meterRef = useRef();
-  const airconditionerRef = useRef();
-  const autopilotRef = useRef();
-  const wifiRef = useRef();
-  const hotwaterRef = useRef();
+  //   Boleans States - checkboxes
+  const [skipper, setSkipper] = useState(boat?.skipper || false);
+  const [autopilot, setAutopilot] = useState(boat?.autopilot || false);
+  const [airconditioner, setAirconditioner] = useState(
+    boat?.airconditioner || false
+  );
+  const [wifi, setWifi] = useState(boat?.wifi || false);
+  const [hotwater, setHotwater] = useState(boat?.hotwater || false);
 
-  const editBoat = async () => {
+  const boatNameRef = useRef(); //String
+  const boatTypeRef = useRef(); //String
+  const boatSubtypeRef = useRef(); //String
+  const descriptionRef = useRef(); //String
+  const priceRef = useRef(); //Number
+  const cabinsRef = useRef(); //Number
+  const bathroomRef = useRef(); //Number
+  const yearRef = useRef(); //Number
+  const meterRef = useRef(); //Number
+  //   const skipperRef = useRef(); //Boolean
+  //   const airconditionerRef = useRef(); //Boolean
+  //   const autopilotRef = useRef(); //Boolean
+  //   const wifiRef = useRef(); //Boolean
+  //   const hotwaterRef = useRef(); //Boolean
+
+  const handleSubmit = async () => {
+    e.preventDefault();
     const form = new FormData();
 
     form.append("boatname", boatNameRef.current.innerText);
     form.append("boattype", boatTypeRef.current.innerText);
     form.append("boatsubtype", boatSubtypeRef.current.innerText);
-    form.append("skipper", skipperRef.current.innerText);
+    form.append("description", descriptionRef.current.innerText);
+    // Numbers
     form.append("price", priceRef.current.innerText);
     form.append("cabins", cabinsRef.current.innerText);
     form.append("year", yearRef.current.innerText);
-    form.append("description", descriptionRef.current.innerText);
     form.append("meter", meterRef.current.innerText);
-    form.append("airconditioner", airconditionerRef.current.innerText);
-    form.append("autopilot", autopilotRef.current.innerText);
-    form.append("wifi", wifiRef.current.innerText);
-    form.append("hotwater", hotwaterRef.current.innerText);
+    // Booleans
+    form.append("skipper", skipper);
+    form.append("airconditioner", airconditioner);
+    form.append("autopilot", autopilot);
+    form.append("wifi", wifi);
+    form.append("hotwater", hotwater);
+
     const updateBoatData = Object.fromEntries(form);
     const headers = { "Content-Type": "application/json" };
 
@@ -66,130 +80,205 @@ const EditBoat = ({ boat }) => {
   };
 
   return (
-    <article className="p-[10rem]">
-      <h1 className="py-8 text-secondaryColor_red text-3xl font-bolder">
-        Edit Your Boat
-      </h1>
-      <div className="flex flex-col gap-4">
-        {/* --------------------------------------boatname */}
-        <p
-          className="rounded-[50px] bg-transparent border-primaryColor_green p-4 pl-8 border  placeholder:text-primaryColor_green placeholder:text-xl placeholder:font-bold placeholder:tracking-widest "
-          ref={boatNameRef}
+    <div className="lg:w-[60%]">
+      <form onSubmit={handleSubmit}>
+        {/* --------------------------------------boatname - STRING */}
+        <h1
           contentEditable
+          ref={boatNameRef}
+          className="text-5xl font-bold pb-[1rem] h-[4rem] my-2"
         >
           {boat.boatname}
-        </p>
-        {/* --------------------------------------type*/}
-        <p
-          className="rounded-[50px] bg-transparent border-primaryColor_green p-4 pl-8 border  placeholder:text-primaryColor_green placeholder:text-xl placeholder:font-bold placeholder:tracking-widest "
-          ref={boatTypeRef}
-          contentEditable
-        >
-          {boat.boattype}
-        </p>
-        {/* --------------------------------------subtype */}
-        <p
-          className="rounded-[50px] bg-transparent border-primaryColor_green p-4 pl-8 border  placeholder:text-primaryColor_green placeholder:text-xl placeholder:font-bold placeholder:tracking-widest "
-          ref={boatSubtypeRef}
-          contentEditable
-        >
-          {boat.boatsubtype}
-        </p>
-        {/* --------------------------------------skyper */}
-        <p
-          className="rounded-[50px] bg-transparent border-primaryColor_green p-4 pl-8 border  placeholder:text-primaryColor_green placeholder:text-xl placeholder:font-bold placeholder:tracking-widest "
-          ref={skipperRef}
-          contentEditable
-        >
-          {boat.skipper}
-        </p>
-        {/* --------------------------------------price*/}
-        <p
-          className="rounded-[50px] bg-transparent border-primaryColor_green p-4 pl-8 border  placeholder:text-primaryColor_green placeholder:text-xl placeholder:font-bold placeholder:tracking-widest "
-          ref={priceRef}
-          contentEditable
-        >
-          {boat.price}
-        </p>
-        {/* --------------------------------------cabins*/}
-        <p
-          className="rounded-[50px] bg-transparent border-primaryColor_green p-4 pl-8 border  placeholder:text-primaryColor_green placeholder:text-xl placeholder:font-bold placeholder:tracking-widest "
-          ref={cabinsRef}
-          contentEditable
-        >
-          {boat.cabins}
-        </p>
-        {/* --------------------------------------year*/}
-        <p
-          className="rounded-[50px] bg-transparent border-primaryColor_green p-4 pl-8 border  placeholder:text-primaryColor_green placeholder:text-xl placeholder:font-bold placeholder:tracking-widest "
-          ref={yearRef}
-          contentEditable
-        >
-          {boat.year}
-        </p>
-        {/* --------------------------------------meter*/}
-        <p
-          className="rounded-[50px] bg-transparent border-primaryColor_green p-4 pl-8 border  placeholder:text-primaryColor_green placeholder:text-xl placeholder:font-bold placeholder:tracking-widest "
-          ref={meterRef}
-          contentEditable
-        >
-          {boat.meter}
-        </p>
-        {/* --------------------------------------airconditioner*/}
-        <p
-          className="rounded-[50px] bg-transparent border-primaryColor_green p-4 pl-8 border  placeholder:text-primaryColor_green placeholder:text-xl placeholder:font-bold placeholder:tracking-widest "
-          ref={airconditionerRef}
-          contentEditable
-        >
-          {boat.airconditioner}
-        </p>
-        {/* --------------------------------------autopilot*/}
-        <p
-          className="rounded-[50px] bg-transparent border-primaryColor_green p-4 pl-8 border  placeholder:text-primaryColor_green placeholder:text-xl placeholder:font-bold placeholder:tracking-widest "
-          ref={autopilotRef}
-          contentEditable
-        >
-          {boat.autopilot}
-        </p>
-        {/* --------------------------------------wifi*/}
-        <p
-          className="rounded-[50px] bg-transparent border-primaryColor_green p-4 pl-8 border  placeholder:text-primaryColor_green placeholder:text-xl placeholder:font-bold placeholder:tracking-widest "
-          ref={wifiRef}
-          contentEditable
-        >
-          {boat.wifi}
-        </p>
-        {/* --------------------------------------hotwater*/}
-        <p
-          className="rounded-[50px] bg-transparent border-primaryColor_green p-4 pl-8 border  placeholder:text-primaryColor_green placeholder:text-xl placeholder:font-bold placeholder:tracking-widest "
-          ref={hotwaterRef}
-          contentEditable
-        >
-          {boat.hotwater}
-        </p>
+        </h1>
 
-        {/* --------------------------------------Description*/}
-        <p
-          className="rounded-[50px] bg-transparent border-primaryColor_green p-4 pl-8 border  placeholder:text-primaryColor_green placeholder:text-xl placeholder:font-bold placeholder:tracking-widest "
-          ref={descriptionRef}
-          contentEditable
-        >
+        {/* Badge Group */}
+
+        <div className="flex gap-[0.5rem]">
+          {/* --------------------------------------year - NUMBER*/}
+          <div
+            contentEditable
+            ref={yearRef}
+            className={`badge badge-base-100 mb-[0.5rem]`}
+          >
+            {boat.year}
+          </div>
+          {/* --------------------------------------price - NUMBER*/}
+          <div className={`badge badge-base-100 mb-[0.5rem]`}>
+            <span ref={priceRef} contentEditable>
+              {boat.price}
+            </span>
+            <span>€ /day</span>
+          </div>
+        </div>
+
+        <div className="flex gap-[0.5rem]">
+          {/* Badge Group */}
+          <div className="card-actions justify-end">
+            {/* --------------------------------------type - STRING*/}
+            <div
+              ref={boatTypeRef}
+              contentEditable
+              className={`badge badge-secondary `}
+            >
+              {boat.boattype}
+            </div>
+            {/* --------------------------------------subtype - STRING */}
+            <div
+              ref={boatSubtypeRef}
+              contentEditable
+              className={`badge  badge-secondary`}
+            >
+              {boat.boatsubtype}
+            </div>
+          </div>
+        </div>
+        {/* END BADGEs */}
+        {/* -------------------------------------Description - STRING*/}
+
+        <p ref={descriptionRef} contentEditable className="py-6 text-xl">
           {boat.description}
         </p>
 
-        {/*--------------- message */}
+        {/* INFO GROUP */}
+
+        <div className="flex flex-col gap-8">
+          <div className="flex  gap-4 ">
+            {/* Group of ALL Numbers */}
+
+            {/* --------------------------------------meter - NUMBER*/}
+            <p className="label-text  font-bolder text-xl">
+              Meter:
+              <span
+                ref={meterRef}
+                contentEditable
+                className="pl-4 font-extrabold text-secondary text-xl"
+              >
+                {boat.meter === null ? "0" : boat.meter}
+              </span>
+            </p>
+            {/* --------------------------------------cabins - NUMBER*/}
+            <p className="font-bolder label-text text-xl">
+              Cabins:
+              <span
+                ref={cabinsRef}
+                contentEditable
+                className="pl-4 font-extrabold text-secondary text-xl"
+              >
+                {boat.cabins === null ? "0" : boat.cabins}
+              </span>
+            </p>
+            {/* -------------------------------------Bathrooms - NUMBER*/}
+            <p className="font-bolder label-text  text-xl">
+              Bathrooms:
+              <span
+                ref={bathroomRef}
+                contentEditable
+                className="pl-4 font-extrabold text-secondary text-xl"
+              >
+                {boat.bathrooms === null ? "0" : boat.bathrooms}
+              </span>
+            </p>
+          </div>
+          {/* Group of ALL Boolean-checkboxes */}
+          <div className="flex gap-4 pb-[2rem]">
+            {/* Group of 3 Boolean */}
+            <div>
+              {/* --------------------------------------skipper - BOOLEAN*/}
+
+              <div className="form-control">
+                <label className="cursor-pointer label">
+                  <span className="label-text text-xl pr-[1rem]">
+                    Need a Skipper:
+                  </span>
+                  <input
+                    type="checkbox"
+                    checked={skipper}
+                    onChange={() => setSkipper((prev) => !prev)}
+                    className="checkbox checkbox-primary bg-base-100"
+                  />
+                </label>
+              </div>
+
+              {/* --------------------------------------autopilot - BOOLEAN*/}
+              <div className="form-control">
+                <label className="cursor-pointer label">
+                  <span className="label-text text-xl pr-[1rem]">
+                    Autopilot:
+                  </span>
+                  <input
+                    type="checkbox"
+                    checked={autopilot}
+                    onChange={() => setAutopilot((prev) => !prev)}
+                    className="checkbox checkbox-primary bg-base-100"
+                  />
+                </label>
+              </div>
+              {/* --------------------------------------airconditioner - BOOLEAN*/}
+              <div className="form-control">
+                <label className="cursor-pointer label">
+                  <span className="label-text text-xl pr-[1rem]">
+                    Air Conditioner:
+                  </span>
+                  <input
+                    type="checkbox"
+                    checked={airconditioner}
+                    onChange={() => setAirconditioner((prev) => !prev)}
+                    className="checkbox checkbox-primary bg-base-100"
+                  />
+                </label>
+              </div>
+            </div>
+            {/* Group of 2 Boolean */}
+            <div>
+              {/* --------------------------------------wifi - BOOLEAN*/}
+              <div className="form-control">
+                <label className="cursor-pointer label">
+                  <span className="label-text text-xl pr-[1rem]">WIFI:</span>
+                  <input
+                    type="checkbox"
+                    checked={wifi}
+                    onChange={() => setWifi((prev) => !prev)}
+                    className="checkbox checkbox-primary bg-base-100"
+                  />
+                </label>
+              </div>
+
+              {/* --------------------------------------hotwater - BOOLEAN*/}
+              <div className="form-control">
+                <label className="cursor-pointer label">
+                  <span className="label-text text-xl pr-[1rem]">
+                    Hot water:
+                  </span>
+                  <input
+                    type="checkbox"
+                    checked={hotwater}
+                    onChange={() => setHotwater((prev) => !prev)}
+                    className="checkbox checkbox-primary bg-base-100"
+                  />
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/*--------------- EDIT message */}
         {message && (
           <div className="p-4 bg-secondaryColor_red flex justify-center rounded-3xl">
             <p className="text-2xl">{message}</p>
           </div>
         )}
-        <input
-          type="submit"
-          onClick={editBoat}
-          className="btn text-3xl bg-primaryColor_green text-bgColor_darkgreen rounded-[50px] p-4 h-auto cursor-pointer hover:bg-transparent hover:border-primaryColor_green hover:text-accentColor_yellow"
-        />
-      </div>
-    </article>
+
+        {/* Button Group */}
+        <div className="flex gap-[2rem] my-[0.5rem]">
+          <button onClick={onClick} className="btn btn-primary">
+            Close Edit
+          </button>
+          <button type="submit" className="btn btn-secondary">
+            Save
+          </button>
+        </div>
+      </form>
+    </div>
   );
 };
 
