@@ -91,10 +91,6 @@ export const AppFetchProvider = ({ children }) => {
     fetchRentals();
   }, [refresh]);
 
-  // if (loading) {
-  //   return <h1>Loading...</h1>;
-  // }
-
   return (
     <AppContext.Provider
       value={{
