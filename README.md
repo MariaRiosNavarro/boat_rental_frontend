@@ -49,7 +49,7 @@ Welcome to the Full Stack Boats project, built with React, Vite, Tailwind CSS, a
 
 - List all reservations.
 
-- Each reservations entry in the favorites section also includes a button to its respective detail page with delete capabilities.
+- Each reservations entry in the Rentals Page also includes a button to its respective detail page with delete capabilities.
 
 ![Home](/public/readmeimg/detailbuttonrlist.png)
 
