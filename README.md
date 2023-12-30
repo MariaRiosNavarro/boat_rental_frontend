@@ -68,6 +68,9 @@ Welcome to the Full Stack Boats project, built with React, Vite, Tailwind CSS, a
 ![Home](/public/readmeimg/rform.png)
 
 - A carousel of images serves as input for choosing the right boat, with current information on the stocks of that boat. The internal logic prevents the booking of a boat that is already booked on the dates the boat is booked.
+
+![Home](/public/readmeimg/reserved.png)
+
 - Users can add their own Reservation through a dedicated form.
 - A toast notification informs the user of the success or failure of the operation.
 
